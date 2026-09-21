@@ -1,0 +1,4 @@
+protein_id,gene,product,true_temporal_class,functional_category,phys_pred_class,phys_confidence,bert_pred_class,bert_confidence,phys_kmeans_cluster,bert_kmeans_cluster,length,mw_kda,isoelectric_point,instability_index,aromaticity,disagreement_flag
+YP_009137089.1,UL15,DNA packaging terminase subunit 1,Late,DNA Packaging/Terminase,Late,0.8,Late,0.63,0,0,735,80.92156330000037,8.54852390289307,33.352938775510246,0.0952380952380952,Low_Confidence
+YP_009137126.1,UL50,deoxyuridine triphosphatase,Early,Nucleotide Metabolism,Early,0.6,Early,0.75,3,0,371,39.1273984,7.815131568908692,52.1353099730458,0.0646900269541779,Low_Confidence
+YP_009137148.1,US12,TAP transporter inhibitor ICP47,Immediate-Early,Immune Evasion,Immediate-Early,0.64,Immediate-Early,0.63,2,2,88,9.792904099999989,8.375619697570801,57.14999999999998,0.034090909090909,Low_Confidence
