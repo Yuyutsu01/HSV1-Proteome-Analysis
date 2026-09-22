@@ -1,0 +1,15 @@
+Metric,Value
+GenBank Reference Accession,NC_001806.2
+Organism / Strain,Human herpesvirus 1 strain 17
+Total Raw CDS Translations Parsed,77
+QC-Passed Protein Records,77
+Exact Duplicate Copies Removed,3
+Non-Redundant Unique Proteins Retained,74
+Minimum Sequence Length (aa),88
+Maximum Sequence Length (aa),3139
+Mean Sequence Length (aa),522.95
+Median Sequence Length (aa),405.5
+Expected Raw Reference Baseline,77
+Expected Unique Reference Baseline,74
+Raw Count Discrepancy vs Baseline,0 (Exact Match)
+Unique Count Discrepancy vs Baseline,0 (Exact Match)

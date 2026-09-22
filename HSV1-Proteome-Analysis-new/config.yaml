@@ -1,0 +1,60 @@
+project:
+  name: "HSV1-Proteome-Analysis"
+  title: "Computational Representation and Classification Analysis of the HSV-1 Proteome"
+  random_seed: 42
+  reference_organism: "Human herpesvirus 1 strain 17"
+
+ncbi:
+  accession: "NC_001806.2"
+  database: "nuccore"
+  rettype: "gbwithparts"
+  retmode: "text"
+  email: "researcher@example.com" # Configure with your NCBI-registered email or set NCBI_EMAIL env var
+
+paths:
+  data_raw_ncbi: "data/raw/ncbi"
+  data_raw_fasta: "data/raw/fasta"
+  data_intermediate: "data/intermediate"
+  data_processed: "data/processed"
+  data_annotations: "data/annotations"
+  results_tables: "results/tables"
+  results_figures: "results/figures"
+  results_metrics: "results/metrics"
+  results_logs: "results/logs"
+  models: "models"
+
+qc:
+  min_sequence_length: 20
+  allowed_amino_acids: "ACDEFGHIKLMNPQRSTVWY"
+  check_ambiguous: true
+  check_missing_fields: true
+
+features:
+  feature_count: 25
+  global_descriptors:
+    - "length"
+    - "molecular_weight_kda"
+    - "aromaticity"
+    - "instability_index"
+    - "isoelectric_point"
+  amino_acids:
+    - "A"
+    - "C"
+    - "D"
+    - "E"
+    - "F"
+    - "G"
+    - "H"
+    - "I"
+    - "K"
+    - "L"
+    - "M"
+    - "N"
+    - "P"
+    - "Q"
+    - "R"
+    - "S"
+    - "T"
+    - "V"
+    - "W"
+    - "Y"

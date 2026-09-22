@@ -1,0 +1,13 @@
+{
+  "total_records_evaluated": 77,
+  "qc_passed_records": 77,
+  "qc_failed_records": 0,
+  "exact_sequence_duplicates_detected": 3,
+  "unique_amino_acid_sequences": 74,
+  "min_sequence_length_observed": 88,
+  "max_sequence_length_observed": 3139,
+  "mean_sequence_length_observed": 532.7142857142857,
+  "ambiguous_or_invalid_residue_count": 0,
+  "qc_report_path": "data/intermediate\\qc_report.csv",
+  "qc_passed_path": "data/intermediate\\qc_passed_proteins.csv"
+}

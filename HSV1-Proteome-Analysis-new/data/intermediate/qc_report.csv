@@ -1,0 +1,78 @@
+protein_id,gene,product,sequence_length,qc_status,is_exact_duplicate,duplicate_of,non_canonical_residues,invalid_char_list,qc_flags
+YP_009137073.1,RL1,neurovirulence protein ICP34.5,248,PASS,False,,0,,NONE
+YP_009137074.1,RL2,ubiquitin E3 ligase ICP0,775,PASS,False,,0,,NONE
+YP_009137075.1,UL1,envelope glycoprotein L,224,PASS,False,,0,,NONE
+YP_009137076.1,UL2,uracil-DNA glycosylase,334,PASS,False,,0,,NONE
+YP_009137077.1,UL3,nuclear protein UL3,224,PASS,False,,0,,NONE
+YP_009137078.1,UL4,nuclear protein UL4,199,PASS,False,,0,,NONE
+YP_009137079.1,UL5,helicase-primase helicase subunit,882,PASS,False,,0,,NONE
+YP_009137080.1,UL6,capsid portal protein,676,PASS,False,,0,,NONE
+YP_009137081.1,UL7,tegument protein UL7,296,PASS,False,,0,,NONE
+YP_009137082.1,UL8,helicase-primase subunit,750,PASS,False,,0,,NONE
+YP_009137083.1,UL9,DNA replication origin-binding helicase,851,PASS,False,,0,,NONE
+YP_009137084.1,UL10,envelope glycoprotein M,473,PASS,False,,0,,NONE
+YP_009137085.1,UL11,myristylated tegument protein,96,PASS,False,,0,,NONE
+YP_009137086.1,UL12,deoxyribonuclease,626,PASS,False,,0,,NONE
+YP_009137087.1,UL13,tegument serine/threonine protein kinase,518,PASS,False,,0,,NONE
+YP_009137088.1,UL14,tegument protein UL14,219,PASS,False,,0,,NONE
+YP_009137089.1,UL15,DNA packaging terminase subunit 1,735,PASS,False,,0,,NONE
+YP_009137090.1,UL16,tegument protein UL16,373,PASS,False,,0,,NONE
+YP_009137091.1,UL17,DNA packaging tegument protein UL17,703,PASS,False,,0,,NONE
+YP_009137092.1,UL18,capsid triplex subunit 2,318,PASS,False,,0,,NONE
+YP_009137093.1,UL19,major capsid protein,1374,PASS,False,,0,,NONE
+YP_009137094.1,UL20,envelope protein UL20,222,PASS,False,,0,,NONE
+YP_009137095.1,UL21,tegument protein UL21,535,PASS,False,,0,,NONE
+YP_009137096.1,UL22,envelope glycoprotein H,838,PASS,False,,0,,NONE
+YP_009137097.1,UL23,involved in nucleotide metabolism,376,PASS,False,,0,,NONE
+YP_009137098.1,UL24,nuclear protein UL24,269,PASS,False,,0,,NONE
+YP_009137099.1,UL25,DNA packaging tegument protein UL25,580,PASS,False,,0,,NONE
+YP_009137100.1,UL26,capsid maturation protease,635,PASS,False,,0,,NONE
+YP_009137101.1,UL26.5,capsid scaffold protein,329,PASS,False,,0,,NONE
+YP_009137102.1,UL27,envelope glycoprotein B,904,PASS,False,,0,,NONE
+YP_009137103.1,UL28,DNA packaging terminase subunit 2,785,PASS,False,,0,,NONE
+YP_009137104.1,UL29,single-stranded DNA-binding protein,1196,PASS,False,,0,,NONE
+YP_009137105.1,UL30,DNA polymerase catalytic subunit,1235,PASS,False,,0,,NONE
+YP_009137106.1,UL31,nuclear egress lamina protein,306,PASS,False,,0,,NONE
+YP_009137107.1,UL32,DNA packaging protein UL32,596,PASS,False,,0,,NONE
+YP_009137108.1,UL33,DNA packaging protein UL33,130,PASS,False,,0,,NONE
+YP_009137109.1,UL34,nuclear egress membrane protein,275,PASS,False,,0,,NONE
+YP_009137110.1,UL35,small capsid protein,112,PASS,False,,0,,NONE
+YP_009137111.1,UL36,large tegument protein,3139,PASS,False,,0,,NONE
+YP_009137112.1,UL37,tegument protein UL37,1123,PASS,False,,0,,NONE
+YP_009137113.1,UL38,capsid triplex subunit 1,465,PASS,False,,0,,NONE
+YP_009137114.1,UL39,ribonucleotide reductase subunit 1,1137,PASS,False,,0,,NONE
+YP_009137115.1,UL40,ribonucleotide reductase subunit 2,340,PASS,False,,0,,NONE
+YP_009137116.1,UL41,tegument host shutoff protein,489,PASS,False,,0,,NONE
+YP_009137117.1,UL42,DNA polymerase processivity subunit,488,PASS,False,,0,,NONE
+YP_009137118.1,UL43,envelope protein UL43,417,PASS,False,,0,,NONE
+YP_009137119.1,UL44,envelope glycoprotein C,511,PASS,False,,0,,NONE
+YP_009137120.1,UL45,membrane protein UL45,172,PASS,False,,0,,NONE
+YP_009137121.1,UL46,tegument protein VP11/12,718,PASS,False,,0,,NONE
+YP_009137122.1,UL47,tegument protein VP13/14,693,PASS,False,,0,,NONE
+YP_009137123.1,UL48,transactivating tegument protein VP16,490,PASS,False,,0,,NONE
+YP_009137124.1,UL49,tegument protein VP22,301,PASS,False,,0,,NONE
+YP_009137125.1,UL49A,envelope glycoprotein N,91,PASS,False,,0,,NONE
+YP_009137126.1,UL50,deoxyuridine triphosphatase,371,PASS,False,,0,,NONE
+YP_009137127.1,UL51,tegument protein UL51,244,PASS,False,,0,,NONE
+YP_009137128.1,UL52,helicase-primase primase subunit,1058,PASS,False,,0,,NONE
+YP_009137129.1,UL53,envelope glycoprotein K,338,PASS,False,,0,,NONE
+YP_009137130.1,UL54,multifunctional expression regulator,512,PASS,False,,0,,NONE
+YP_009137131.1,UL55,nuclear protein UL55,186,PASS,False,,0,,NONE
+YP_009137132.1,UL56,membrane protein UL56,234,PASS,False,,0,,NONE
+YP_009137133.1,RL2,contains a RING finger; disrupts ND10; proteasome-dependent degradation of several cellular proteins; involved in gene regulation; involved in cellular protein degradation; involved in latency,775,PASS,True,YP_009137074.1,0,,EXACT_SEQUENCE_DUPLICATE_OF_YP_009137074.1
+YP_009137134.1,RL1,neurovirulence protein ICP34.5,248,PASS,True,YP_009137073.1,0,,EXACT_SEQUENCE_DUPLICATE_OF_YP_009137073.1
+YP_009137135.1,RS1,transcriptional regulator ICP4,1298,PASS,False,,0,,NONE
+YP_009137136.1,US1,regulatory protein ICP22,420,PASS,False,,0,,NONE
+YP_009137137.1,US2,virion protein US2,291,PASS,False,,0,,NONE
+YP_009137138.1,US3,serine/threonine protein kinase US3,481,PASS,False,,0,,NONE
+YP_009137139.1,US4,envelope glycoprotein G,238,PASS,False,,0,,NONE
+YP_009137140.1,US5,envelope glycoprotein J,92,PASS,False,,0,,NONE
+YP_009137141.1,US6,envelope glycoprotein D,394,PASS,False,,0,,NONE
+YP_009137142.1,US7,envelope glycoprotein I,390,PASS,False,,0,,NONE
+YP_009137143.1,US8,envelope glycoprotein E,550,PASS,False,,0,,NONE
+YP_009137144.1,US8A,membrane protein US8A,159,PASS,False,,0,,NONE
+YP_009137145.1,US9,membrane protein US9,90,PASS,False,,0,,NONE
+YP_009137146.1,US10,virion protein US10,312,PASS,False,,0,,NONE
+YP_009137147.1,US11,tegument protein US11,161,PASS,False,,0,,NONE
+YP_009137148.1,US12,TAP transporter inhibitor ICP47,88,PASS,False,,0,,NONE
+YP_009137149.1,RS1,transcriptional regulator ICP4,1298,PASS,True,YP_009137135.1,0,,EXACT_SEQUENCE_DUPLICATE_OF_YP_009137135.1

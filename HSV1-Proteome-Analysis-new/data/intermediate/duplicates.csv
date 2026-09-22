@@ -1,0 +1,4 @@
+duplicate_protein_id,duplicate_gene,duplicate_product,duplicate_location,retained_protein_id,retained_gene,retained_product,sequence_length
+YP_009137133.1,RL2,contains a RING finger; disrupts ND10; proteasome-dependent degradation of several cellular proteins; involved in gene regulation; involved in cellular protein degradation; involved in latency,"join{[124055:124112](-), [122623:123290](-), [120883:122487](-)}",YP_009137074.1,RL2,ubiquitin E3 ligase ICP0,775
+YP_009137134.1,RL1,neurovirulence protein ICP34.5,[125114:125861](-),YP_009137073.1,RL1,neurovirulence protein ICP34.5,248
+YP_009137149.1,RS1,transcriptional regulator ICP4,[147065:150962](+),YP_009137135.1,RS1,transcriptional regulator ICP4,1298
