@@ -1,0 +1,16 @@
+==================================================
+PHASE 9: REPRESENTATION GENERATION PROVENANCE LOG
+==================================================
+Execution Timestamp:          2026-09-23T00:00:52.817432
+Python Version:               3.11.8
+NumPy Version:                2.4.6
+Pandas Version:               3.0.5
+Master Index Hash:            2f4c2da495de2fbd502d9bdbb33cc40eb120a9cd6be7e763ca8463c588e3b2ea
+X_physicochemical.npy Hash:   3ecd69783071b32a233f688bdbcde7e5d5662ff1b641ae32b0f4bd523db16e24
+X_protbert.npy Hash:          9f2bb399b0b3434207a5632860b3ae929f2b0818d35ff902a3d12a431f2b5896
+X_combined_raw.npy Hash:      09e4f74d943a21859bdbf41aa7aa0fa5699ca46013a46e21b47277ee79c9dd9b
+Total Proteins:               74
+Physicochemical Dimension:    25
+ProtBERT Dimension:           1024
+Combined Raw Dimension:       1049
+==================================================

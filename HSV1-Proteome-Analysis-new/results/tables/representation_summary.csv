@@ -1,0 +1,4 @@
+representation,number_of_proteins,number_of_features,shape,dtype,NaN_count,Inf_count,unique_protein_count,alignment_status
+Physicochemical,74,25,"(74, 25)",float64,0,0,74,PASS
+ProtBERT,74,1024,"(74, 1024)",float32,0,0,74,PASS
+Combined,74,1049,"(74, 1049)",float64,0,0,74,PASS
