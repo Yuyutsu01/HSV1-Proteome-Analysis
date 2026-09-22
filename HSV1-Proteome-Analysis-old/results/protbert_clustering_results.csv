@@ -1,0 +1,75 @@
+protein_id,gene,temporal_class,functional_category,ProtBERT_KMeans_k4,ProtBERT_Hierarchical_k4
+YP_009137073.1,YP_009137073.1 RL1,Late,Neurovirulence/Host Defense,1,3
+YP_009137074.1,YP_009137074.1 RL2,Immediate-Early,Regulatory/Transactivator,1,3
+YP_009137075.1,YP_009137075.1 UL1,Late,Glycoprotein/Entry,2,0
+YP_009137076.1,YP_009137076.1 UL2,Early,DNA Replication/Repair,0,1
+YP_009137077.1,YP_009137077.1 UL3,Late,Nuclear Egress,1,0
+YP_009137078.1,YP_009137078.1 UL4,Late,Tegument,2,0
+YP_009137079.1,YP_009137079.1 UL5,Early,DNA Replication/Replication Fork,2,0
+YP_009137080.1,YP_009137080.1 UL6,Late,Capsid Portal,2,0
+YP_009137081.1,YP_009137081.1 UL7,Late,Tegument,2,0
+YP_009137082.1,YP_009137082.1 UL8,Early,DNA Replication/Replication Fork,2,0
+YP_009137083.1,YP_009137083.1 UL9,Early,DNA Replication/Origin Binding,0,1
+YP_009137084.1,YP_009137084.1 UL10,Late,Glycoprotein/Entry,2,0
+YP_009137085.1,YP_009137085.1 UL11,Late,Tegument/Secondary Envelopment,1,0
+YP_009137086.1,YP_009137086.1 UL12,Early,DNA Recombination/Processing,3,1
+YP_009137087.1,YP_009137087.1 UL13,Early,Protein Kinase,0,1
+YP_009137088.1,YP_009137088.1 UL14,Late,Tegument,2,0
+YP_009137089.1,YP_009137089.1 UL15,Late,DNA Packaging/Terminase,0,1
+YP_009137090.1,YP_009137090.1 UL16,Late,Tegument,1,0
+YP_009137091.1,YP_009137091.1 UL17,Late,Capsid Vertex/Packaging,2,0
+YP_009137092.1,YP_009137092.1 UL18,Late,Capsid/Triplex,2,0
+YP_009137093.1,YP_009137093.1 UL19,Late,Capsid/Major,2,0
+YP_009137094.1,YP_009137094.1 UL20,Late,Envelope/Egress,2,0
+YP_009137095.1,YP_009137095.1 UL21,Late,Tegument,2,0
+YP_009137096.1,YP_009137096.1 UL22,Late,Glycoprotein/Entry,2,0
+YP_009137097.1,YP_009137097.1 UL23,Early,Nucleotide Metabolism,3,2
+YP_009137098.1,YP_009137098.1 UL24,Late,Pathogenicity/Egress,0,1
+YP_009137099.1,YP_009137099.1 UL25,Late,Capsid Vertex/Packaging,2,0
+YP_009137100.1,YP_009137100.1 UL26,Late,Capsid Scaffolding/Protease,1,3
+YP_009137101.1,YP_009137101.1 UL26.5,Late,Capsid Scaffolding,1,3
+YP_009137102.1,YP_009137102.1 UL27,Late,Glycoprotein/Entry & Fusion,2,0
+YP_009137103.1,YP_009137103.1 UL28,Late,DNA Packaging/Terminase,2,0
+YP_009137104.1,YP_009137104.1 UL29,Early,DNA Replication/SSB,2,0
+YP_009137105.1,YP_009137105.1 UL30,Early,DNA Replication/Polymerase,0,1
+YP_009137106.1,YP_009137106.1 UL31,Late,Nuclear Egress,2,0
+YP_009137107.1,YP_009137107.1 UL32,Late,DNA Packaging,2,0
+YP_009137108.1,YP_009137108.1 UL33,Late,DNA Packaging/Terminase,2,0
+YP_009137109.1,YP_009137109.1 UL34,Late,Nuclear Egress,2,0
+YP_009137110.1,YP_009137110.1 UL35,Late,Capsid/Small Capsid,2,0
+YP_009137111.1,YP_009137111.1 UL36,Late,Tegument/Large Tegument,2,0
+YP_009137112.1,YP_009137112.1 UL37,Late,Tegument/Inner Tegument,2,0
+YP_009137113.1,YP_009137113.1 UL38,Late,Capsid/Triplex,2,0
+YP_009137114.1,YP_009137114.1 UL39,Early,Nucleotide Metabolism,0,1
+YP_009137115.1,YP_009137115.1 UL40,Early,Nucleotide Metabolism,0,1
+YP_009137116.1,YP_009137116.1 UL41,Late,Host Shutoff,0,1
+YP_009137117.1,YP_009137117.1 UL42,Early,DNA Replication/Processivity,3,1
+YP_009137118.1,YP_009137118.1 UL43,Late,Envelope/Membrane,2,0
+YP_009137119.1,YP_009137119.1 UL44,Late,Glycoprotein/Attachment,3,2
+YP_009137120.1,YP_009137120.1 UL45,Late,Envelope,2,0
+YP_009137121.1,YP_009137121.1 UL46,Late,Tegument,2,3
+YP_009137122.1,YP_009137122.1 UL47,Late,Tegument,2,0
+YP_009137123.1,YP_009137123.1 UL48,Late,Tegument/Transactivator,2,3
+YP_009137124.1,YP_009137124.1 UL49,Late,Tegument/Major,1,3
+YP_009137125.1,YP_009137125.1 UL49A,Late,Glycoprotein/Entry,1,3
+YP_009137126.1,YP_009137126.1 UL50,Early,Nucleotide Metabolism,0,1
+YP_009137127.1,YP_009137127.1 UL51,Late,Tegument/Secondary Envelopment,2,0
+YP_009137128.1,YP_009137128.1 UL52,Early,DNA Replication/Replication Fork,2,0
+YP_009137129.1,YP_009137129.1 UL53,Late,Glycoprotein/Entry & Fusion,2,0
+YP_009137130.1,YP_009137130.1 UL54,Immediate-Early,RNA Export/Processing,1,3
+YP_009137131.1,YP_009137131.1 UL55,Late,Nuclear Egress,2,0
+YP_009137132.1,YP_009137132.1 UL56,Late,Pathogenicity/Egress,1,3
+YP_009137135.1,YP_009137135.1 RS1,Immediate-Early,Regulatory/Transactivator,1,3
+YP_009137136.1,YP_009137136.1 US1,Immediate-Early,Regulatory/Transactivator,1,3
+YP_009137137.1,YP_009137137.1 US2,Late,Tegument/Immune Modulation,2,0
+YP_009137138.1,YP_009137138.1 US3,Early,Protein Kinase/Anti-apoptotic,0,1
+YP_009137139.1,YP_009137139.1 US4,Late,Glycoprotein/Entry,3,2
+YP_009137140.1,YP_009137140.1 US5,Late,Glycoprotein/Immune Evasion,2,0
+YP_009137141.1,YP_009137141.1 US6,Late,Glycoprotein/Primary Receptor Binding,3,2
+YP_009137142.1,YP_009137142.1 US7,Late,Glycoprotein/Cell-to-Cell Spread,3,2
+YP_009137143.1,YP_009137143.1 US8,Late,Glycoprotein/Cell-to-Cell Spread,3,2
+YP_009137144.1,YP_009137144.1 US8A,Late,Tegument/Membrane,1,0
+YP_009137145.1,YP_009137145.1 US9,Late,Tegument/Anterograde Transport,2,0
+YP_009137146.1,YP_009137146.1 US10,Late,Tegument,1,3
+YP_009137147.1,YP_009137147.1 US11,Late,RNA-binding/PKR Antagonist,1,3
+YP_009137148.1,YP_009137148.1 US12,Immediate-Early,Immune Evasion,2,0
