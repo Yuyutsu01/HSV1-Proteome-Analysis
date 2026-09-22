@@ -1,0 +1,27 @@
+============================================================
+HSV-1 FINAL BIOLOGICAL ANNOTATION VALIDATION REPORT
+============================================================
+Check 1 - Exactly 74 Unique Protein IDs: PASS (Count = 74)
+Check 2 - 100% Match with unique_proteins.csv: PASS
+Check 3 - Zero Duplicate Annotation Rows: PASS
+Check 4 - No Missing Primary Temporal Class Values: PASS
+Check 5 - Only Canonical 3 Primary Classes Exist: PASS ({'Late', 'Immediate-Early', 'Early'})
+Check 6 - Exact Class Distribution (IE=5, Early=15, Late=54; Sum=74): PASS (IE=5, Early=15, Late=54)
+Check 7 - UL44 (YP_009137119.1) Present in Dataset: PASS
+Check 8 - UL44 Primary Class is 'Late': PASS
+Check 9 - UL44 Subclass is 'Conflicting' & Status 'conflicting': PASS
+Check 10 - Predecessor Files Immutability Maintained: PASS
+
+--------------------------------------------------
+DETAILED BREAKDOWN OF AUTHORITATIVE DATASET
+--------------------------------------------------
+Immediate-Early (alpha):   5 ( 6.76%)
+Early (beta):             15 (20.27%)
+Late (gamma):              54 (72.97%)
+  - Gamma-1 (Leaky Late): 28
+  - Gamma-2 (True Late):  25
+  - Conflicting Subclass:  1 (UL44 / gC)
+  - Non-Late Subclass:     0 (IE & Early genes)
+--------------------------------------------------
+OVERALL VALIDATION STATUS: ALL CHECKS PASSED
+==================================================

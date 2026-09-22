@@ -1,0 +1,13 @@
+metric,value,expected,status
+Total Unique Proteins,74,74,PASS
+ID Match with Unique Sequences,100%,100%,PASS
+Duplicate Rows,0,0,PASS
+Immediate-Early Count,5,5,PASS
+Early Count,15,15,PASS
+Late Count,54,54,PASS
+Total Annotated Sum,74,74,PASS
+UL44 Primary Class,Late,Late,PASS
+UL44 Late Subclass,Conflicting,Conflicting,PASS
+UL44 Verification Status,conflicting,conflicting,PASS
+Historical Files Immutability,Preserved,Preserved,PASS
+Overall Pipeline Readiness,Verified,Verified,PASS

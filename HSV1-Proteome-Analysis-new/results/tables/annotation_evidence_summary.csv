@@ -1,0 +1,6 @@
+temporal_class,evidence_level,verification_status,count
+Early,A,verified,15
+Immediate-Early,A,verified,5
+Late,A,conflicting,1
+Late,A,verified,30
+Late,B,verified,23

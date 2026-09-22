@@ -1,0 +1,51 @@
+==================================================
+HSV-1 PROTEOME TEMPORAL ANNOTATION AUDIT REPORT
+==================================================
+Accession: NC_001806.2 (Human alphaherpesvirus 1 strain 17)
+Total Analyzed Proteins: 74
+
+--------------------------------------------------
+1. CLASS DISTRIBUTION
+--------------------------------------------------
+Immediate-Early (alpha):   5 ( 6.76%)
+Early (beta):             15 (20.27%)
+Late (gamma):              54 (72.97%)
+  - Gamma-1 (Leaky Late): 28
+  - Gamma-2 (True Late):  26
+
+--------------------------------------------------
+2. VERIFICATION STATUS
+--------------------------------------------------
+Verified:    73 / 74
+Uncertain:    0 / 74
+Conflicting:  1 / 74
+Unsupported:  0 / 74
+
+Immediate-Early Verified:  5 / 5
+Early Verified:           15 / 15
+Late Verified:            53 / 54 (53 verified, 1 conflicting subclass)
+
+--------------------------------------------------
+3. CANONICAL IMMEDIATE-EARLY GENE VALIDATION
+--------------------------------------------------
+Canonical IE Check Passed: True
+  - RL2 (ICP0 / alpha0): protein_id = YP_009137074.1 -> Verified Immediate-Early
+  - RS1 (ICP4 / alpha4): protein_id = YP_009137135.1 -> Verified Immediate-Early
+  - US1 (ICP22 / alpha22): protein_id = YP_009137136.1 -> Verified Immediate-Early
+  - UL54 (ICP27 / alpha27): protein_id = YP_009137130.1 -> Verified Immediate-Early
+  - US12 (ICP47 / alpha47): protein_id = YP_009137148.1 -> Verified Immediate-Early
+
+--------------------------------------------------
+4. FLAGGED PROTEINS (UNCERTAIN / CONFLICTING / UNSUPPORTED)
+--------------------------------------------------
+Protein ID:      YP_009137119.1
+Gene:            UL44
+Product:         envelope glycoprotein C
+Primary Class:   Late
+Subclass:        Gamma-2
+Status:          conflicting
+Evidence Level:  Level A
+Evidence:        Direct Experimental (gC glycoprotein classic true late gamma-2 PAA-sensitive expression)
+Citation:        Honess & Roizman (1974) J Virol; Conley et al. (1981) J Virol 37:191-206; Homa et al. (1986) Mol Cell Biol 6:3652-3666 (PMID: 6261546, DOI: 10.1128/jvi.37.1.191-206.1981)
+Reason for Flag: Prototypical Gamma-2 true late glycoprotein C (gC); strict PAA-dependence, though some reviews loosely group glycoproteins under Gamma-1
+--------------------------------------------------
