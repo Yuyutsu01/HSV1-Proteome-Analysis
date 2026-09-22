@@ -1,0 +1,4 @@
+representation,original_dimension,pc1_variance_ratio,pc2_variance_ratio,pc3_variance_ratio,cumulative_variance_pc2,cumulative_variance_pc3,pcs_needed_50pct,pcs_needed_75pct,pcs_needed_90pct,pcs_needed_95pct
+Physicochemical,25,0.1933,0.1323,0.1148,0.3256,0.4404,4,9,14,16
+ProtBERT,1024,0.6349,0.073,0.0419,0.7079,0.7498,1,4,11,19
+Combined,1049,0.2034,0.1043,0.0835,0.3077,0.3912,5,13,26,37

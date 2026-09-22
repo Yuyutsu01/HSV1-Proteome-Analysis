@@ -1,0 +1,13 @@
+representation,threshold,n_components
+Physicochemical,0.5,4
+Physicochemical,0.75,9
+Physicochemical,0.9,14
+Physicochemical,0.95,16
+ProtBERT,0.5,1
+ProtBERT,0.75,4
+ProtBERT,0.9,11
+ProtBERT,0.95,19
+Combined,0.5,5
+Combined,0.75,13
+Combined,0.9,26
+Combined,0.95,37

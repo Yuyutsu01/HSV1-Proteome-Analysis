@@ -1,0 +1,44 @@
+----------------------------------------
+PHASE 10 VALIDATION REPORT
+----------------------------------------
+Dataset:                      74 proteins
+
+Representations:
+  Physicochemical =           74 x 25
+  ProtBERT =                  74 x 1024
+  Combined (Block-Std) =      74 x 1049
+
+PCA:                          PASS
+UMAP:                         PASS (Primary n=10, Sensitivity n=5, 20)
+t-SNE:                        PASS (Primary perp=15, Sensitivity perp=5, 25)
+Alignment:                    PASS (100% Bijective ID match)
+NaN / Inf:                    PASS (0 NaN, 0 Inf)
+Reproducibility:              PASS (Deterministic Diff = 0.00e+00)
+
+Dimensionality Comparison Summary:
+  - Physicochemical (Orig Dim=25  ): PC1=19.3%, PC2=13.2%, PC1-2 Cumul=32.6%, PCs for 50%=4, 75%=9, 90%=14, 95%=16
+  - ProtBERT        (Orig Dim=1024): PC1=63.5%, PC2=7.3%, PC1-2 Cumul=70.8%, PCs for 50%=1, 75%=4, 90%=11, 95%=19
+  - Combined        (Orig Dim=1049): PC1=20.3%, PC2=10.4%, PC1-2 Cumul=30.8%, PCs for 50%=5, 75%=13, 90%=26, 95%=37
+
+Artifacts Generated:
+  - results/tables/pca_explained_variance.csv
+  - results/tables/pca_variance_thresholds.csv
+  - results/tables/pca_scores.csv
+  - results/tables/umap_parameters.csv
+  - results/tables/umap_coordinates.csv
+  - results/tables/tsne_parameters.csv
+  - results/tables/tsne_coordinates.csv
+  - results/tables/phase10_extreme_observations.csv
+  - results/tables/phase10_representation_comparison.csv
+  - results/figures/phase10/*.png (18 publication-quality figures)
+
+Important Methodological Notes:
+  - All dimensionality reduction (PCA, UMAP, t-SNE) was fit strictly unsupervised without label access.
+  - Preprocessing was explicitly structured: Physicochemical (Standardized), ProtBERT (Raw & Standardized), Combined (Block-Standardized).
+  - UMAP and t-SNE hyperparameter sensitivities were evaluated systematically across n_neighbors (5, 10, 20) and perplexity (5, 15, 25).
+  - No biological classification claims or cluster rankings are made from visual plots alone.
+
+Overall Phase 10:             PASS
+----------------------------------------
+
+[STOP CONDITION REACHED] Phase 10 completed. Standby for Phase 11.

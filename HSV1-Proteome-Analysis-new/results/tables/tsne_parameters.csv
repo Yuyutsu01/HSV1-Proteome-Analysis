@@ -1,0 +1,4 @@
+configuration,perplexity,init,learning_rate,max_iter,random_state
+primary_perp15,15,pca,auto,1000,42
+sensitivity_perp5,5,pca,auto,1000,42
+sensitivity_perp25,25,pca,auto,1000,42

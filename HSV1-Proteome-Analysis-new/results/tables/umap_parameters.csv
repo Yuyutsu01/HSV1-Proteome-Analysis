@@ -1,0 +1,4 @@
+configuration,n_neighbors,min_dist,metric,random_state
+primary_n10,10,0.1,euclidean,42
+sensitivity_n5,5,0.1,euclidean,42
+sensitivity_n20,20,0.1,euclidean,42
