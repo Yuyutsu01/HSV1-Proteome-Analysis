@@ -1,0 +1,26 @@
+feature_name,feature_group,definition,unit,calculation_method,source_library
+sequence_length,Global Descriptor,Total number of amino acid residues in polypeptide chain,amino acids (aa),Exact residue count,Bio.SeqUtils.ProtParam
+molecular_weight,Global Descriptor,Theoretical molecular mass calculated from monoisotopic amino acid masses minus water condensation,Daltons (Da),Biopython molecular_weight(),Bio.SeqUtils.ProtParam
+aromaticity,Global Descriptor,Relative fractional frequency of aromatic amino acids (Phe + Trp + Tyr),fraction [0-1],Lobry & Gautier (1994) / Biopython aromaticity(),Bio.SeqUtils.ProtParam
+instability_index,Global Descriptor,"In vivo protein stability estimate based on dipeptide weight values (<40 stable, >40 unstable)",dimensionless index,Guruprasad et al. (1990) / Biopython instability_index(),Bio.SeqUtils.ProtParam
+isoelectric_point,Global Descriptor,Theoretical pH at which net molecular electrical charge equals zero,pH scale [0-14],Bjellqvist et al. (1993) pKa iteration,Bio.SeqUtils.ProtParam
+aa_A,Amino Acid Composition,Fractional frequency of amino acid A in the primary sequence,fraction [0-1],Count(A) / Sequence_Length,Bio.SeqUtils.ProtParam
+aa_C,Amino Acid Composition,Fractional frequency of amino acid C in the primary sequence,fraction [0-1],Count(C) / Sequence_Length,Bio.SeqUtils.ProtParam
+aa_D,Amino Acid Composition,Fractional frequency of amino acid D in the primary sequence,fraction [0-1],Count(D) / Sequence_Length,Bio.SeqUtils.ProtParam
+aa_E,Amino Acid Composition,Fractional frequency of amino acid E in the primary sequence,fraction [0-1],Count(E) / Sequence_Length,Bio.SeqUtils.ProtParam
+aa_F,Amino Acid Composition,Fractional frequency of amino acid F in the primary sequence,fraction [0-1],Count(F) / Sequence_Length,Bio.SeqUtils.ProtParam
+aa_G,Amino Acid Composition,Fractional frequency of amino acid G in the primary sequence,fraction [0-1],Count(G) / Sequence_Length,Bio.SeqUtils.ProtParam
+aa_H,Amino Acid Composition,Fractional frequency of amino acid H in the primary sequence,fraction [0-1],Count(H) / Sequence_Length,Bio.SeqUtils.ProtParam
+aa_I,Amino Acid Composition,Fractional frequency of amino acid I in the primary sequence,fraction [0-1],Count(I) / Sequence_Length,Bio.SeqUtils.ProtParam
+aa_K,Amino Acid Composition,Fractional frequency of amino acid K in the primary sequence,fraction [0-1],Count(K) / Sequence_Length,Bio.SeqUtils.ProtParam
+aa_L,Amino Acid Composition,Fractional frequency of amino acid L in the primary sequence,fraction [0-1],Count(L) / Sequence_Length,Bio.SeqUtils.ProtParam
+aa_M,Amino Acid Composition,Fractional frequency of amino acid M in the primary sequence,fraction [0-1],Count(M) / Sequence_Length,Bio.SeqUtils.ProtParam
+aa_N,Amino Acid Composition,Fractional frequency of amino acid N in the primary sequence,fraction [0-1],Count(N) / Sequence_Length,Bio.SeqUtils.ProtParam
+aa_P,Amino Acid Composition,Fractional frequency of amino acid P in the primary sequence,fraction [0-1],Count(P) / Sequence_Length,Bio.SeqUtils.ProtParam
+aa_Q,Amino Acid Composition,Fractional frequency of amino acid Q in the primary sequence,fraction [0-1],Count(Q) / Sequence_Length,Bio.SeqUtils.ProtParam
+aa_R,Amino Acid Composition,Fractional frequency of amino acid R in the primary sequence,fraction [0-1],Count(R) / Sequence_Length,Bio.SeqUtils.ProtParam
+aa_S,Amino Acid Composition,Fractional frequency of amino acid S in the primary sequence,fraction [0-1],Count(S) / Sequence_Length,Bio.SeqUtils.ProtParam
+aa_T,Amino Acid Composition,Fractional frequency of amino acid T in the primary sequence,fraction [0-1],Count(T) / Sequence_Length,Bio.SeqUtils.ProtParam
+aa_V,Amino Acid Composition,Fractional frequency of amino acid V in the primary sequence,fraction [0-1],Count(V) / Sequence_Length,Bio.SeqUtils.ProtParam
+aa_W,Amino Acid Composition,Fractional frequency of amino acid W in the primary sequence,fraction [0-1],Count(W) / Sequence_Length,Bio.SeqUtils.ProtParam
+aa_Y,Amino Acid Composition,Fractional frequency of amino acid Y in the primary sequence,fraction [0-1],Count(Y) / Sequence_Length,Bio.SeqUtils.ProtParam
