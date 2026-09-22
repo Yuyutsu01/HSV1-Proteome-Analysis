@@ -1,0 +1,11 @@
+metric,value
+Matrix Row Count (Proteins),74
+Embedding Dimensionality,1024
+Global Mean,0.001797
+Global Standard Deviation,0.167170
+Global Minimum Value,-2.141384
+Global Maximum Value,5.544859
+Mean L2 Norm per Protein,5.2826
+Std L2 Norm per Protein,0.8448
+Min L2 Norm,2.7529
+Max L2 Norm,6.0481

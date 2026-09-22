@@ -1,0 +1,18 @@
+==================================================
+PROTBERT GENERATION PROVENANCE LOG
+==================================================
+Execution Timestamp:     2026-09-22T23:52:05.169747
+Python Version:          3.11.8
+PyTorch Version:         2.14.0+cpu
+Transformers Version:    5.17.0
+Model Name:              Rostlab/prot_bert
+Device:                  cpu
+Random Seed:             42
+Chunk Size:              500 aa
+Overlap:                 100 aa
+Pooling Method:          Residue-Level Mean (Excluding [CLS], [SEP], [PAD])
+Aggregation Method:      Length-Weighted Chunk Mean
+Input unique_proteins:   2ee654d2699c49eed109bcb8a781905e1449ab28345fb84daeae49daf82cfe1d
+Output protbert.npy:     9f2bb399b0b3434207a5632860b3ae929f2b0818d35ff902a3d12a431f2b5896
+Output metadata:         658e273ebd295802b33124b24d6d8c5d9180a737cee67fcb084d169ceef6b601
+==================================================

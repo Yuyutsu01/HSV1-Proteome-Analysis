@@ -1,0 +1,5 @@
+gene,protein_id,sequence_length,number_of_chunks,cosine_similarity_A_vs_B,l2_distance_A_vs_B,max_coverage_multiplicity
+UL36,YP_009137111.1,3139,8,0.999928,0.065203,2
+UL19,YP_009137093.1,1374,4,0.99987,0.096782,3
+UL30,YP_009137105.1,1235,3,0.999347,0.197168,2
+UL54,YP_009137130.1,512,2,0.999991,0.025792,2

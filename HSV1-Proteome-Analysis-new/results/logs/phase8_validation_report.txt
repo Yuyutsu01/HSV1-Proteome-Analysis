@@ -1,0 +1,31 @@
+==================================================
+PHASE 8 VALIDATION REPORT: PROTBERT EMBEDDINGS
+==================================================
+Dataset:                  74 proteins
+Embedding matrix shape:   74 x 1024
+Model:                    Rostlab/prot_bert
+Pooling strategy:         Residue-Level Mean (Excluding Special Tokens)
+Chunking strategy:        Sliding Window (Size=500 aa, Overlap=100 aa)
+Longest protein:          UL36 (YP_009137111.1, 3139 aa)
+Maximum number of chunks: 8 chunks (UL36)
+Coverage validation:      PASS (100% residues covered across all 74 proteins)
+NaN / Inf validation:     PASS (0 NaN, 0 Inf)
+Reproducibility result:   PASS (Max Abs Diff = 0.00e+00)
+Overall Phase 8 status:   PASS
+==================================================
+
+Detailed Check List:
+  - Number of proteins = 74:            PASS
+  - Embedding dimension = 1024:         PASS
+  - Matrix shape = 74 x 1024:           PASS
+  - No NaN values:                      PASS
+  - No infinite values:                 PASS
+  - Unique protein IDs = 74:            PASS
+  - Metadata order matches embeddings:  PASS
+  - Sequence lengths match input:       PASS
+  - 100% Coverage fraction:             PASS
+  - Long proteins chunked (>500 aa):    PASS
+  - Short proteins single chunk:        PASS
+  - Deterministic reproducibility:      PASS
+
+[STOP CONDITION REACHED] Phase 8 completed. Standby for Phase 9.

@@ -1,0 +1,21 @@
+{
+  "model_name": "Rostlab/prot_bert",
+  "model_architecture": "BertModel",
+  "hidden_dimension": 1024,
+  "max_model_tokens": 512,
+  "special_tokens": [
+    "[CLS]",
+    "[SEP]",
+    "[PAD]"
+  ],
+  "effective_amino_acid_capacity": 510,
+  "chunk_size": 500,
+  "overlap": 100,
+  "pooling_method": "residue_mean_excluding_special_tokens",
+  "aggregation_method": "length_weighted_chunk_average",
+  "random_seed": 42,
+  "device": "cpu",
+  "pytorch_version": "2.14.0+cpu",
+  "transformers_version": "5.17.0",
+  "python_version": "3.11.8"
+}
