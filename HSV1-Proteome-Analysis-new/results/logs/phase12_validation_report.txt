@@ -1,0 +1,41 @@
+================================================================================
+PHASE 12 VALIDATION REPORT: LEAKAGE-CONTROLLED SUPERVISED CLASSIFICATION
+================================================================================
+
+Dataset Specification:
+  Total Proteins: 74 unique HSV-1 strain 17 proteins
+  Temporal Classes: Immediate-Early = 5 (6.76%), Early = 15 (20.27%), Late = 54 (72.97%)
+  Majority-Class Baseline: Accuracy = 72.97%, Balanced Accuracy = 33.33%, IE Recall = 0.0%
+
+Cross-Validation Design:
+  Scheme: 5-Fold StratifiedKFold repeated across 5 fixed seeds (42, 123, 456, 789, 2026)
+  Total Folds: 25 validation folds per configuration
+  Minority Constraint: Exactly 1 IE sample per validation fold (4 in training fold)
+
+Leakage Control Verification:
+  - Feature scaling (StandardScaler) fitted strictly on training partition: PASS
+  - Block weighting (Equal-Block) computed strictly from training fold: PASS
+  - Inverse-frequency class weights computed strictly from training partition: PASS
+  - Out-of-fold predictions used for all evaluations: PASS
+  - Upstream Phase 1–11 data, embeddings, annotations, and representations immutable: PASS
+
+Key Benchmark Comparisons (Mean ± SD across 25 Folds):
+  1. Physicochemical (Logistic Regression):
+     - Unweighted:     Acc = 66.80% ± 11.50%, BalAcc = 48.70% ± 19.02%, IE-Recall = 40.00%
+     - Class-Balanced: Acc = 58.91% ± 11.35%, BalAcc = 58.65% ± 18.08%, IE-Recall = 72.00%
+
+  2. ProtBERT Native (Logistic Regression):
+     - Unweighted:     Acc = 79.68% ± 6.08%, BalAcc = 47.64% ± 7.97%, IE-Recall = 0.00%
+     - Class-Balanced: Acc = 72.63% ± 11.48%, BalAcc = 64.73% ± 21.05%, IE-Recall = 48.00%
+
+  3. Combined Equal-Block (Logistic Regression):
+     - Class-Balanced: Acc = 76.51% ± 9.76%, BalAcc = 75.86% ± 15.63%, IE-Recall = 80.00%
+
+Scientific Observations:
+  - In-fold inverse-frequency class weighting substantially elevated minority-class (IE) recall
+    and Balanced Accuracy across linear and regularized models compared to unweighted baseline.
+  - The majority Late class achieved high precision across all representations.
+  - Immediate-Early estimates exhibit high variance due to small sample size (N=5).
+
+Overall Phase 12 Status: PASS
+================================================================================
