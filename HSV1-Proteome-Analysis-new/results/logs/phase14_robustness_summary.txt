@@ -1,0 +1,33 @@
+================================================================================
+PHASE 14: ROBUSTNESS SYNTHESIS SUMMARY
+================================================================================
+
+[Observation_A] Class-balanced learning substantially improves minority-class treatment relative to unweighted learning.
+Classification: ROBUST
+Evidence: In Phase 12 and Phase 14 sensitivity, unweighted learning yields IE Recall = 0.00 across models, while inverse-frequency class-balancing achieves IE Recall = 0.64-0.72. Square-root weighting provides intermediate balance (IE Recall = 0.40). The minority benefit is stable across all seed sets.
+Boundary Conditions: Requires class-aware weighting in training folds; unweighted objective collapses to majority class.
+--------------------------------------------------------------------------------
+
+[Observation_B] ProtBERT and physicochemical representations exhibit distinct, complementary predictive behavior.
+Classification: ROBUST
+Evidence: 40.5% (30/74) of proteins demonstrate representation-dependent discordance between Physicochemical and ProtBERT models. ProtBERT exhibits superior Early recall (0.71 vs 0.41), while Physicochemical achieves higher Late specificity.
+Boundary Conditions: Observed across both Logistic Regression and Linear SVM architectures.
+--------------------------------------------------------------------------------
+
+[Observation_C] The combined representation captures signal from both modalities and stabilizes out-of-fold predictions.
+Classification: ROBUST
+Evidence: Combined Equal-Block representation achieves Macro-F1 = 0.65-0.67 and Balanced Accuracy = 0.69-0.70, outperforming or matching individual modalities across all seed sets and scaling conventions (Equal-Block vs Feature-Standardized).
+Boundary Conditions: Equal-block weighting avoids high-dimensional ProtBERT feature-count dominance.
+--------------------------------------------------------------------------------
+
+[Observation_D] Unsupervised clustering does not cleanly reproduce the three temporal classes.
+Classification: ROBUST
+Evidence: In Phase 11, all unsupervised algorithms (KMeans, Ward, Average, Complete across K=2..10) yielded empirical permutation p-values > 0.05 for temporal ARI/NMI (ARI = -0.05 to 0.08). Unsupervised geometry reflects biophysical type (structural vs non-structural) rather than strict temporal cascade.
+Boundary Conditions: Consistent across full-dimensional and PCA-reduced (95% variance) clustering.
+--------------------------------------------------------------------------------
+
+[Observation_E] Protein-level prediction errors are concentrated among a specific subset of proteins and geometric outliers.
+Classification: ROBUST
+Evidence: 54/74 (73.0%) of proteins are consistently classified correctly (>=80% accuracy), while errors are concentrated in 11 consistently misclassified proteins (RL1, UL8, UL11, UL13, UL15, UL24, UL36, UL41, UL49, UL52, US12). Exclusion of geometric outliers improves Balanced Accuracy by +0.03 to +0.05 without altering class hierarchy.
+Boundary Conditions: Misclassified proteins share distinct biochemical and functional roles that cross classical temporal boundaries.
+--------------------------------------------------------------------------------
