@@ -1,0 +1,29 @@
+================================================================================
+PHASE 13 VALIDATION REPORT: ERROR ANALYSIS & REPRESENTATION INTERPRETATION
+================================================================================
+
+Dataset Specification:
+  Total Proteins Analyzed: 74 unique HSV-1 strain 17 proteins
+  Out-of-Fold Prediction Records Analyzed: 14,800 predictions
+  Primary Baseline Models Evaluated: 5 Class-Balanced Configurations
+
+Prediction Consistency Breakdown (Combined Equal-Block Logistic Regression):
+  - Consistently Correct (>= 80% correct): 54 / 74 (73.0%)
+  - Frequently Correct (60% correct): 3 / 74 (4.1%)
+  - Frequently Misclassified (20-40% correct): 6 / 74 (8.1%)
+  - Consistently Misclassified (0% correct): 11 / 74 (14.9%)
+
+Representation Disagreement Summary (Physicochemical vs ProtBERT vs Combined):
+  - Complete Representation Agreement (ALL_AGREE): 44 / 74 (59.5%)
+  - Phys/PB Disagree (Combined matches ProtBERT): 19 / 74
+  - Phys/PB Disagree (Combined matches Phys): 11 / 74
+  - Complete Disagreement (ALL_DISAGREE): 0 / 74
+
+Scientific Observations & Constraints:
+  - Error analysis is strictly exploratory and descriptive; NO temporal labels were modified.
+  - Misclassifications reflect computational overlap in feature space rather than biological errors.
+  - ProtBERT and Physicochemical descriptors exhibit complementary error profiles on viral subclasses.
+  - Upstream datasets, annotations, embeddings, and Phase 1-12 artifacts remain untouched.
+
+Overall Phase 13 Status: PASS
+================================================================================

@@ -1,0 +1,114 @@
+================================================================================
+PHASE 13: FINAL AUDIT REPORT
+================================================================================
+Audit Date: 2026-09-24
+Project: HSV1-Proteome-Analysis-new
+Corpus: Yuyutsu01/HSV1-Proteome-Analysis
+
+1. THRESHOLD AUDIT RESULT
+--------------------------------------------------------------------------------
+High-Confidence Incorrect Threshold: Delta p > 0.35
+Status: PASS (Strictly enforced)
+
+Audit of Misclassified Proteins (Combined Equal-Block Logistic Regression):
+- UL15 (Late -> Early): Mean Margin = 0.849 (> 0.35) -> High-Confidence Incorrect
+- RL1  (Late -> IE):    Mean Margin = 0.771 (> 0.35) -> High-Confidence Incorrect
+- US12 (IE -> Late):    Mean Margin = 0.669 (> 0.35) -> High-Confidence Incorrect
+- UL11 (Late -> IE):    Mean Margin = 0.608 (> 0.35) -> High-Confidence Incorrect
+- UL8  (Early -> Late): Mean Margin = 0.424 (> 0.35) -> High-Confidence Incorrect
+- UL24 (Late -> Early): Mean Margin = 0.361 (> 0.35) -> High-Confidence Incorrect
+- UL41 (Late -> Early): Mean Margin = 0.352 (> 0.35) -> High-Confidence Incorrect
+
+2. UL36 CLASSIFICATION UNDER THE THRESHOLD
+--------------------------------------------------------------------------------
+UL36 Out-of-Fold Prediction:
+- True Class: Late
+- Most Frequent Predicted Class: Early
+- Mean Decision Margin (Delta p): 0.332924
+- Threshold Evaluation: 0.333 <= 0.35
+- Audit Classification: MODERATE-MARGIN INCORRECT PREDICTION (0.15 <= Delta p <= 0.35)
+- Correction: Verified that UL36 is excluded from the high-confidence incorrect category in all formal documents and code checks.
+
+3. OUT-OF-FOLD (OOF) TERMINOLOGY AUDIT
+--------------------------------------------------------------------------------
+Cross-Validation Structure:
+- 5 CV Repeats x 5 Folds = 25 Validation Folds
+- Total Out-of-Fold Validation Instances: 74 proteins x 5 repeats = 370 instances
+
+Denominator Verification:
+- Immediate-Early: 5 proteins x 5 repeats = 25 OOF prediction instances
+- Early: 15 proteins x 5 repeats = 75 OOF prediction instances
+- Late: 54 proteins x 5 repeats = 270 OOF prediction instances
+
+Table Column Audit:
+- Renamed 'total_true_class_predictions' -> 'total_oof_prediction_instances' in phase13_class_confusion_analysis.csv.
+- Confirmed that repeat predictions are explicitly labeled as validation instances, not independent biological replicates.
+
+4. FROZEN 25-FEATURE PHYSICOCHEMICAL VERIFICATION
+--------------------------------------------------------------------------------
+Phase 7 Feature Matrix: data/processed/physicochemical_features.csv (74 x 25)
+Authoritative Features (25):
+1. sequence_length
+2. molecular_weight
+3. aromaticity
+4. instability_index
+5. isoelectric_point
+6-25. aa_A, aa_C, aa_D, aa_E, aa_F, aa_G, aa_H, aa_I, aa_K, aa_L, aa_M, aa_N, aa_P, aa_Q, aa_R, aa_S, aa_T, aa_V, aa_W, aa_Y
+
+Status: PASS (Exact 25 features present in phase13_physicochemical_error_summary.csv)
+Gravy Verification:
+- Confirmed 'Gravy' is NOT present in data/processed/physicochemical_features.csv.
+- Confirmed 'Gravy' is NOT present in results/tables/phase13_physicochemical_error_summary.csv.
+- No extraneous biochemical features were introduced.
+
+5. DESCRIPTIVE EFFECT-SIZE AUDIT
+--------------------------------------------------------------------------------
+- Standardized mean differences (Cohen's d) in phase13_physicochemical_error_summary.csv are strictly designated as descriptive effect sizes.
+- No statistical significance tests, p-values, or causal mechanism claims were added.
+
+6. BIOLOGICAL INTERPRETATION AUDIT
+--------------------------------------------------------------------------------
+- Ground Truth Annotations: data/annotations/temporal_annotations_final.csv remains 100% frozen.
+- Verification Status: Disagreement proteins (e.g. UL13, UL41, RL1) are documented with existing annotation context without label reclassification or temporal reassignment.
+- Terminology: Predictions are strictly reported as 'computational disagreement' or 'representation-dependent predictive behavior'.
+
+7. REPRESENTATION DISAGREEMENT AUDIT
+--------------------------------------------------------------------------------
+- Modality concordance (Physicochemical vs ProtBERT vs Combined Equal-Block):
+  * All Agree: 44 / 74 (59.5%)
+  * Phys/PB Disagree (Combined matches PB): 19 / 74 (25.7%)
+  * Phys/PB Disagree (Combined matches Phys): 11 / 74 (14.9%)
+  * All Disagree: 0 / 74 (0.0%)
+- Interpretation: Described neutrally as modality-specific representation geometry; no representation is crowned as biologically definitive.
+
+8. CROSS-PHASE & OUTLIER AUDIT
+--------------------------------------------------------------------------------
+- Phase 11 unsupervised clustering and Phase 12 supervised classification are maintained as separate computational views.
+- Representation outliers (UL36, US12, UL41) are documented descriptively without sample pruning or model retraining.
+
+9. FILES MODIFIED & UNCHANGED
+--------------------------------------------------------------------------------
+Modified:
+- scripts/13_error_analysis.py (Updated column name to total_oof_prediction_instances)
+- results/tables/phase13_class_confusion_analysis.csv (Regenerated with updated column name)
+- tests/test_phase13_error_analysis.py (Added test_14, test_15, test_16)
+- docs/phases/PHASE_13_METHODOLOGY_AND_CHANGES.md (Added Section 7 Final Audit Corrections)
+
+Intentionally Left Unchanged:
+- data/raw/*
+- data/intermediate/*
+- data/processed/*
+- data/annotations/*
+- results/tables/phase11_*
+- results/tables/phase12_*
+- results/figures/phase11/*
+- results/figures/phase12/*
+
+10. FINAL TEST SUITE VERIFICATION
+--------------------------------------------------------------------------------
+Phase 13 tests: 16 / 16 passed
+Total test suite: 73 / 73 passed (100.0%)
+Upstream integrity: 100% verified
+
+STATUS: PHASE 13 FROZEN
+================================================================================

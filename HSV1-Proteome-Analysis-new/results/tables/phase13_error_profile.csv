@@ -1,0 +1,6 @@
+representation,model,weighting,total_out_of_fold_predictions,total_errors,immediate_early_errors (out of 25),early_errors (out of 75),late_errors (out of 270),consistently_correct_proteins (>=80%),frequently_misclassified_proteins (<50%),consistently_misclassified_proteins (0%),average_predictive_probability_margin,consistently_misclassified_genes
+Physicochemical,Logistic_Regression,Class_Balanced,370,152,7,44,101,39,11,17,0.5274108521434434,"RL1, UL2, UL3, UL6, UL8, UL9, UL11, UL13, UL15, UL23, UL25, UL27, UL36, UL42, UL52, US4, US12"
+ProtBERT,Logistic_Regression,Class_Balanced,370,101,13,22,66,50,8,12,0.3061574315450884,"RL1, UL8, UL15, UL24, UL29, UL41, UL44, UL49, UL52, US8, US11, US12"
+Combined_Equal_Block,Logistic_Regression,Class_Balanced,370,87,5,23,59,54,6,11,0.39609677009456185,"RL1, UL8, UL11, UL13, UL15, UL24, UL36, UL41, UL49, UL52, US12"
+Combined_Equal_Block,SVM_Linear,Class_Balanced,370,89,8,19,62,50,4,10,0.5591959895471355,"RL1, UL8, UL11, UL15, UL24, UL36, UL41, UL52, US11, US12"
+Physicochemical,Random_Forest,Class_Balanced,370,116,10,33,73,45,10,12,0.29642096956115077,"RL1, RL2, UL2, UL6, UL8, UL15, UL23, UL27, UL41, UL42, UL50, US12"
