@@ -1,0 +1,4 @@
+temporal_class,protein_count,percentage_of_proteome,representative_genes,primary_function
+Immediate-Early (alpha),5,6.756756756756757,"RL2 (ICP0), RS1 (ICP4), UL54 (ICP27), US1 (ICP22), US12 (ICP47)","Transcriptional transactivation, post-transcriptional regulation, immune evasion"
+Early (beta),15,20.27027027027027,"UL5, UL8, UL9, UL23 (TK), UL29 (ICP8), UL30, UL39 (ICP6), UL42, UL52","Viral DNA replication, nucleotide metabolism, proofreading"
+Late (gamma),54,72.97297297297297,"UL19 (VP5), UL27 (gB), UL22/UL1 (gH/gL), US6 (gD), UL36 (VP1/2), UL48 (VP16)","Capsid structural shell, envelope glycoproteins, tegument matrix, DNA packaging"

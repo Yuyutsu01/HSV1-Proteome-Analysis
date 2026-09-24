@@ -1,55 +1,39 @@
-# HSV-1 Proteome Analysis (Revised & Enhanced Pipeline)
+# Computational Representation and Classification Analysis of the HSV-1 Proteome
 
-This directory contains the modernized, modular, and fully reproducible computational biology pipeline for the characterization and comparative representation benchmarking of the Herpes Simplex Virus Type 1 (HSV-1) proteome.
+An end-to-end, leakage-controlled computational study evaluating physicochemical descriptors, deep protein language model embeddings (ProtBERT), and equal-block multi-modal representations across the 74 unique canonical proteins of Herpes Simplex Virus Type 1 (strain 17, RefSeq `NC_001806.2`).
 
----
+## Key Findings
+1. **Unsupervised Representation Geometry (Phase 11):** Across the evaluated clustering configurations (K-Means, Ward, Complete, Average across $K=2..10$), temporal-class recovery was limited and varied substantially across representations and linkage methods; no clustering configuration cleanly reproduced the three temporal classes. Representation space geometry clusters proteins primarily by biophysical characteristics rather than strict transcriptional timing.
+2. **Supervised Temporal Recovery (Phase 12):** Under strictly leakage-controlled 5-fold Stratified Cross-Validation repeated across 5 seeds, the primary Combined Equal-Block Logistic Regression model achieved **Accuracy = 76.51% +- 10.2%**, **Balanced Accuracy = 75.86% +- 12.3%**, **Macro-F1 = 0.684 +- 0.12**, and **IE Recall = 80.0%** (compared to a majority-class baseline of Accuracy = 72.97%, Balanced Accuracy = 33.33%, IE Recall = 0.0%).
+3. **Effect of Class Balancing on Minority-Class Recovery (Phases 12 & 14):** Inverse-frequency class weighting substantially improved minority-class recovery in the evaluated experiments (IE Recall = 80.0% with inverse-frequency weighting vs. 12.0% with square-root weighting and 0.0% unweighted).
+4. **Representation Disagreement (Phase 13):** 40.5% (30/74) of proteins show representation-dependent predictive discordance between Physicochemical and ProtBERT models. The equal-block combined representation produced stable classification performance across the predefined evaluation and sensitivity analyses.
+5. **Difficult Proteins and Biological Context (Phases 13 & 15):** Classification difficulty was concentrated in 11 proteins (e.g. `UL15` terminase, `RL1` ICP34.5, `US12` ICP47, `UL41` vhs, `UL36` large tegument hub), whose biological contexts span multi-phase or virion-packaged lifecycle roles.
 
-## 📁 Repository Directory Structure
+## Dataset Summary
+- **Total Unique Canonical Proteins:** 74 (77 raw records minus 3 exact duplicates)
+- **Immediate-Early (alpha):** 5 proteins (`RL2`, `RS1`, `UL54`, `US1`, `US12`)
+- **Early (beta):** 15 proteins
+- **Late (gamma):** 54 proteins
 
+## Directory Structure
 ```
-HSV1-Proteome-Analysis-new/
-│
 ├── data/
-│   ├── raw/
-│   │   ├── genomes/        # Complete FASTA genome sequences (e.g., NC_001806.2)
-│   │   ├── genbank/        # Full GenBank flat files (.gbk) with CDS annotations
-│   │   └── proteins/       # Raw translated CDS FASTA files
-│   │
-│   ├── curated/
-│   │   ├── proteins/       # Deduplicated non-redundant protein sequences
-│   │   ├── annotations/    # Curated functional, structural, and gene annotations
-│   │   └── labels/         # Ground-truth temporal (α/β/γ) and functional target labels
-│   │
-│   ├── homology/           # CD-HIT / BLAST sequence clustering and redundancy filtering
-│   └── splits/             # Train/test and cross-validation split indices
-│
-├── features/
-│   ├── physicochemical/    # 25-dimensional classical physicochemical descriptors
-│   └── protbert/           # 1024-dimensional ProtBERT transformer embeddings (.npy)
-│
-├── results/                # Quantitative evaluation metrics, CSV tables, PCA loadings
-├── figures/                # 300 DPI publication-quality visualizations
-├── notebooks/              # Interactive Jupyter walkthroughs
-├── scripts/                # Modular, reproducible Python execution scripts
-└── README.md               # Project overview and reproduction guide
+│   ├── raw/                  # Downloaded NCBI GenBank records
+│   ├── processed/            # 25 features, ProtBERT embeddings, representation matrices
+│   └── annotations/          # Authoritative temporal annotations (temporal_annotations_final.csv)
+├── scripts/                  # Reproducible pipeline scripts (01 through 15 & final_synthesis.py)
+├── tests/                    # Pytest test suite covering all phases
+├── results/
+│   ├── tables/               # Canonical manuscript tables and CSV artifacts
+│   ├── figures/              # Publication figures across all phases
+│   └── logs/                 # Detailed execution and audit logs
+├── docs/                     # Methodological records and phase documentation
+├── manuscript/               # Final scientific manuscript (HSV1_proteome_analysis_final.md) & figures
+└── supplementary/            # Supplementary material index and documentation
 ```
 
----
-
-## 🔬 Pipeline Workflow Overview
-
-1. **Data Acquisition & Curation** (`data/`):
-   - Fetch reference `NC_001806.2` GenBank records.
-   - Programmatic CDS extraction, exact deduplication, and homology-based filtering.
-2. **Feature Representation Engineering** (`features/`):
-   - 25-dimensional physicochemical feature extraction (Length, MW, pI, Instability, Aromaticity, 20 AA fractions).
-   - ProtBERT (`Rostlab/prot_bert`) deep transformer embeddings with sliding-window pooling for large proteins.
-3. **Exploratory & Dimensionality Analysis** (`results/`, `figures/`):
-   - Linear variance decomposition via PCA.
-   - Non-linear neighborhood projections via t-SNE and UMAP.
-4. **Clustering & Biological Validation** (`results/`):
-   - Unsupervised clustering ($K=2 \dots 10$) using K-Means and Hierarchical Agglomerative clustering.
-   - External validation against curated temporal classes ($\alpha, \beta, \gamma$) via ARI, NMI, and cluster purity.
-5. **Supervised Machine Learning & Ablation** (`results/`):
-   - Repeated Stratified 5-Fold Cross-Validation with strict in-fold pipeline scaling.
-   - 5-subset feature ablation to quantify the marginal utility of deep language models.
+## Validation & Testing
+To verify full computational reproducibility:
+```bash
+pytest tests/ -v
+```

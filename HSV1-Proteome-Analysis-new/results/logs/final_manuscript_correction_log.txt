@@ -1,0 +1,92 @@
+================================================================================
+FINAL MANUSCRIPT CLAIM-CORRECTION LOG
+Project: Computational Representation and Classification Analysis of the HSV-1 Proteome
+Date: 2026-09-24
+Status: COMPLETE & FROZEN
+================================================================================
+
+1. ARI RANGE CORRECTION (Correction #1)
+--------------------------------------------------------------------------------
+- Removed blanket range claim "Adjusted Rand Index = -0.05 to 0.08" from manuscript abstract, results, and summary documentation.
+- Replaced with standard conservative wording:
+  "Across the evaluated clustering configurations, temporal-class recovery was limited and varied substantially across representations and linkage methods; no clustering configuration cleanly reproduced the three temporal classes."
+
+2. PERMUTATION P-VALUE WORDING CORRECTION (Correction #2)
+--------------------------------------------------------------------------------
+- Removed blanket claim "empirical permutation p > 0.05" applied collectively across all 108 configurations.
+- Replaced with standard exploratory framing:
+  "Permutation testing was used to assess the observed association with the temporal labels relative to a label-permutation null distribution. These permutation results were treated as exploratory evidence rather than as independent confirmatory tests."
+
+3. CLASS-BALANCING WORDING CORRECTION (Correction #3)
+--------------------------------------------------------------------------------
+- Updated section title from "Class Balancing Necessity" to:
+  "Effect of Class Balancing on Minority-Class Recovery"
+- Replaced overstatements ("is strictly necessary / essential") with precise empirical description:
+  "Inverse-frequency class weighting substantially improved minority-class recovery in the evaluated experiments."
+- Preserved exact empirical Phase 12/14 metrics:
+  * Unweighted: IE Recall = 0.000 (0.0%)
+  * Square-root weighting: IE Recall = 0.120 (12.0%)
+  * Inverse-frequency weighting: IE Recall = 0.800 (80.0%)
+
+4. PROTBERT MECHANISTIC WORDING CORRECTION (Correction #4)
+--------------------------------------------------------------------------------
+- Removed speculative mechanistic interpretations (e.g. "ProtBERT captured contextual domain topologies").
+- Replaced with objective observation of computational behavior:
+  "ProtBERT and physicochemical representations exhibited different predictive behavior across a subset of proteins. Among the 30 proteins showing disagreement between the two modality-specific predictions, the combined prediction followed ProtBERT for 19 proteins and the physicochemical representation for 11 proteins."
+
+5. REPRESENTATION-COMPLEMENTARITY & FUSION WORDING CORRECTION (Corrections #5 & #6)
+--------------------------------------------------------------------------------
+- Replaced "sharper boundaries" and "successfully integrated both modalities" with conservative descriptive wording:
+  "Physicochemical and ProtBERT representations exhibited distinct predictive behavior for proteins with different sequence characteristics."
+  "The equal-block combined representation produced stable classification performance across the predefined evaluation and sensitivity analyses."
+- Eliminated all unsubstantiated claims of "optimal", "best", or "superior" fusion.
+
+6. OUTLIER INTERPRETATION CORRECTION (Correction #9)
+--------------------------------------------------------------------------------
+- Replaced claims that outlier exclusion "improves performance" or "demonstrates error concentration" with sensitivity analysis framing:
+  "Performance changed when label-independent geometric outliers were excluded, indicating that representation-space extremes influence classification behavior. Because these analyses alter the evaluated protein set, they are treated as sensitivity analyses rather than evidence that protein removal improves the primary model."
+
+7. ROBUSTNESS WORDING CORRECTION (Correction #8)
+--------------------------------------------------------------------------------
+- Refined robustness statements to be precise and measured:
+  "The primary combined-model classification result was stable across the predefined independent seed set, while PCA and leave-one-protein sensitivity analyses produced broadly consistent conclusions."
+- Retained exact quantitative values:
+  * Original seed set: Balanced Accuracy ≈ 0.758 ± 0.020 (Fold-level CV: 75.86% ± 12.3%)
+  * Independent seed set: Balanced Accuracy ≈ 0.754 ± 0.017
+
+8. BIOLOGICAL CAUSALITY AUDIT (Corrections #7, #10, #11, #12, #15, #17)
+--------------------------------------------------------------------------------
+- Audited all occurrences of causal and speculative terminology ("causes", "functional crosstalk", "proves", "mechanism", "therapeutic").
+- Replaced "Difficult Proteins & Functional Crosstalk" with:
+  "Difficult Proteins and Biological Context"
+- Framed difficult proteins (UL15, RL1, US12, UL41, UL36) as non-causal hypotheses:
+  * UL36: Preserved as Moderate-Margin Incorrect (Δp = 0.333, 3,139 aa, true Late, frequent prediction Early) with hypothesis-level context.
+  * US12: Preserved as High-Confidence Incorrect (Δp = 0.669, 88 aa, true IE, frequent prediction Late) without implying annotation errors.
+- Explicitly excluded claims of clinical/therapeutic utility, mechanistic discovery, in vivo validation, or generalization to other HSV strains.
+
+9. NUMERICAL CONSISTENCY AUDIT (Corrections #16 & #18)
+--------------------------------------------------------------------------------
+- Audited all manuscript, table, and documentation metrics for 100% internal alignment:
+  * 77 raw extracted records -> 74 unique canonical proteins (3 exact terminal repeat duplicates removed: RL2, RL1, RS1)
+  * Class distribution: IE = 5 (6.8%), Early = 15 (20.3%), Late = 54 (73.0%)
+  * Feature spaces: 25 physicochemical features, 1024 ProtBERT dimensions, 1049 combined dimensions
+  * Chunking parameters: 500 aa chunk size, 100 aa overlap, 400 aa step
+  * UL36 length = 3,139 aa, US12 length = 88 aa
+  * Primary Phase 12 Combined Equal-Block LogReg metrics:
+    - Accuracy = 76.51% ± 10.2%
+    - Balanced Accuracy = 75.86% ± 12.3%
+    - Macro-F1 = 0.684 ± 0.12
+    - MCC = 0.533 ± 0.19
+    - IE Recall = 80.0% (F1 = 0.561)
+    - Early Recall = 69.3% (F1 = 0.687)
+    - Late Recall = 78.3% (F1 = 0.852)
+  * Naive majority baseline: Accuracy = 72.97%, Balanced Accuracy = 33.33%, IE Recall = 0.0%
+  * Independent seed sensitivity: Balanced Accuracy = 0.754 ± 0.017, Macro-F1 = 0.665
+  * Modality agreement: 44/74 unanimous, 30/74 discordance (19 followed ProtBERT, 11 followed Physicochemical, 0 complete divergence)
+
+10. FINAL TEST RESULT (Section 21)
+--------------------------------------------------------------------------------
+- Ran `pytest tests/ -v` on full test suite (10 test modules).
+- Result: 105 passed, 0 failed in 11.72s.
+- All upstream raw/intermediate/processed datasets, annotations, and Phase 11–15 canonical outputs remain intact and frozen.
+================================================================================

@@ -1,0 +1,42 @@
+================================================================================
+FINAL PROJECT VALIDATION AND INTEGRITY REPORT
+================================================================================
+Project: Computational Representation and Classification Analysis of the HSV-1 Proteome
+Reference Genome: HSV-1 strain 17 (NC_001806.2)
+Date: 2026-09-24
+
+1. DATASET INTEGRITY
+--------------------------------------------------------------------------------
+- Unique canonical proteins: 74 (77 raw records minus 3 exact duplicates) (Verified)
+- Terminal repeat duplicates removed: RL2 (YP_009137133.1), RL1 (YP_009137134.1), RS1 (YP_009137149.1)
+- Class Distribution: Immediate-Early = 5, Early = 15, Late = 54 (Verified)
+- Missing values / NaNs / Infs: 0 across all processed matrices
+
+2. FEATURE & EMBEDDING INTEGRITY
+--------------------------------------------------------------------------------
+- Physicochemical features: Exactly 25 features (74 x 25 matrix)
+- ProtBERT embeddings: Exactly 1024 dimensions (74 x 1024 matrix)
+- Combined raw representation: Exactly 1049 dimensions (74 x 1049 matrix)
+- Equal-Block scaling: In-fold Z_phys/sqrt(25) || Z_pb/sqrt(1024) (Verified)
+
+3. COMPUTATIONAL INTEGRITY (PHASES 11-14)
+--------------------------------------------------------------------------------
+- Phase 11 Unsupervised: K=2..10, 1000 label permutations, empirical evaluation (Frozen)
+- Phase 12 Supervised: 5x5 repeated Stratified CV, in-fold preprocessing, class-balanced (Frozen)
+- Phase 13 Error Analysis: 7 High-Confidence (Delta_p > 0.35), 4 Moderate-Margin (UL36 Delta_p=0.333) (Frozen)
+- Phase 14 Robustness: Independent seeds [7, 17, 37, 73, 97], in-fold PCA 90-99%, 74 LOO trials (Frozen)
+- Phase 15 Biological Context: All 74 proteins mapped to literature, 0 label changes (Frozen)
+
+4. MANUSCRIPT & ARTIFACT PACKAGE
+--------------------------------------------------------------------------------
+- Manuscript: manuscript/HSV1_proteome_analysis_final.md (Audited & Verified)
+- Canonical Tables: 10 tables in results/tables/ (Audited & Verified)
+- Publication Figures: 8 figures in manuscript/figures/ and results/figures/ (Audited & Verified)
+- Evidence Hierarchy: results/tables/final_evidence_hierarchy.csv (Audited & Verified)
+- Claim Audit: results/tables/final_claim_audit.csv (Audited & Verified)
+- Reproducibility Guide: REPRODUCIBILITY.md (Audited & Verified)
+- Project README: README.md (Audited & Verified)
+
+================================================================================
+PROJECT COMPLETE — FINAL MANUSCRIPT AND REPRODUCIBILITY PACKAGE FROZEN
+================================================================================

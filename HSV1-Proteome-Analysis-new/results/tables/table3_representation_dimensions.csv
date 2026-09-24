@@ -1,0 +1,5 @@
+representation_name,dimensions,feature_type,scaling_method,retained_variance_95pct_pcs
+Physicochemical,25,Primary biophysical & compositional descriptors,In-fold StandardScaler (Z_phys),14
+ProtBERT,1024,Contextual protein language model embeddings (Rostlab/prot_bert),Native mean-pooled embeddings (Z_pb),18
+Combined_Feature_Standardized,1049,Concatenated raw features,In-fold global StandardScaler,28
+Combined_Equal_Block,1049,Block-weighted concatenation (Z_phys/sqrt(25) || Z_pb/sqrt(1024)),In-fold equal block scaling,30
