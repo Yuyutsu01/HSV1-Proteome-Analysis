@@ -1,0 +1,12 @@
+temporal_class,total_proteins_in_class,functional_category,protein_count_in_category,percentage_of_temporal_class,representative_genes
+Immediate-Early,5,transcriptional/regulatory,5,100.0,"RL2, UL54, RS1, US1, US12"
+Early,15,DNA replication,8,53.333333333333336,"UL5, UL8, UL9, UL12, UL29, UL30, UL42, UL52"
+Early,15,nucleotide metabolism,5,33.33333333333333,"UL2, UL23, UL39, UL40, UL50"
+Early,15,kinase,2,13.333333333333334,"UL13, US3"
+Late,54,envelope/glycoprotein,15,27.77777777777778,"UL1, UL10, UL22, UL27, UL43, UL44, UL45, UL49A, UL53, US4, US5, US6, US7, US8, US8A"
+Late,54,tegument,15,27.77777777777778,"UL7, UL11, UL14, UL16, UL21, UL36, UL37, UL46, UL47, UL49, UL51, US2, US9, US10, US11"
+Late,54,host-interaction/regulatory,7,12.962962962962962,"RL1, UL3, UL4, UL24, UL41, UL55, UL56"
+Late,54,DNA packaging,7,12.962962962962962,"UL6, UL15, UL17, UL25, UL28, UL32, UL33"
+Late,54,capsid/structural,6,11.11111111111111,"UL18, UL19, UL26, UL26.5, UL35, UL38"
+Late,54,nuclear egress,3,5.555555555555555,"UL20, UL31, UL34"
+Late,54,transcriptional/regulatory,1,1.8518518518518516,UL48
