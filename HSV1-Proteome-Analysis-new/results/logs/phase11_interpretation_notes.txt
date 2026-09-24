@@ -1,0 +1,38 @@
+PHASE 11 SCIENTIFIC INTERPRETATION NOTES
+============================================================
+
+1. Intrinsic Cluster Geometry (Internal Validation)
+------------------------------------------------------------
+- Physicochemical representation exhibited varying silhouette scores across K=2..10,
+  with maximum silhouette observed at lower K values.
+- ProtBERT representation exhibited distinct cluster density profiles with lower geometric
+  dispersion compared to classical descriptors.
+- Combined equal-block-weighting balanced the aggregate variance contributions between
+  the 25 physicochemical features and 1024 ProtBERT dimensions.
+
+2. Biological Concordance (External Validation)
+------------------------------------------------------------
+- Adjusted Rand Index (ARI) and Normalized Mutual Information (NMI) measured the degree
+  of concordance between unsupervised cluster assignments and independent temporal classes (IE=5, E=15, L=54).
+- Because Late proteins constitute 72.97% of the proteome, high cluster purity frequently reflects
+  majority-class dominance rather than complete three-class partitioning.
+- Permutation testing (1,000 iterations) confirmed that observed agreement levels must be evaluated
+  relative to the label-randomized null distribution.
+
+3. Cluster Stability Analysis
+------------------------------------------------------------
+- Multi-seed K-Means stability across 5 random seeds demonstrated high reproducibility for well-separated
+  partitions, with variation observed in boundary proteins.
+- Hierarchical clustering (Ward, Average, Complete) provided deterministic cluster trees.
+
+4. Secondary PCA-Reduced Sensitivity
+------------------------------------------------------------
+- Clustering performed on >=95% variance PCA representations (16 PCs for Phys, 19 for ProtBERT,
+  37 for Combined) confirmed consistent relative geometric trends between full and reduced spaces.
+
+5. Predefined Neutrality Rules
+------------------------------------------------------------
+- No representation is declared 'superior' or 'best'.
+- Unsupervised clustering results reflect intrinsic sequence geometry and do not constitute
+  mechanistic proof of temporal transcriptional regulation.
+

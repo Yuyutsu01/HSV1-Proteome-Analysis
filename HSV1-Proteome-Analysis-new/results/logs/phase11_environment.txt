@@ -1,0 +1,9 @@
+Timestamp: 2026-09-24T17:23:03.755058
+OS Platform: Windows-10-10.0.26200-SP0
+Python Version: 3.11.8
+numpy: 2.4.6
+pandas: 3.0.5
+scikit-learn: 1.9.0
+scipy: 1.17.1
+matplotlib: 3.11.1
+seaborn: 0.13.2

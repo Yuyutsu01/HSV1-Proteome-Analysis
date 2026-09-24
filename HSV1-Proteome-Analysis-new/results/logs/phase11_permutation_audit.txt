@@ -1,0 +1,62 @@
+================================================================================
+PHASE 11 STATISTICAL AUDIT REPORT: PERMUTATION TEST IMPLEMENTATION
+================================================================================
+
+1. Implementation Inspected
+--------------------------------------------------------------------------------
+- Script: scripts/11_unsupervised_clustering.py
+- Function: run_permutation_tests()
+- Evaluated Statistics: Adjusted Rand Index (ARI), Normalized Mutual Information (NMI)
+- Target: 144 clustering configurations (4 representations x 4 methods x 9 K values)
+- Number of Permutations per Configuration: B = 1,000 label permutations
+- Random Seed: PRIMARY_SEED = 42 (numpy.random.RandomState(42))
+- Null Generation: Random shuffling of ground-truth temporal class labels (y_perm = rng.permutation(y_true))
+- Definition of Extreme Permutation: T_null >= T_observed
+
+2. Empirical P-Value Formulations & Finite-Sample Correction
+--------------------------------------------------------------------------------
+- Original Formula:
+    p_empirical = sum(I(T_null >= T_obs)) / B
+
+- Corrected Standard Finite-Sample Formula (Davison & Hinkley 1997; North et al. 2002):
+    p_empirical = (sum(I(T_null >= T_obs)) + 1) / (B + 1)
+
+- Statistical Rationale:
+    Under a Monte Carlo permutation test with B randomly sampled permutations from the permutation
+    sample space, the observed test statistic represents one valid realization under the null hypothesis.
+    The unbiased estimator including the observed data point ensures that p-values are bounded in (0, 1]
+    and cannot be strictly zero for finite B (minimum p-value for B=1,000 is 1/1001 ≈ 0.000999001).
+
+3. Audit of Zero P-Values
+--------------------------------------------------------------------------------
+- Number of Zero P-Values Before Correction:
+    * empirical_p_ARI == 0: 21 configurations
+    * empirical_p_NMI == 0: 58 configurations
+- Number of Zero P-Values After Correction:
+    * empirical_p_ARI == 0: 0 configurations
+    * empirical_p_NMI == 0: 0 configurations
+- Finite-Sample Lower Bound for Zero Extreme Permutations: 1 / 1001 ≈ 0.000999001
+
+4. Code and Artifact Integrity Check
+--------------------------------------------------------------------------------
+- Code Modified: scripts/11_unsupervised_clustering.py (run_permutation_tests formula updated).
+- Underlying Clustering Results Changed: NO.
+    * Cluster assignments: Identical across all 74 proteins.
+    * Observed ARI values: Identical (e.g. Combined Equal-Block Ward K=3: observed ARI = 0.226697).
+    * Observed NMI values: Identical (e.g. Combined Equal-Block Ward K=3: observed NMI = 0.287672).
+    * Null distribution moments (mean, SD, 95th percentile): Identical.
+    * Upstream Phase 1–10 datasets, annotations, and representations: Completely untouched and frozen.
+
+5. Multiple Testing and Interpretation Safeguards
+--------------------------------------------------------------------------------
+- Permutation p-values provide exploratory evidence of association relative to the label-permutation null
+  across the evaluated clustering configurations; they are NOT interpreted as independent confirmatory
+  hypothesis tests.
+- Prohibited claims (e.g. "proved biological organization", "confirmed temporal regulation") are strictly
+  excluded from all documentation.
+
+6. Validation Status
+--------------------------------------------------------------------------------
+- Test Suite: pytest tests/ (43/43 passed, 100% pass rate).
+- Permutation Audit Outcome: PASS
+================================================================================
