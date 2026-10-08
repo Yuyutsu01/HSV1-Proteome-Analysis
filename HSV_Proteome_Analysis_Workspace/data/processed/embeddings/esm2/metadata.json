@@ -1,0 +1,10 @@
+{
+  "model_name": "facebook/esm2_t6_8M_UR50D",
+  "embedding_dimension": 320,
+  "pooling_method": "token_mean_then_chunk_mean",
+  "window_size": 512,
+  "chunk_overlap": 64,
+  "total_sequences": 16657,
+  "total_chunks": 31388,
+  "extraction_time_seconds": 1554.68
+}
