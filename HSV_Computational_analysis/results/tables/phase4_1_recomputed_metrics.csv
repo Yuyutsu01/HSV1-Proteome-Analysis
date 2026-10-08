@@ -1,0 +1,2 @@
+experiment_id,representation,model,split_regime,seed,n_samples,accuracy,balanced_accuracy,macro_f1,weighted_f1,mcc,ie_precision,ie_recall,ie_f1,early_precision,early_recall,early_f1,late_precision,late_recall,late_f1,source_prediction_file
+EXP_ESM2_LOGREG_HOMOLOGY_TEST,ESM-2 (320-dim),Logistic Regression,Homology-Aware,42,3575,0.949371,0.965641,0.945886,0.950633,0.910559,0.983897,0.996737,0.990276,0.818727,0.970128,0.888021,0.99057,0.930058,0.959361,results/tables/phase4_error_analysis.csv

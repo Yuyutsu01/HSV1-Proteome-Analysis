@@ -1,0 +1,7 @@
+parameter,expected,observed,status
+Homology Threshold Identity,70%,70% CD-HIT clusters (Phase 3),PASS
+Total 70% Clusters,437,437,PASS
+Train Partition Clusters,400,400,PASS
+Validation Partition Clusters,25,25,PASS
+Test Partition Clusters,12,12,PASS
+Cluster Leakage,0 overlapping clusters,0 overlapping,PASS

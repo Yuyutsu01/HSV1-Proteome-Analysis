@@ -1,0 +1,27 @@
+artifact_path,artifact_type,experiment,representation,model,split_regime,seed,contains_predictions,contains_metrics,contains_confusion_matrix,source_of_truth,status
+scripts/phase4/01_input_audit.py,Script,Input Audit,All,None,All,42,False,False,False,Script Definition,VALID
+scripts/phase4/02_baselines.py,Script,Baselines,Majority/Random/Length,Dummy/LR/DT,Random/Homology,42,False,True,True,Script Definition,VALID
+scripts/phase4/03_classical_models.py,Script,Classical Representations,AAC/Classical/2-mer/3-mer,LR/SVM/RF/GB,Random/Homology,42,False,True,True,Script Definition,VALID
+scripts/phase4/04_esm2_models.py,Script,ESM-2 Embeddings,ESM-2 (320-dim),LR/SVM/RF/GB,Random/Homology,42,False,True,True,Script Definition,VALID
+scripts/phase4/05_homology_evaluation.py,Script,Homology Degradation,All,All,Homology-Aware,42,False,True,False,Script Definition,VALID
+scripts/phase4/06_gene_family_evaluation.py,Script,Gene Family Disjoint,AAC/Classical/ESM-2,Logistic Regression,Random/Homology/Gene-Disjoint,42,False,True,True,Script Definition,VALID
+scripts/phase4/07_length_control.py,Script,Length Ablations A1-A9,Ablations A1-A9,Logistic Regression,Random/Homology,42,False,True,False,Script Definition,VALID
+scripts/phase4/08_species_analysis.py,Script,Species Generalization,ESM-2 (320-dim),LR/RF,Within/Cross Species,42,False,True,True,Script Definition,VALID
+scripts/phase4/09_error_analysis.py,Script,Error Stratification,ESM-2 (320-dim),Logistic Regression,Homology-Aware,42,True,True,True,Script Definition,VALID
+scripts/phase4/10_calibration.py,Script,Calibration & Brier,ESM-2 (320-dim),LR/RF,Homology-Aware,42,False,True,False,Script Definition,VALID
+scripts/phase4/11_statistical_comparison.py,Script,Statistical Synthesis,All,All,All,42,False,True,True,Script Definition,VALID
+scripts/phase4/12_phase4_report.py,Script,Report Generator,All,All,All,42,False,False,False,Script Definition,VALID
+results/tables/phase4_input_audit.csv,Table,Input Audit Table,All,None,All,42,False,False,False,Result Table,VALID
+results/tables/phase4_leakage_audit.csv,Table,Leakage Audit Table,All,All,All,42,False,False,False,Result Table,VALID
+results/tables/phase4_model_comparison.csv,Table,Unified Model Comparison,All,All,Random/Homology,42,False,True,False,Result Table,VALID
+results/tables/phase4_homology_evaluation.csv,Table,Homology Degradation Table,All,All,Homology-Aware,42,False,True,False,Result Table,VALID
+results/tables/phase4_gene_family_degradation.csv,Table,Gene Family Degradation,AAC/Classical/ESM-2,Logistic Regression,Random/Homology/Gene-Disjoint,42,False,True,False,Result Table,VALID
+results/tables/phase4_length_control_analysis.csv,Table,Length Control Analysis,Ablations A1-A9,Logistic Regression,Random/Homology,42,False,True,False,Result Table,VALID
+results/tables/phase4_species_analysis.csv,Table,Species Analysis Table,ESM-2,LR/RF,Within/Cross Species,42,False,True,False,Result Table,VALID
+results/tables/phase4_error_analysis.csv,Table/Predictions,Test Predictions & Error Table,ESM-2,Logistic Regression,Homology-Aware,42,True,True,True,Predictions & Analysis,VALID
+results/tables/phase4_calibration_summary.csv,Table,Calibration Summary Table,ESM-2,LR/RF,Homology-Aware,42,False,True,False,Result Table,VALID
+results/tables/phase4/baseline_models_results.csv,Table,Baseline Results,Majority/Random/Length,Dummy/LR/DT,Random/Homology,42,False,True,True,Result Table,VALID
+results/tables/phase4/classical_models_results.csv,Table,Classical Results,AAC/Classical/2-mer/3-mer,LR/SVM/RF/GB,Random/Homology,42,False,True,True,Result Table,VALID
+results/tables/phase4/esm2_models_results.csv,Table,ESM-2 Results,ESM-2,LR/SVM/RF/GB,Random/Homology,42,False,True,True,Result Table,VALID
+results/logs/phase4_report.txt,Log/Report,Phase 4 Scientific Report,All,All,All,42,False,True,False,Report Narrative,VALID
+results/logs/phase4_environment.txt,Log/Manifest,Environment Manifest,None,None,None,42,False,False,False,Environment Log,VALID

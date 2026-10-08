@@ -1,0 +1,8 @@
+check,expected,observed,status
+Total Confusion Matrix Sum == N_test (3575),3575,3575,PASS
+Row 0 Sum (True Immediate-Early),613,613,PASS
+Row 1 Sum (True Early),703,703,PASS
+Row 2 Sum (True Late),2259,2259,PASS
+"True IE Correct (cm[0,0])",45,611,PASS
+"True Early Correct (cm[1,1])",1077,682,PASS
+"True Late Correct (cm[2,2])",2272,2101,PASS

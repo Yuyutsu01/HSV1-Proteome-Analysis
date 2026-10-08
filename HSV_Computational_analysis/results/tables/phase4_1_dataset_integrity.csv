@@ -1,0 +1,13 @@
+invariant_name,expected_value,observed_value,status
+Total Sequence Count,16657,16657,PASS
+Unique Canonical IDs,16657,16657,PASS
+Missing Labels Count,0,0,PASS
+Immediate-Early Count,1552,1552,PASS
+Early Count,4140,4140,PASS
+Late Count,10965,10965,PASS
+Sum of Classes Reconciles,16657,16657,PASS
+Saved Predictions Count (Homology Test),3575,3575,PASS
+Saved Predictions Valid IDs,True,True,PASS
+Saved Predictions No Duplicates,True,True,PASS
+Saved Predictions No Nulls,True,True,PASS
+Saved Predictions True Labels Match Supervised Dataset,True,True,PASS

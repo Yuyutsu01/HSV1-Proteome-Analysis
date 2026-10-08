@@ -1,0 +1,49 @@
+experiment_id,representation,model,evaluation_regime,seed,n_train,n_validation,n_test,status,preprocessing,class_weight
+EXP_NONE_MAJORITY_RANDOM_00,None (Baseline),Majority Class (Always Late),Random Stratified,42,11659,2497,2501,VALID,StandardScaler (Train-only fit),balanced
+EXP_NONE_STRATIFIED_RANDOM_01,None (Baseline),Stratified Random,Random Stratified,42,11659,2497,2501,VALID,StandardScaler (Train-only fit),balanced
+EXP_LENGTH_LOGISTIC_RANDOM_02,Length Only,Logistic Regression (Length),Random Stratified,42,11659,2497,2501,VALID,StandardScaler (Train-only fit),balanced
+EXP_LENGTH_DECISION_RANDOM_03,Length Only,"Decision Tree (Length, depth=3)",Random Stratified,42,11659,2497,2501,VALID,StandardScaler (Train-only fit),balanced
+EXP_NONE_MAJORITY_HOMOLOGYAWARE_04,None (Baseline),Majority Class (Always Late),Homology-Aware,42,12217,865,3575,VALID,StandardScaler (Train-only fit),balanced
+EXP_NONE_STRATIFIED_HOMOLOGYAWARE_05,None (Baseline),Stratified Random,Homology-Aware,42,12217,865,3575,VALID,StandardScaler (Train-only fit),balanced
+EXP_LENGTH_LOGISTIC_HOMOLOGYAWARE_06,Length Only,Logistic Regression (Length),Homology-Aware,42,12217,865,3575,VALID,StandardScaler (Train-only fit),balanced
+EXP_LENGTH_DECISION_HOMOLOGYAWARE_07,Length Only,"Decision Tree (Length, depth=3)",Homology-Aware,42,12217,865,3575,VALID,StandardScaler (Train-only fit),balanced
+EXP_AAC_LOGISTIC_RANDOM_08,AAC,Logistic Regression,Random Stratified,42,11659,2497,2501,VALID,StandardScaler (Train-only fit),balanced
+EXP_AAC_LINEAR_RANDOM_09,AAC,Linear SVM,Random Stratified,42,11659,2497,2501,VALID,StandardScaler (Train-only fit),balanced
+EXP_AAC_RANDOM_RANDOM_10,AAC,Random Forest,Random Stratified,42,11659,2497,2501,VALID,StandardScaler (Train-only fit),balanced
+EXP_AAC_GRADIENT_RANDOM_11,AAC,Gradient Boosting,Random Stratified,42,11659,2497,2501,VALID,StandardScaler (Train-only fit),balanced
+EXP_CLASSICAL_LOGISTIC_RANDOM_12,Classical Descriptors,Logistic Regression,Random Stratified,42,11659,2497,2501,VALID,StandardScaler (Train-only fit),balanced
+EXP_CLASSICAL_LINEAR_RANDOM_13,Classical Descriptors,Linear SVM,Random Stratified,42,11659,2497,2501,VALID,StandardScaler (Train-only fit),balanced
+EXP_CLASSICAL_RANDOM_RANDOM_14,Classical Descriptors,Random Forest,Random Stratified,42,11659,2497,2501,VALID,StandardScaler (Train-only fit),balanced
+EXP_CLASSICAL_GRADIENT_RANDOM_15,Classical Descriptors,Gradient Boosting,Random Stratified,42,11659,2497,2501,VALID,StandardScaler (Train-only fit),balanced
+EXP_2MER_LOGISTIC_RANDOM_16,2-mer (Dipeptides),Logistic Regression,Random Stratified,42,11659,2497,2501,VALID,StandardScaler (Train-only fit),balanced
+EXP_2MER_LINEAR_RANDOM_17,2-mer (Dipeptides),Linear SVM,Random Stratified,42,11659,2497,2501,VALID,StandardScaler (Train-only fit),balanced
+EXP_2MER_RANDOM_RANDOM_18,2-mer (Dipeptides),Random Forest,Random Stratified,42,11659,2497,2501,VALID,StandardScaler (Train-only fit),balanced
+EXP_2MER_GRADIENT_RANDOM_19,2-mer (Dipeptides),Gradient Boosting,Random Stratified,42,11659,2497,2501,VALID,StandardScaler (Train-only fit),balanced
+EXP_3MER_LOGISTIC_RANDOM_20,3-mer (Tripeptides),Logistic Regression,Random Stratified,42,11659,2497,2501,VALID,StandardScaler (Train-only fit),balanced
+EXP_3MER_LINEAR_RANDOM_21,3-mer (Tripeptides),Linear SVM,Random Stratified,42,11659,2497,2501,VALID,StandardScaler (Train-only fit),balanced
+EXP_3MER_RANDOM_RANDOM_22,3-mer (Tripeptides),Random Forest,Random Stratified,42,11659,2497,2501,VALID,StandardScaler (Train-only fit),balanced
+EXP_3MER_GRADIENT_RANDOM_23,3-mer (Tripeptides),Gradient Boosting,Random Stratified,42,11659,2497,2501,VALID,StandardScaler (Train-only fit),balanced
+EXP_AAC_LOGISTIC_HOMOLOGYAWARE_24,AAC,Logistic Regression,Homology-Aware,42,12217,865,3575,VALID,StandardScaler (Train-only fit),balanced
+EXP_AAC_LINEAR_HOMOLOGYAWARE_25,AAC,Linear SVM,Homology-Aware,42,12217,865,3575,VALID,StandardScaler (Train-only fit),balanced
+EXP_AAC_RANDOM_HOMOLOGYAWARE_26,AAC,Random Forest,Homology-Aware,42,12217,865,3575,VALID,StandardScaler (Train-only fit),balanced
+EXP_AAC_GRADIENT_HOMOLOGYAWARE_27,AAC,Gradient Boosting,Homology-Aware,42,12217,865,3575,VALID,StandardScaler (Train-only fit),balanced
+EXP_CLASSICAL_LOGISTIC_HOMOLOGYAWARE_28,Classical Descriptors,Logistic Regression,Homology-Aware,42,12217,865,3575,VALID,StandardScaler (Train-only fit),balanced
+EXP_CLASSICAL_LINEAR_HOMOLOGYAWARE_29,Classical Descriptors,Linear SVM,Homology-Aware,42,12217,865,3575,VALID,StandardScaler (Train-only fit),balanced
+EXP_CLASSICAL_RANDOM_HOMOLOGYAWARE_30,Classical Descriptors,Random Forest,Homology-Aware,42,12217,865,3575,VALID,StandardScaler (Train-only fit),balanced
+EXP_CLASSICAL_GRADIENT_HOMOLOGYAWARE_31,Classical Descriptors,Gradient Boosting,Homology-Aware,42,12217,865,3575,VALID,StandardScaler (Train-only fit),balanced
+EXP_2MER_LOGISTIC_HOMOLOGYAWARE_32,2-mer (Dipeptides),Logistic Regression,Homology-Aware,42,12217,865,3575,VALID,StandardScaler (Train-only fit),balanced
+EXP_2MER_LINEAR_HOMOLOGYAWARE_33,2-mer (Dipeptides),Linear SVM,Homology-Aware,42,12217,865,3575,VALID,StandardScaler (Train-only fit),balanced
+EXP_2MER_RANDOM_HOMOLOGYAWARE_34,2-mer (Dipeptides),Random Forest,Homology-Aware,42,12217,865,3575,VALID,StandardScaler (Train-only fit),balanced
+EXP_2MER_GRADIENT_HOMOLOGYAWARE_35,2-mer (Dipeptides),Gradient Boosting,Homology-Aware,42,12217,865,3575,VALID,StandardScaler (Train-only fit),balanced
+EXP_3MER_LOGISTIC_HOMOLOGYAWARE_36,3-mer (Tripeptides),Logistic Regression,Homology-Aware,42,12217,865,3575,VALID,StandardScaler (Train-only fit),balanced
+EXP_3MER_LINEAR_HOMOLOGYAWARE_37,3-mer (Tripeptides),Linear SVM,Homology-Aware,42,12217,865,3575,VALID,StandardScaler (Train-only fit),balanced
+EXP_3MER_RANDOM_HOMOLOGYAWARE_38,3-mer (Tripeptides),Random Forest,Homology-Aware,42,12217,865,3575,VALID,StandardScaler (Train-only fit),balanced
+EXP_3MER_GRADIENT_HOMOLOGYAWARE_39,3-mer (Tripeptides),Gradient Boosting,Homology-Aware,42,12217,865,3575,VALID,StandardScaler (Train-only fit),balanced
+EXP_ESM2_LOGISTIC_RANDOM_40,ESM-2 (320-dim),Logistic Regression,Random Stratified,42,11659,2497,2501,VALID,StandardScaler (Train-only fit),balanced
+EXP_ESM2_LINEAR_RANDOM_41,ESM-2 (320-dim),Linear SVM,Random Stratified,42,11659,2497,2501,VALID,StandardScaler (Train-only fit),balanced
+EXP_ESM2_RANDOM_RANDOM_42,ESM-2 (320-dim),Random Forest,Random Stratified,42,11659,2497,2501,VALID,StandardScaler (Train-only fit),balanced
+EXP_ESM2_GRADIENT_RANDOM_43,ESM-2 (320-dim),Gradient Boosting,Random Stratified,42,11659,2497,2501,VALID,StandardScaler (Train-only fit),balanced
+EXP_ESM2_LOGISTIC_HOMOLOGYAWARE_44,ESM-2 (320-dim),Logistic Regression,Homology-Aware,42,12217,865,3575,VALID,StandardScaler (Train-only fit),balanced
+EXP_ESM2_LINEAR_HOMOLOGYAWARE_45,ESM-2 (320-dim),Linear SVM,Homology-Aware,42,12217,865,3575,VALID,StandardScaler (Train-only fit),balanced
+EXP_ESM2_RANDOM_HOMOLOGYAWARE_46,ESM-2 (320-dim),Random Forest,Homology-Aware,42,12217,865,3575,VALID,StandardScaler (Train-only fit),balanced
+EXP_ESM2_GRADIENT_HOMOLOGYAWARE_47,ESM-2 (320-dim),Gradient Boosting,Homology-Aware,42,12217,865,3575,VALID,StandardScaler (Train-only fit),balanced

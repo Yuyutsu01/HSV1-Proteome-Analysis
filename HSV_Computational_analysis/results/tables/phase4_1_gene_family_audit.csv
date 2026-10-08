@@ -1,0 +1,9 @@
+check_item,expected,observed,status
+Gene-Family Disjoint Split Invariant,Zero overlapping gene families,0 overlapping gene families,PASS
+Total Gene Groups in Train,74,74,PASS
+Total Gene Groups in Test,17,17,PASS
+Train Sequence Count,9572,9572,PASS
+Test Sequence Count,7085,7085,PASS
+AAC Disjoint Macro-F1,0.7042,0.7042,PASS
+ESM-2 Disjoint Macro-F1,0.5784,0.5784,PASS
+Classical Disjoint Macro-F1,0.446,0.446,PASS

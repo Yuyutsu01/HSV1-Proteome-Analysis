@@ -1,0 +1,10 @@
+check_name,expected,observed,status
+Random Split: Train intersect Val,0,0,PASS
+Random Split: Train intersect Test,0,0,PASS
+Random Split: Val intersect Test,0,0,PASS
+Homology Split: Train intersect Val Seq IDs,0,0,PASS
+Homology Split: Train intersect Test Seq IDs,0,0,PASS
+Homology Split: Val intersect Test Seq IDs,0,0,PASS
+Homology Clusters: Train intersect Val Clusters,0,0,PASS
+Homology Clusters: Train intersect Test Clusters,0,0,PASS
+Homology Clusters: Val intersect Test Clusters,0,0,PASS

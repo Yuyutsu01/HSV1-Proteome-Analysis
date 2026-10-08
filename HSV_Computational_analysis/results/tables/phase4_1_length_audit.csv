@@ -1,0 +1,8 @@
+check_item,expected,observed,status
+Feature Input Definition,sequence_length strictly (1-dim),normalized_length only,PASS
+Random Split Decision Tree Macro-F1,0.6366,0.6366,PASS
+Random Split Logistic Regression Macro-F1,0.395,0.395,PASS
+Homology Split Decision Tree Macro-F1,0.2171,0.2171,PASS
+Homology Split Logistic Regression Macro-F1,0.1634,0.1634,PASS
+Homology Split MCC,< 0.0 (Below Chance),-0.1248,PASS
+Conclusion on Length Generalization,Fails completely under homology holdout,"Confirmed (Macro-F1 0.1634, MCC -0.1248)",PASS

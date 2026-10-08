@@ -1,0 +1,19 @@
+representation,model,split_regime,accuracy,balanced_accuracy,macro_f1,weighted_f1,mcc,ie_f1,early_f1,late_f1,verification_status
+None (Baseline),Majority Class (Always Late),Random Stratified,0.6581,0.3333,0.2646,0.5224,0.0,0.0,0.0,0.7938,VERIFIED
+None (Baseline),Majority Class (Always Late),Homology-Aware,0.6319,0.3333,0.2581,0.4894,0.0,0.0,0.0,0.7744,VERIFIED
+None (Baseline),Stratified Random,Random Stratified,0.503,0.338,0.3378,0.511,0.0025,0.1079,0.2641,0.6614,VERIFIED
+None (Baseline),Stratified Random,Homology-Aware,0.4839,0.3317,0.3139,0.4748,0.0005,0.0795,0.2363,0.6563,VERIFIED
+Length Only,"Decision Tree (Length, depth=3)",Random Stratified,0.7341,0.6328,0.6366,0.7225,0.4371,0.5523,0.5429,0.8145,VERIFIED
+Length Only,"Decision Tree (Length, depth=3)",Homology-Aware,0.3301,0.1748,0.2171,0.4105,-0.0378,0.0009,0.0017,0.6489,VERIFIED
+Length Only,Logistic Regression (Length),Random Stratified,0.5858,0.4656,0.395,0.5706,0.2165,0.2743,0.1327,0.7779,VERIFIED
+Length Only,Logistic Regression (Length),Homology-Aware,0.2092,0.1108,0.1634,0.3094,-0.1248,0.0009,0.0,0.4894,VERIFIED
+AAC,Logistic Regression,Random Stratified,0.7777,0.8498,0.7856,0.7849,0.6245,0.863,0.6805,0.8131,VERIFIED
+AAC,Logistic Regression,Homology-Aware,0.6898,0.621,0.5694,0.6476,0.3993,0.8492,0.0935,0.7654,VERIFIED
+AAC,Random Forest,Homology-Aware,0.9083,0.874,0.8894,0.9052,0.8253,0.9563,0.7822,0.9296,VERIFIED
+Classical Descriptors,Gradient Boosting,Homology-Aware,0.7922,0.6582,0.6136,0.7107,0.6109,0.975,0.0083,0.8576,VERIFIED
+2-mer (Dipeptides),Logistic Regression,Homology-Aware,0.9966,0.9974,0.9961,0.9966,0.9937,0.9959,0.995,0.9973,VERIFIED
+3-mer (Tripeptides),Gradient Boosting,Homology-Aware,0.9964,0.9958,0.9954,0.9964,0.9932,0.9935,0.995,0.9976,VERIFIED
+3-mer (Tripeptides),Logistic Regression,Homology-Aware,0.9813,0.9893,0.9797,0.9815,0.966,0.9984,0.9558,0.985,VERIFIED
+ESM-2 (320-dim),Logistic Regression,Random Stratified,0.984,0.9869,0.9835,0.984,0.9679,0.9915,0.9712,0.9878,VERIFIED
+ESM-2 (320-dim),Logistic Regression,Homology-Aware,0.9494,0.9656,0.9459,0.9506,0.9106,0.9903,0.888,0.9594,VERIFIED
+ESM-2 (320-dim),Linear SVM,Homology-Aware,0.9264,0.9537,0.9248,0.9294,0.8752,0.9927,0.8426,0.9393,VERIFIED
