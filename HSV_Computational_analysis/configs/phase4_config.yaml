@@ -1,0 +1,63 @@
+# Phase 4 Configuration: Baseline & Predictive Modeling
+# Project: HSV_Computational_analysis
+
+random_seed: 42
+repeated_seeds: [42, 123, 456, 789, 1011]
+
+dataset:
+  supervised_path: "data/processed/final_temporal_supervised_dataset.csv"
+  corpus_path: "data/processed/final_curated_hsv_protein_corpus.csv"
+  manifest_path: "data/processed/phase3_sequence_manifest.csv"
+  split_manifest_path: "data/processed/phase3_split_manifest.csv"
+  target_column: "temporal_class"
+  id_column: "canonical_id"
+  classes: ["IMMEDIATE_EARLY", "EARLY", "LATE"]
+  expected_counts:
+    IMMEDIATE_EARLY: 1552
+    EARLY: 4140
+    LATE: 10965
+    TOTAL: 16657
+
+features:
+  aac_path: "data/processed/phase3_aac_features.csv"
+  classical_path: "data/processed/phase3_classical_sequence_features.csv"
+  kmer_k2_path: "data/processed/phase3_kmer_features/kmer_k2_features.npz"
+  kmer_k3_path: "data/processed/phase3_kmer_features/kmer_k3_features.npz"
+  esm2_path: "data/processed/embeddings/esm2/esm2_embeddings.npz"
+  esm2_meta_path: "data/processed/embeddings/esm2/metadata.json"
+
+models:
+  logistic_regression:
+    max_iter: 1000
+    C: 1.0
+    solver: "lbfgs"
+  linear_svm:
+    C: 1.0
+    max_iter: 2000
+  random_forest:
+    n_estimators: 100
+    max_depth: 15
+    n_jobs: -1
+  xgboost:
+    n_estimators: 100
+    max_depth: 6
+    learning_rate: 0.1
+    n_jobs: -1
+
+paths:
+  tables_dir: "results/tables"
+  figures_dir: "results/figures/phase4"
+  logs_dir: "results/logs"
+  phase4_tables_dir: "results/tables/phase4"
+  phase4_logs_dir: "results/logs/phase4"
+  input_audit: "results/tables/phase4_input_audit.csv"
+  leakage_audit: "results/tables/phase4_leakage_audit.csv"
+  model_comparison: "results/tables/phase4_model_comparison.csv"
+  gene_family_degradation: "results/tables/phase4_gene_family_degradation.csv"
+  length_control: "results/tables/phase4_length_control_analysis.csv"
+  species_analysis: "results/tables/phase4_species_analysis.csv"
+  error_analysis: "results/tables/phase4_error_analysis.csv"
+  calibration: "results/tables/phase4_calibration_summary.csv"
+  statistical_comparison: "results/tables/phase4_statistical_comparison.csv"
+  environment_log: "results/logs/phase4_environment.txt"
+  phase4_report: "results/logs/phase4_report.txt"
