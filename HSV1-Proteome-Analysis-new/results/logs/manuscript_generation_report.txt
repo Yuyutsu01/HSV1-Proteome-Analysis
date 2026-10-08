@@ -1,0 +1,65 @@
+================================================================================
+FINAL MANUSCRIPT GENERATION & VALIDATION REPORT
+Project: Computational Representation and Classification Analysis of the HSV-1 Proteome
+Date: 2026-09-24
+Status: COMPLETE, AUDITED, AND FULLY FROZEN
+================================================================================
+
+1. CORE MANUSCRIPT SPECIFICATIONS
+--------------------------------------------------------------------------------
+- Primary Manuscript Path: manuscript/HSV1_proteome_complete_final.md
+- Total Word Count: 6,663 words
+- Total Characters: 53,987 characters
+- Total Lines: 437 lines
+- Document Structure:
+  * Title, Structured Abstract, Keywords
+  * Section 1: Introduction (6 paragraphs)
+  * Section 2: Study Objectives (7 explicit, testable aims)
+  * Section 3: Materials and Methods (11 comprehensive subsections)
+  * Section 4: Results (10 empirical subsections with full quantitative values)
+  * Section 5: Discussion (9 subsections, including 6 biological case studies)
+  * Section 6: Conclusion
+  * Statements: Data Availability, Code Availability, Ethics, Author Contributions, Conflict of Interest, Funding, Acknowledgments
+  * References: 39 fully traceable citations
+  * Supplementary Material Index
+
+2. DELIVERABLE ARTIFACTS INVENTORY
+--------------------------------------------------------------------------------
+- Main Manuscript: manuscript/HSV1_proteome_complete_final.md
+- Figure Legends: manuscript/FIGURE_LEGENDS.md (Figures 1–8)
+- Table Legends: manuscript/TABLE_LEGENDS.md (Tables 1–10)
+- Supplementary Materials: manuscript/SUPPLEMENTARY_MATERIALS.md (Tables S1–S13, Notes S1–S3)
+- Citation Audit: results/logs/manuscript_citation_audit.txt
+- Generation Report: results/logs/manuscript_generation_report.txt
+- Claim Audit Table: results/tables/final_claim_audit.csv
+
+3. AUDIT & CONSISTENCY METRICS
+--------------------------------------------------------------------------------
+- Publication Figures: 8 figures (Figure_1 through Figure_8 in manuscript/figures/)
+- Canonical Tables: 10 tables (Table 1 through Table 10 in results/tables/)
+- Supplementary Tables: 13 tables (Table S1 through Table S13 indexed in supplementary/)
+- Total Verified References: 39 (0 placeholders, 100% verified)
+- Numerical Consistency Status: 100% VERIFIED across all metrics
+  * Proteome Cardinality: 77 raw records -> 74 unique canonical proteins (3 duplicate copies removed: RL2, RL1, RS1)
+  * Class Distribution: Immediate-Early = 5 (6.8%), Early = 15 (20.3%), Late = 54 (73.0%)
+  * Dimensionality: 25 physicochemical features, 1024 ProtBERT dimensions, 1049 combined dimensions
+  * Chunking: 500 aa chunk, 100 aa overlap, 400 aa step; UL36 = 3,139 aa (8 chunks); US12 = 88 aa
+  * Primary Phase 12 Model (Combined Equal-Block LogReg Balanced):
+    - Accuracy = 76.51% +- 10.2%
+    - Balanced Accuracy = 75.86% +- 12.3%
+    - Macro-F1 = 0.684 +- 0.12
+    - MCC = 0.533 +- 0.19
+    - IE Recall = 80.0%, Early Recall = 69.3%, Late Recall = 78.3%
+  * Naive Majority Baseline: Accuracy = 72.97%, Balanced Accuracy = 33.33%, IE Recall = 0.0%
+  * Independent Seed Sensitivity (Phase 14): Balanced Accuracy = 0.754 +- 0.017, Macro-F1 = 0.665
+  * Modality Disagreement (Phase 13): 44/74 agree (59.5%), 30/74 discordant (19 ProtBERT, 11 Phys, 0 three-way)
+  * Decision Margin Errors (Phase 13): 7 High-Confidence (Delta_p > 0.35: UL15, RL1, US12, UL11, UL8, UL24, UL41), 4 Moderate-Margin (UL36 Delta_p=0.333, UL49, UL52, UL13)
+- Overclaim Audit Status: 100% PASSED (All claims restricted to computational associations and evidence-appropriate wording; 0 causal overclaims).
+- Upstream Artifact Integrity: 100% PRESERVED (zero modifications to raw/processed data or Phase 11–15 outputs).
+
+4. UNIT TEST VERIFICATION
+--------------------------------------------------------------------------------
+- Test Suite: 10 test modules in tests/
+- Command: pytest tests/ -v
+- Result: 105 passed, 0 failed in 11.68s.
+================================================================================
