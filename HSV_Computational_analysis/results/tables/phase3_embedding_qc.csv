@@ -1,0 +1,2 @@
+model_name,embedding_dimension,total_embeddings,expected_sequences,nan_count,inf_count,min_value,max_value,mean_value,std_value,qc_status
+facebook/esm2_t6_8M_UR50D,320,16657,16657,0,0,-5.325183,1.226629,-0.010806,0.312004,PASSED

@@ -1,0 +1,2 @@
+model_name,max_context_length,chunk_size,chunk_overlap,pooling_method,total_sequences,sequences_exceeding_max_len,fraction_exceeding,min_sequence_length,max_sequence_length,max_chunks_required
+facebook/esm2_t6_8M_UR50D,512,512,64,mean_chunk_pooling,16657,8541,0.5128,2,6165,14

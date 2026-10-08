@@ -1,0 +1,2 @@
+total_sequences,IE_count,Early_count,Late_count,class_fraction,HSV1_count,HSV2_count,unique_genes,unique_proteins,length_min,length_max,length_mean,length_median,length_std,length_q1,length_q3
+16657,1552,4140,10965,"IE: 0.0932, Early: 0.2485, Late: 0.6583",9000,7657,76,542,2,6165,689.42,532.0,600.08,318.0,838.0

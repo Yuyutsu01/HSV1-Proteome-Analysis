@@ -1,0 +1,5 @@
+representation,feature_dimension,pc1_explained_variance,pc2_explained_variance,pc1_pc2_cumulative_variance,silhouette_temporal_class,silhouette_gene_identity,silhouette_species
+Classical Features,13,0.2131,0.1884,0.4016,-0.0221,-0.0908,0.0051
+AAC,20,0.2055,0.1129,0.3184,0.0167,-0.026,0.007
+K-mer (k=2),400,0.0445,0.0303,0.0748,0.0177,-0.0008,0.0033
+ESM-2,320,0.1801,0.1123,0.2924,-0.0033,-0.0454,0.018

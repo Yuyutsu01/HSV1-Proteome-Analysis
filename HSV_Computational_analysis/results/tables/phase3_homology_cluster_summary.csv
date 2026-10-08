@@ -1,0 +1,4 @@
+identity_threshold,total_clusters,singleton_clusters,singleton_fraction,large_clusters_ge_10,max_cluster_size,mean_cluster_size,median_cluster_size,total_sequences_clustered
+0.9,800,466,0.5825,153,635,20.82,1.0,16657
+0.7,437,261,0.5973,84,4197,38.12,1.0,16657
+0.5,252,152,0.6032,39,7996,66.1,1.0,16657

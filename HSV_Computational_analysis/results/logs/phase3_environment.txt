@@ -1,0 +1,31 @@
+================================================================================
+PHASE 3 ENVIRONMENT & REPRODUCIBILITY MANIFEST
+================================================================================
+Timestamp: 2026-10-08T22:07:13.454626
+Operating System: Windows 10 (10.0.26200)
+Platform: Windows-10-10.0.26200-SP0
+Processor: AMD64 Family 25 Model 116 Stepping 1, AuthenticAMD
+Python Version: 3.11.8 (tags/v3.11.8:db85d51, Feb  6 2024, 22:03:32) [MSC v.1937 64 bit (AMD64)]
+
+Key Dependencies:
+- PyTorch: 2.14.0+cpu (CUDA Available: False)
+- Transformers: 5.17.0
+- Scikit-learn: 1.9.0
+- SciPy: 1.17.1
+- Pandas: 3.0.5
+- NumPy: 2.4.6
+- Matplotlib: 3.11.1
+
+Pretrained Models & Checkpoints:
+- ESM-2 Checkpoint: facebook/esm2_t6_8M_UR50D
+- Embedding Dimension: 320
+- Window Size: 512
+- Window Overlap: 64
+
+Homology Clustering & Partitioning:
+- Thresholds Evaluated: [0.9, 0.7, 0.5]
+- Primary Homology Threshold: 0.7
+- Word Size: 4
+- Random Seed: 42
+- Split Proportions: Train=0.7, Val=0.15, Test=0.15
+================================================================================

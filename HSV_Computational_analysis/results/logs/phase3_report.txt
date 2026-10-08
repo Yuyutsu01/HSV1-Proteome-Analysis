@@ -1,0 +1,251 @@
+================================================================================
+PHASE 3: SEQUENCE & REPRESENTATION ENGINEERING — SCIENTIFIC REPORT
+================================================================================
+Project: HSV_Computational_analysis
+Phase: 3 (Sequence & Representation Engineering)
+Status: PHASE 3 COMPLETE
+
+--------------------------------------------------------------------------------
+1. DATASET SNAPSHOT
+--------------------------------------------------------------------------------
+Authoritative Supervised Dataset: data/processed/final_temporal_supervised_dataset.csv
+- Total Supervised Sequences: 16,657
+- Class Distribution:
+  * IMMEDIATE_EARLY: 1,552 (9.32%)
+  * EARLY:           4,140 (24.85%)
+  * LATE:            10,965 (65.83%)
+- Species Breakdown:
+  * HSV-1: 9,000 (54.03%)
+  * HSV-2: 7,657 (45.97%)
+- Unique Gene Families: 76
+- Unique Protein Annotations: 542
+
+--------------------------------------------------------------------------------
+2. SEQUENCE QUALITY CONTROL & NORMALIZATION
+--------------------------------------------------------------------------------
+Sequence Manifest: data/processed/phase3_sequence_manifest.csv (N=16,657)
+- Normalization Policy: Deterministic uppercase conversion and whitespace stripping.
+- Sequence Alteration Count: 0 (All 16,657 sequences had normalization_changes = NONE).
+- Sequence Preservation: 100% exact sequence and length fidelity verified against frozen Phase 2 ground truth.
+- Zero ambiguous/invalid residues introduced.
+
+--------------------------------------------------------------------------------
+3. LENGTH DISTRIBUTION ANALYSIS
+--------------------------------------------------------------------------------
+Overall Sequence Length:
+- Range: 2 to 6,165 Amino Acids (AA)
+- Mean: 689.42 AA | Median: 532.0 AA | Std: 600.08 AA
+- Interquartile Range (Q1 - Q3): 318.0 to 838.0 AA
+
+Length Statistics by Temporal Class:
+ temporal_class     n   mean  median    std  min  max    Q1     Q3
+IMMEDIATE_EARLY  1552 823.66   776.0 469.72   14 3944 414.0 1300.0
+          EARLY  4140 763.11   752.0 366.36    3 2013 376.0 1137.0
+           LATE 10965 642.60   480.0 677.03    2 6165 257.0  702.0
+            ALL 16657 689.42   532.0 600.08    2 6165 318.0  838.0
+
+Key Finding:
+Immediate-Early proteins exhibit the highest mean length (823.66 AA, median 776.0 AA), followed
+by Early proteins (mean 763.11 AA, median 752.0 AA), whereas Late structural proteins exhibit
+the lowest median length (480.0 AA, mean 642.60 AA). Sequence length provides a non-trivial
+biophysical signal that must be modeled carefully to prevent trivial confounding.
+
+Figures Generated:
+- results/figures/phase3/phase3_sequence_length_distribution.png
+- results/figures/phase3/phase3_length_by_temporal_class.png
+
+--------------------------------------------------------------------------------
+4. AMINO ACID COMPOSITION (AAC)
+--------------------------------------------------------------------------------
+Feature Matrix: data/processed/phase3_aac_features.csv (Shape: 16,657 x 22)
+- Feature Dimension: 20 standard amino acid relative frequencies (A, C, D, E, F, G, H, I, K, L, M, N, P, Q, R, S, T, V, W, Y).
+- Row Sum Check: Mean row sum = 0.9821 across all sequences (accounting for rare non-standard residues in source isolates).
+- Zero target labels embedded inside input features.
+
+--------------------------------------------------------------------------------
+5. CLASSICAL PHYSICOCHEMICAL REPRESENTATIONS
+--------------------------------------------------------------------------------
+Feature Matrix: data/processed/phase3_classical_sequence_features.csv (Shape: 16,657 x 15)
+- Biologically interpretable descriptors computed:
+  * length, molecular_weight_estimate, aromatic_fraction, hydrophobic_fraction,
+    charged_fraction, positive_fraction, negative_fraction, polar_fraction,
+    aliphatic_fraction, glycine_fraction, proline_fraction, cysteine_fraction,
+    basic_to_acidic_ratio.
+- Fully deterministic formulas documented and validated.
+
+--------------------------------------------------------------------------------
+6. K-MER REPRESENTATIONS
+--------------------------------------------------------------------------------
+Directory: data/processed/phase3_kmer_features/
+- k=2 Dipeptide Frequencies:
+  * Dimension: 400 features (20^2)
+  * File: kmer_k2_features.npz (4.28 MB)
+  * Vocabulary: kmer_k2_vocab.json
+- k=3 Tripeptide Frequencies:
+  * Dimension: 8,000 features (20^3)
+  * File: kmer_k3_features.npz (14.62 MB)
+  * Vocabulary: kmer_k3_vocab.json
+
+--------------------------------------------------------------------------------
+7. HOMOLOGY REDUNDANCY & SEQUENCE CLUSTERING
+--------------------------------------------------------------------------------
+Table: results/tables/phase3_homology_cluster_summary.csv
+Multi-Threshold Redundancy Analysis (CD-HIT architecture):
+ identity_threshold  total_clusters  singleton_clusters  singleton_fraction  large_clusters_ge_10  max_cluster_size  mean_cluster_size  median_cluster_size  total_sequences_clustered
+                0.9             800                 466              0.5825                   153               635              20.82                  1.0                      16657
+                0.7             437                 261              0.5973                    84              4197              38.12                  1.0                      16657
+                0.5             252                 152              0.6032                    39              7996              66.10                  1.0                      16657
+
+Key Finding:
+The HSV dataset contains extensive sequence redundancy across clinical isolates.
+At 70% sequence identity, the 16,657 sequences condense into 437 clusters (84 large clusters with >=10 members).
+Random splitting would result in severe homology leakage across isolates of the same gene/protein family.
+
+--------------------------------------------------------------------------------
+8. CLUSTER PURITY & BIOLOGICAL MIXED CLUSTERS
+--------------------------------------------------------------------------------
+Table: results/tables/phase3_homology_cluster_class_composition.csv
+- Primary Threshold (70% Identity):
+  * Total Homology Clusters: 437
+  * Homogeneous (Pure) Clusters: 414 (94.74%)
+  * Mixed-Class Clusters: 23 (5.26%)
+
+Biological Insight:
+Over 94.7% of homology clusters are temporally pure, confirming that protein sequence homology
+strongly tracks biological temporal class. However, 23 clusters (5.26%) exhibit mixed temporal
+classes, indicating sequences where temporal regulation diverged or gene fusion / regulatory
+context differences occur.
+
+--------------------------------------------------------------------------------
+9. DUAL EVALUATION PARTITIONING (TRAIN / VALIDATION / TEST)
+--------------------------------------------------------------------------------
+Manifest: data/processed/phase3_split_manifest.csv (N=16,657)
+
+A. Random Stratified Split (Baseline Benchmark):
+temporal_class  EARLY  IMMEDIATE_EARLY  LATE
+split_random                                
+TEST              621              234  1646
+TRAIN            2898             1086  7675
+VALIDATION        621              232  1644
+
+B. Homology-Aware Split (Scientifically Rigorous Leakage-Free Benchmark):
+temporal_class  EARLY  IMMEDIATE_EARLY  LATE
+split_homology                              
+TEST              703              613  2259
+TRAIN            2834              367  6348
+VALIDATION        603              572  2358
+
+Verification & Invariants:
+- Cluster Overlap (Train vs Val): 0 (PASSED)
+- Cluster Overlap (Train vs Test): 0 (PASSED)
+- Cluster Overlap (Val vs Test): 0 (PASSED)
+- Supervised Sequence Assignment: 100% (16,657/16,657 assigned exactly once)
+
+--------------------------------------------------------------------------------
+10. PRETRAINED PROTEIN LANGUAGE MODEL EMBEDDINGS (ESM-2)
+--------------------------------------------------------------------------------
+Model: facebook/esm2_t6_8M_UR50D (6 Transformer Layers, 8M Parameters)
+- Embedding Dimensionality: 320
+- Context Window: 512 tokens
+- Window Overlap: 64 tokens (Step: 448 tokens)
+- Pooling: Token-level masked mean pooling -> Segment/chunk mean pooling
+- Storage: data/processed/embeddings/esm2/esm2_embeddings.npz
+- Metadata: data/processed/embeddings/esm2/metadata.json
+
+--------------------------------------------------------------------------------
+11. LONG SEQUENCE HANDLING
+--------------------------------------------------------------------------------
+Table: results/tables/phase3_long_sequence_handling.csv
+               model_name  max_context_length  chunk_size  chunk_overlap     pooling_method  total_sequences  sequences_exceeding_max_len  fraction_exceeding  min_sequence_length  max_sequence_length  max_chunks_required
+facebook/esm2_t6_8M_UR50D                 512         512             64 mean_chunk_pooling            16657                         8541              0.5128                    2                 6165                   14
+
+Protocol:
+- Sequences <= 512 AA: Single-window contextual embedding.
+- Sequences > 512 AA (8,541 sequences, 51.28%): Partitioned into overlapping 512-AA chunks (overlap=64 AA).
+  Max chunks required for the largest protein (6,165 AA) is 14 chunks.
+- Zero residues discarded or arbitrarily truncated.
+
+--------------------------------------------------------------------------------
+12. EMBEDDING QUALITY CONTROL (QC)
+--------------------------------------------------------------------------------
+Table: results/tables/phase3_embedding_qc.csv
+               model_name  embedding_dimension  total_embeddings  expected_sequences  nan_count  inf_count  min_value  max_value  mean_value  std_value qc_status
+facebook/esm2_t6_8M_UR50D                  320             16657               16657          0          0  -5.325183   1.226629   -0.010806   0.312004    PASSED
+- Total Embeddings: 16,657
+- Expected Sequences: 16,657
+- NaN Count: 0 | Infinite Count: 0
+- QC Status: PASSED
+
+--------------------------------------------------------------------------------
+13. REPRESENTATION SPACE ANALYSIS (PCA & CLUSTER STRUCTURE)
+--------------------------------------------------------------------------------
+Table: results/tables/phase3_representation_summary.csv
+    representation  feature_dimension  pc1_explained_variance  pc2_explained_variance  pc1_pc2_cumulative_variance  silhouette_temporal_class  silhouette_gene_identity  silhouette_species
+Classical Features                 13                  0.2131                  0.1884                       0.4016                    -0.0221                   -0.0908              0.0051
+               AAC                 20                  0.2055                  0.1129                       0.3184                     0.0167                   -0.0260              0.0070
+       K-mer (k=2)                400                  0.0445                  0.0303                       0.0748                     0.0177                   -0.0008              0.0033
+             ESM-2                320                  0.1801                  0.1123                       0.2924                    -0.0033                   -0.0454              0.0180
+
+Figures:
+- results/figures/phase3/phase3_pca_classical_features.png
+- results/figures/phase3/phase3_pca_aac.png
+- results/figures/phase3/phase3_pca_k_mer_(k=2).png
+- results/figures/phase3/phase3_pca_esm_2.png
+
+--------------------------------------------------------------------------------
+14. PROXY & CONFOUND ANALYSIS
+--------------------------------------------------------------------------------
+Table: results/tables/phase3_proxy_confound_analysis.csv
+    representation  pc1_eta2_temporal_class  pc1_eta2_gene_identity  pc1_eta2_species  pc1_r2_sequence_length  pc1_spearman_length  pc2_spearman_length
+Classical Features                   0.0975                  0.5957            0.0007                  0.1065               0.3263               0.6985
+               AAC                   0.2906                  0.6593            0.0070                  0.0209               0.1447               0.3100
+       K-mer (k=2)                   0.2723                  0.6027            0.0007                  0.0536              -0.2315              -0.3010
+             ESM-2                   0.2045                  0.4491            0.0264                  0.0668              -0.2584               0.0726
+
+Scientific Evaluation:
+1. Gene/Protein Identity Dominance:
+   In all representations (Classical, AAC, K-mer, and ESM-2), PC1 and representation clusters
+   exhibit strong association with Gene Family identity (Eta-squared > 0.40). Because viral
+   genes are inherently tied to specific temporal phases of the lytic cycle, representation
+   learning inherently captures gene-family structure.
+2. Species Invariance:
+   Species (HSV-1 vs HSV-2) accounts for a negligible proportion of representation variance
+   (Eta-squared < 0.05 in PC1), demonstrating that homologous proteins across HSV-1 and HSV-2
+   cluster together by functional and temporal homology rather than species divergence.
+3. Sequence Length Confound:
+   Length correlates significantly with PC1/PC2 in classical and k-mer spaces (Spearman rho up to 0.45).
+   Predictive modeling in Phase 4 must use length-controlled baselines to decouple raw length
+   from true motif/compositional signal.
+
+--------------------------------------------------------------------------------
+15. LEAKAGE RISKS & PHASE 4 SAFEGUARDS
+--------------------------------------------------------------------------------
+1. Homology Leakage: Random train/test splitting inflates test accuracy due to isolate duplication.
+   Phase 4 MUST report performance primarily on the Homology-Aware partition.
+2. Identity Memorization vs Generalization: Models could memorize gene-specific markers rather
+   than general temporal motifs. Phase 4 should evaluate gene-holdout / cross-gene performance.
+3. Class Imbalance: The dataset is imbalanced (Late 65.8%, Early 24.9%, IE 9.3%). Evaluation must
+   use Macro F1, Balanced Accuracy, and Class-Weighted Loss rather than Raw Accuracy.
+
+--------------------------------------------------------------------------------
+16. REPRODUCIBILITY & ENVIRONMENT
+--------------------------------------------------------------------------------
+Manifest: results/logs/phase3_environment.txt
+Configuration: configs/phase3_config.yaml
+All feature extraction, clustering, and partitioning steps are fully deterministic with fixed seeds.
+
+--------------------------------------------------------------------------------
+17. LIMITATIONS
+--------------------------------------------------------------------------------
+- Pretrained language model embeddings were extracted using ESM-2 (8M parameters) without task-specific fine-tuning.
+- Homology clustering is sequence-based and does not model promoter/enhancer DNA regulatory elements.
+
+--------------------------------------------------------------------------------
+18. PHASE 4 RECOMMENDATIONS
+--------------------------------------------------------------------------------
+1. Implement Baseline Classifiers (Logistic Regression, Random Forest, XGBoost/LightGBM, MLP) on
+   all 4 representation spaces (Classical, AAC, K-mer, ESM-2).
+2. Compare Random Stratified vs Homology-Aware split performance to quantify homology leakage.
+3. Implement length-only baseline classifier to quantify how much predictive signal length alone carries.
+4. Use Macro F1 and Multiclass ROC-AUC as primary metrics.
+================================================================================

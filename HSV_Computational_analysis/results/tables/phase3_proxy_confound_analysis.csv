@@ -1,0 +1,5 @@
+representation,pc1_eta2_temporal_class,pc1_eta2_gene_identity,pc1_eta2_species,pc1_r2_sequence_length,pc1_spearman_length,pc2_spearman_length
+Classical Features,0.0975,0.5957,0.0007,0.1065,0.3263,0.6985
+AAC,0.2906,0.6593,0.007,0.0209,0.1447,0.31
+K-mer (k=2),0.2723,0.6027,0.0007,0.0536,-0.2315,-0.301
+ESM-2,0.2045,0.4491,0.0264,0.0668,-0.2584,0.0726
