@@ -1,0 +1,66 @@
+# Phase 3 Configuration: Sequence & Representation Engineering
+# Project: HSV_Computational_analysis
+
+random_seed: 42
+
+dataset:
+  supervised_path: "data/processed/final_temporal_supervised_dataset.csv"
+  corpus_path: "data/processed/final_curated_hsv_protein_corpus.csv"
+  target_column: "temporal_class"
+  id_column: "canonical_id"
+  sequence_column: "sequence"
+
+features:
+  standard_amino_acids: ["A", "C", "D", "E", "F", "G", "H", "I", "K", "L", "M", "N", "P", "Q", "R", "S", "T", "V", "W", "Y"]
+  kmer_sizes: [2, 3]
+  kmer_top_n_3mer: 2000
+
+homology_clustering:
+  thresholds: [0.90, 0.70, 0.50]
+  primary_threshold: 0.70
+  word_size: 4
+
+splitting:
+  train_ratio: 0.70
+  val_ratio: 0.15
+  test_ratio: 0.15
+  stratify: true
+
+embeddings:
+  protbert:
+    model_name: "Rostlab/prot_bert"
+    embedding_dim: 1024
+    max_chunk_length: 512
+    chunk_overlap: 64
+    pooling_method: "mean"
+    batch_size: 16
+  esm2:
+    model_name: "facebook/esm2_t6_8M_UR50D"
+    embedding_dim: 320
+    max_chunk_length: 512
+    chunk_overlap: 64
+    pooling_method: "mean"
+    batch_size: 16
+
+paths:
+  processed_dir: "data/processed"
+  tables_dir: "results/tables"
+  figures_dir: "results/figures/phase3"
+  logs_dir: "results/logs"
+  embeddings_dir: "data/processed/embeddings"
+  sequence_manifest: "data/processed/phase3_sequence_manifest.csv"
+  aac_features: "data/processed/phase3_aac_features.csv"
+  classical_features: "data/processed/phase3_classical_sequence_features.csv"
+  kmer_dir: "data/processed/phase3_kmer_features"
+  split_manifest: "data/processed/phase3_split_manifest.csv"
+  dataset_snapshot: "results/tables/phase3_dataset_snapshot.csv"
+  sequence_quality: "results/tables/phase3_sequence_quality.csv"
+  length_statistics: "results/tables/phase3_length_statistics.csv"
+  homology_cluster_summary: "results/tables/phase3_homology_cluster_summary.csv"
+  homology_cluster_class_composition: "results/tables/phase3_homology_cluster_class_composition.csv"
+  long_sequence_handling: "results/tables/phase3_long_sequence_handling.csv"
+  embedding_qc: "results/tables/phase3_embedding_qc.csv"
+  representation_summary: "results/tables/phase3_representation_summary.csv"
+  proxy_confound_analysis: "results/tables/phase3_proxy_confound_analysis.csv"
+  environment_log: "results/logs/phase3_environment.txt"
+  phase3_report: "results/logs/phase3_report.txt"

@@ -1,0 +1,51 @@
+canonical_sequence_id,primary_accession,primary_protein_name,organism,sequence_length,source_files,raw_headers
+CANONICAL_08f271887ce9,AAO26210.1,"glycoprotein E, partial [Human alphaherpesvirus 2]",Human alphaherpesvirus 2,1,HSV2_non_redundant (2).fasta;non_redundant.fasta,">AAO26210.1 glycoprotein E, partial [Human alphaherpesvirus 2] | >ADR57699.1 US6, partial [Human alphaherpesvirus 1]"
+CANONICAL_204ac66a8856,DAC85531.1,TPA_asm: UL41 uORF 2 [Human alphaherpesvirus 1],Human alphaherpesvirus 1,2,non_redundant.fasta,>DAC85531.1 TPA_asm: UL41 uORF 2 [Human alphaherpesvirus 1]
+CANONICAL_939342fb94f9,AAO26211.1,"glycoprotein D, partial [Human alphaherpesvirus 2]",Human alphaherpesvirus 2,2,HSV2_non_redundant (2).fasta,">AAO26211.1 glycoprotein D, partial [Human alphaherpesvirus 2]"
+CANONICAL_2157dc633072,DAC85455.1,TPA_asm: UL5.5 uORF [Human alphaherpesvirus 1],Human alphaherpesvirus 1,3,non_redundant.fasta,>DAC85455.1 TPA_asm: UL5.5 uORF [Human alphaherpesvirus 1]
+CANONICAL_fb7b7da883dd,YBQ69665.1,"membrane protein UL45, partial [Human alphaherpesvirus 2]",Human alphaherpesvirus 2,3,HSV2_non_redundant (2).fasta,">YBQ69665.1 membrane protein UL45, partial [Human alphaherpesvirus 2]"
+CANONICAL_03ad0abb2bfa,5MHK,"Chain J, ICP4 DNA BINDING DOMAIN",UNRESOLVED,4,non_redundant.fasta,">pdb|5MHK|J Chain J, ICP4 DNA BINDING DOMAIN"
+CANONICAL_2e2c34df54b0,DAC85543.1,TPA_asm: US3.6 uORF [Human alphaherpesvirus 1],Human alphaherpesvirus 1,4,non_redundant.fasta,>DAC85543.1 TPA_asm: US3.6 uORF [Human alphaherpesvirus 1]
+CANONICAL_59d0d605f4c3,QNC38169.1,Sequence 7 from patent US 10654899,UNRESOLVED,4,HSV2_non_redundant (2).fasta,>QNC38169.1 Sequence 7 from patent US 10654899
+CANONICAL_7506037ff6d5,DAC85477.1,TPA_asm: UL40.5 uORF [Human alphaherpesvirus 1],Human alphaherpesvirus 1,4,non_redundant.fasta,>DAC85477.1 TPA_asm: UL40.5 uORF [Human alphaherpesvirus 1]
+CANONICAL_afcff08aa6c8,DAC85546.1,TPA_asm: US6 uORF [Human alphaherpesvirus 1],Human alphaherpesvirus 1,4,non_redundant.fasta,>DAC85546.1 TPA_asm: US6 uORF [Human alphaherpesvirus 1]
+CANONICAL_d3d02f034d9a,DAC85492.1,TPA_asm: UL46.5 sORF 1 [Human alphaherpesvirus 1],Human alphaherpesvirus 1,4,non_redundant.fasta,>DAC85492.1 TPA_asm: UL46.5 sORF 1 [Human alphaherpesvirus 1]
+CANONICAL_dd87dc4eb7f4,DAC85409.1,TPA_asm: UL30.5 sORF RNA #1 [Human alphaherpesvirus 1],Human alphaherpesvirus 1,4,non_redundant.fasta,>DAC85409.1 TPA_asm: UL30.5 sORF RNA #1 [Human alphaherpesvirus 1]
+CANONICAL_3c83b29579b2,QNC38173.1,Sequence 11 from patent US 10654899,UNRESOLVED,5,HSV2_non_redundant (2).fasta,>QNC38173.1 Sequence 11 from patent US 10654899
+CANONICAL_4e1f9ffb46fc,XLG68745.1,Sequence 3 from patent US 12098185,UNRESOLVED,5,non_redundant.fasta,>XLG68745.1 Sequence 3 from patent US 12098185
+CANONICAL_511436a913e5,DAC85445.1,TPA_asm: UL3 uORF RNA *1 [Human alphaherpesvirus 1],Human alphaherpesvirus 1,5,non_redundant.fasta,>DAC85445.1 TPA_asm: UL3 uORF RNA *1 [Human alphaherpesvirus 1]
+CANONICAL_6ba42e639e37,YBQ69664.1,"tegument host shutoff protein, partial [Human alphaherpesvirus 2]",Human alphaherpesvirus 2,5,HSV2_non_redundant (2).fasta,">YBQ69664.1 tegument host shutoff protein, partial [Human alphaherpesvirus 2]"
+CANONICAL_88013b7c7e55,QNC38174.1,Sequence 12 from patent US 10654899,UNRESOLVED,5,HSV2_non_redundant (2).fasta,>QNC38174.1 Sequence 12 from patent US 10654899
+CANONICAL_964c9a8d0714,DAC85561.1,TPA_asm: UL23 uORF 1 [Human alphaherpesvirus 1],Human alphaherpesvirus 1,5,non_redundant.fasta,>DAC85561.1 TPA_asm: UL23 uORF 1 [Human alphaherpesvirus 1]
+CANONICAL_a0ea877a649b,XUY64829.1,Sequence 3 from patent US 12247066,UNRESOLVED,5,non_redundant.fasta,>XUY64829.1 Sequence 3 from patent US 12247066
+CANONICAL_d7081d16e19b,YBQ69749.1,"helicase-primase helicase subunit, partial [Human alphaherpesvirus 2]",Human alphaherpesvirus 2,5,HSV2_non_redundant (2).fasta,">YBQ69749.1 helicase-primase helicase subunit, partial [Human alphaherpesvirus 2]"
+CANONICAL_e159d98f2af2,DAC85512.1,TPA_asm: UL27.6 uORF [Human alphaherpesvirus 1],Human alphaherpesvirus 1,5,non_redundant.fasta,>DAC85512.1 TPA_asm: UL27.6 uORF [Human alphaherpesvirus 1]
+CANONICAL_fbd3da2eeffc,AAO87644.1,"capsid assembly protein, partial [Human alphaherpesvirus 1]",Human alphaherpesvirus 1,5,non_redundant.fasta,">AAO87644.1 capsid assembly protein, partial [Human alphaherpesvirus 1]"
+CANONICAL_00e2b3584d95,DAC85585.1,TPA_asm: UL6.7 sORF 1 [Human alphaherpesvirus 1],Human alphaherpesvirus 1,6,non_redundant.fasta,>DAC85585.1 TPA_asm: UL6.7 sORF 1 [Human alphaherpesvirus 1]
+CANONICAL_058ee677e84b,DAC85599.1,TPA_asm: UL43.6 uORF [Human alphaherpesvirus 1],Human alphaherpesvirus 1,6,non_redundant.fasta,>DAC85599.1 TPA_asm: UL43.6 uORF [Human alphaherpesvirus 1]
+CANONICAL_0e092fddf29e,AAA45832.1,"virion alpha-stimulatory protein, partial [Human alphaherpesvirus 1]",Human alphaherpesvirus 1,6,non_redundant.fasta,">AAA45832.1 virion alpha-stimulatory protein, partial [Human alphaherpesvirus 1]"
+CANONICAL_20718334feae,YBQ69656.1,"nuclear protein UL24, partial [Human alphaherpesvirus 2]",Human alphaherpesvirus 2,6,HSV2_non_redundant (2).fasta,">YBQ69656.1 nuclear protein UL24, partial [Human alphaherpesvirus 2]"
+CANONICAL_4cfc1b8c4fbb,4XAL,"Chain B, peptide SSGVDL",UNRESOLVED,6,non_redundant.fasta,">pdb|4XAL|B Chain B, peptide SSGVDL"
+CANONICAL_508bb508628b,AAA45830.1,"capsid assembly protein, partial [Human alphaherpesvirus 1]",Human alphaherpesvirus 1,6,non_redundant.fasta,">AAA45830.1 capsid assembly protein, partial [Human alphaherpesvirus 1]"
+CANONICAL_5ad4c4b88687,4IOX,"Chain D, peptide",UNRESOLVED,6,non_redundant.fasta,">pdb|4IOX|D Chain D, peptide"
+CANONICAL_cda4affc3c18,DAC85587.1,TPA_asm: UL19.4 sORF [Human alphaherpesvirus 1],Human alphaherpesvirus 1,6,non_redundant.fasta,>DAC85587.1 TPA_asm: UL19.4 sORF [Human alphaherpesvirus 1]
+CANONICAL_fd88af9521e8,DAC85412.1,TPA_asm: UL39.6 dORF 1 [Human alphaherpesvirus 1],Human alphaherpesvirus 1,6,non_redundant.fasta,>DAC85412.1 TPA_asm: UL39.6 dORF 1 [Human alphaherpesvirus 1]
+CANONICAL_1d5acb5ccc66,DAC85553.1,TPA_asm: UL8 uORF [Human alphaherpesvirus 1],Human alphaherpesvirus 1,7,non_redundant.fasta,>DAC85553.1 TPA_asm: UL8 uORF [Human alphaherpesvirus 1]
+CANONICAL_233c5cf68d4d,5XO2,"Chain Y, Peptide from Envelope glycoprotein B",UNRESOLVED,7,non_redundant.fasta,">pdb|5XO2|Y Chain Y, Peptide from Envelope glycoprotein B"
+CANONICAL_34c3e21419e1,YBQ69658.1,"DNA packaging tegument protein UL25, partial [Human alphaherpesvirus 2]",Human alphaherpesvirus 2,7,HSV2_non_redundant (2).fasta,">YBQ69658.1 DNA packaging tegument protein UL25, partial [Human alphaherpesvirus 2]"
+CANONICAL_3ef9e0cfe8df,XUY64833.1,Sequence 7 from patent US 12247066,UNRESOLVED,7,non_redundant.fasta,>XUY64833.1 Sequence 7 from patent US 12247066
+CANONICAL_692cd118ae2d,XLG68749.1,Sequence 7 from patent US 12098185,UNRESOLVED,7,non_redundant.fasta,>XLG68749.1 Sequence 7 from patent US 12098185
+CANONICAL_789410eb04a6,XLG68747.1,Sequence 5 from patent US 12098185,UNRESOLVED,7,non_redundant.fasta,>XLG68747.1 Sequence 5 from patent US 12098185
+CANONICAL_e0e8261c020c,DAC85564.1,TPA_asm: UL23 uORF 2 [Human alphaherpesvirus 1],Human alphaherpesvirus 1,7,non_redundant.fasta,>DAC85564.1 TPA_asm: UL23 uORF 2 [Human alphaherpesvirus 1]
+CANONICAL_e6ae02ccb3a6,WKR18835.1,nuclear protein UL3 [Human alphaherpesvirus 1],Human alphaherpesvirus 1,7,non_redundant.fasta,>WKR18835.1 nuclear protein UL3 [Human alphaherpesvirus 1]
+CANONICAL_f503946ccc88,YBQ69759.1,"DNA polymerase catalytic subunit, partial [Human alphaherpesvirus 2]",Human alphaherpesvirus 2,7,HSV2_non_redundant (2).fasta,">YBQ69759.1 DNA polymerase catalytic subunit, partial [Human alphaherpesvirus 2]"
+CANONICAL_b54ee1866d03,DAC85334.1,TPA_asm: UL6.5 sORF 2 [Human alphaherpesvirus 1],Human alphaherpesvirus 1,8,non_redundant.fasta,>DAC85334.1 TPA_asm: UL6.5 sORF 2 [Human alphaherpesvirus 1]
+CANONICAL_13e6dce7d653,XUY64831.1,Sequence 5 from patent US 12247066,UNRESOLVED,9,non_redundant.fasta,>XUY64831.1 Sequence 5 from patent US 12247066
+CANONICAL_3c29196ef8f7,DAC85532.1,TPA_asm: UL41 uoORF [Human alphaherpesvirus 1],Human alphaherpesvirus 1,9,non_redundant.fasta,>DAC85532.1 TPA_asm: UL41 uoORF [Human alphaherpesvirus 1]
+CANONICAL_596246a52d98,AAA45847.1,"protein 32 (ICP32), partial [Human alphaherpesvirus 2]",Human alphaherpesvirus 2,9,HSV2_non_redundant (2).fasta,">AAA45847.1 protein 32 (ICP32), partial [Human alphaherpesvirus 2]"
+CANONICAL_66325e850fa2,XUY64834.1,Sequence 8 from patent US 12247066,UNRESOLVED,9,non_redundant.fasta,>XUY64834.1 Sequence 8 from patent US 12247066
+CANONICAL_6fc1bdadd4bb,DAC85347.1,TPA_asm: UL24 uORF 3 RNA *1 [Human alphaherpesvirus 1],Human alphaherpesvirus 1,9,non_redundant.fasta,>DAC85347.1 TPA_asm: UL24 uORF 3 RNA *1 [Human alphaherpesvirus 1]
+CANONICAL_a08b891cdf61,WIU21827.1,Sequence 42 from patent US 11390650,UNRESOLVED,9,HSV2_non_redundant (2).fasta,>WIU21827.1 Sequence 42 from patent US 11390650
+CANONICAL_c4eea754ab82,XLG68750.1,Sequence 8 from patent US 12098185,UNRESOLVED,9,non_redundant.fasta,>XLG68750.1 Sequence 8 from patent US 12098185
+CANONICAL_d6edd99ffcc9,AAA75442.1,"immediate-early transactivator 110, partial [Human alphaherpesvirus 1]",Human alphaherpesvirus 1,9,non_redundant.fasta,">AAA75442.1 immediate-early transactivator 110, partial [Human alphaherpesvirus 1]"
+CANONICAL_e417c6bfb7d1,AAA45839.1,"glycoprotein C, partial [Human alphaherpesvirus 2]",Human alphaherpesvirus 2,9,HSV2_non_redundant (2).fasta,">AAA45839.1 glycoprotein C, partial [Human alphaherpesvirus 2]"

@@ -1,0 +1,25 @@
+{
+  "RAW_RECORD_COUNT": 22710,
+  "VALID_SEQUENCE_COUNT": 22710,
+  "EXCLUDED_RECORD_COUNT": 0,
+  "UNIQUE_SEQUENCE_COUNT": 22689,
+  "EXACT_DUPLICATE_INSTANCES": 21,
+  "QC_STATUS_BREAKDOWN": {
+    "CANONICAL_20AA": 15229,
+    "AMBIGUOUS_RESIDUE": 7481
+  },
+  "EXCLUSION_BREAKDOWN": {},
+  "PER_FILE_SUMMARY": {
+    "HSV2_non_redundant (2).fasta": {
+      "record_count": 10540,
+      "sha256": "86c9d627286aa4cad121af4c84cdb39b824c14905aa57948de9a996955ca0311",
+      "size_bytes": 7095643
+    },
+    "non_redundant.fasta": {
+      "record_count": 12170,
+      "sha256": "15001269a835b41223467e0d91bdcada433ee68c6a58c19e684c060483b31f36",
+      "size_bytes": 7954295
+    }
+  },
+  "INGESTION_TIMESTAMP": "2026-10-08T12:52:06.846093+00:00"
+}

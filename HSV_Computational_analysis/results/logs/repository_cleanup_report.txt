@@ -1,0 +1,65 @@
+================================================================================
+PRE-PHASE-3 REPOSITORY CLEANUP & STRUCTURE FREEZE REPORT
+================================================================================
+
+REPOSITORY INVENTORY & ACTION METRICS
+--------------------------------------------------------------------------------
+1. Total Files Scanned in Workspace: 135
+2. Total Canonical Files Retained (KEEP): 134
+3. Total Files Archived: 1
+4. Total Temporary / Cache Files Removed (DELETE): 11
+5. Files with Uncertain Status: 0
+
+CANONICAL DIRECTORY STRUCTURE
+--------------------------------------------------------------------------------
+HSV_Computational_analysis/
+├── raw/                              # Immutable raw FASTA files (22,710 records)
+├── data/
+│   ├── processed/                    # Final frozen datasets (N=16,657 supervised; N=22,013 corpus)
+│   └── interim/                      # Interim datasets directory
+├── scripts/                          # Deterministic pipeline scripts (Phase 1 to Phase 2.5)
+│   └── README.md                     # Script execution and pipeline index
+├── tests/                            # Comprehensive regression & validation test suite (99 tests)
+├── results/
+│   ├── tables/                       # Final summary, reconciliation, and validation tables
+│   ├── figures/                      # Results figures directory
+│   └── logs/                         # Execution logs, checksums, and inventory
+├── docs/
+│   ├── phases/                       # Phase-specific documentation markdown
+│   ├── methodology/                  # Methodology documentation
+│   └── archive/                      # Historical documentation archive
+├── archive/
+│   ├── legacy_74_protein_project/    # Isolated retired 74-protein HSV-1 artifacts
+│   ├── data/                         # Intermediate historical data
+│   ├── results/                      # Intermediate historical tables/reports
+│   └── scripts/                      # Historical script archive
+├── configs/                          # Project configuration directory
+├── README.md                         # Project overview
+├── DATASET_CARD.md                   # Dataset specification and card
+├── PROJECT_STATUS.md                 # Current phase and invariant accounting status
+├── PROJECT_MANIFEST.csv              # Authoritative repository file manifest
+└── .gitignore                        # Git exclusion rules
+
+DATASET ARITHMETIC & INVARIANT VERIFICATION
+--------------------------------------------------------------------------------
+Total Canonical Sequences: 22,689
+Supervised Dataset: 16,657 (1,552 IE + 4,140 Early + 10,965 Late)
+Eligible Unknown Sequences: 5,356
+Conflicting Quarantined (Tier C): 5
+Excluded Sequences (Tier D): 671
+Unaccounted Sequences: 0
+
+CHECKSUM & REPRODUCIBILITY VERIFICATION
+--------------------------------------------------------------------------------
+- Raw FASTA SHA-256 checksums verified identical and immutable.
+- Final supervised dataset and curated corpus checksums generated in results/logs/final_file_checksums.sha256.
+- Regression test suite (99 test cases) fully operational.
+
+STATUS STATEMENT
+--------------------------------------------------------------------------------
+Repository cleanup, archival, and structure freeze are COMPLETE.
+Phase 3 remains LOCKED.
+
+================================================================================
+FINAL STATUS: REPOSITORY CLEANUP: COMPLETE
+================================================================================
