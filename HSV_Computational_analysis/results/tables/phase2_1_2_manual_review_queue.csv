@@ -1,0 +1,6 @@
+sequence_id,canonical_sequence_hash,virus_species,strain,gene_symbol,protein_name,temporal_class,conflict_status,cross_species_audit_notes
+CANONICAL_01eb55d7fe80,CANONICAL_01eb55d7fe80,UNKNOWN,UNKNOWN,UL33,UL33,CONFLICTING,CONFLICTING,Taxonomic or biological conflict
+CANONICAL_5082249f592d,CANONICAL_5082249f592d,UNKNOWN,UNKNOWN,UL31,nuclear egress lamina protein,CONFLICTING,CONFLICTING,Taxonomic or biological conflict
+CANONICAL_a9996922e85c,CANONICAL_a9996922e85c,UNKNOWN,UNKNOWN,UL49A,UL49A,CONFLICTING,CONFLICTING,Taxonomic or biological conflict
+CANONICAL_e9476297d514,CANONICAL_e9476297d514,UNKNOWN,UNKNOWN,UNKNOWN,hypothetical protein,CONFLICTING,CONFLICTING,Taxonomic or biological conflict
+CANONICAL_ec8d790b87fd,CANONICAL_ec8d790b87fd,UNKNOWN,UNKNOWN,UL48,UL48,CONFLICTING,CONFLICTING,Taxonomic or biological conflict

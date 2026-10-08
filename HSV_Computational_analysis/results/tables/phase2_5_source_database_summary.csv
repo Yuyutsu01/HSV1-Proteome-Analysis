@@ -1,0 +1,7 @@
+source_database,total_records,external_sequence_retrieved,exact_matches,unavailable,mismatches
+NCBI GenBank,22292,22292,22292,0,0
+NCBI RefSeq,100,100,100,0,0
+UniProtKB,98,98,98,0,0
+PDB,146,146,146,0,0
+PRF,4,4,4,0,0
+Patent,49,49,49,0,0

@@ -1,0 +1,7 @@
+cross_strain_transfer,,,NO,YES,YES,YES,Total
+temporal_class,,,IMMEDIATE_EARLY,EARLY,IMMEDIATE_EARLY,LATE,
+virus_species,evidence_species,cross_species_transfer,,,,,
+HSV-1,HSV-1,NO,0,2344,986,5670,9000
+HSV-2,HSV-1,YES,0,1796,565,5295,7656
+HSV-2,HSV-2,NO,1,0,0,0,1
+Total,,,1,4140,1551,10965,16657

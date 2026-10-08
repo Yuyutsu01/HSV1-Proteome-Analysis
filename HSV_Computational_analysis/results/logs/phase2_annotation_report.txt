@@ -1,0 +1,46 @@
+================================================================================
+PHASE 2 BIOLOGICAL ANNOTATION & TEMPORAL CURATION REPORT
+================================================================================
+
+Total Canonical Input Records: 22,689
+Annotated Output Records: 22,689
+
+1. DATASET TIERS DISTRIBUTION:
+  TIER_B_VERIFIED_UNLABELED: 11,531
+  TIER_A_HIGH_CONFIDENCE_LABELED: 10,482
+  TIER_D_EXCLUDED: 671
+  TIER_C_CONFLICTING_UNCERTAIN: 5
+
+2. VIRUS SPECIES DISTRIBUTION:
+  HSV-1: 11,802
+  HSV-2: 10,263
+  NON_HERPESVIRUS: 371
+  UNKNOWN: 213
+  OTHER_HERPESVIRUS: 40
+
+3. TEMPORAL EXPRESSION CLASS DISTRIBUTION:
+  LATE: 10,965
+  UNKNOWN: 6,027
+  EARLY: 4,140
+  IMMEDIATE_EARLY: 1,552
+  CONFLICTING: 5
+
+4. EVIDENCE & MANUAL REVIEW:
+  Total Evidence-Backed Labeled Records: 16,657
+  Manual Review Queue Items: 5
+
+5. SPECIES x TEMPORAL CLASS CROSS-TABULATION:
+temporal_class     CONFLICTING  EARLY  IMMEDIATE_EARLY   LATE  UNKNOWN  Total
+virus_species                                                                
+HSV-1                        0   2344              986   5670     2802  11802
+HSV-2                        0   1796              566   5295     2606  10263
+NON_HERPESVIRUS              0      0                0      0      371    371
+OTHER_HERPESVIRUS            0      0                0      0       40     40
+UNKNOWN                      5      0                0      0      208    213
+Total                        5   4140             1552  10965     6027  22689
+
+================================================================================
+PHASE 2 COMPLETE
+BIOLOGICAL ANNOTATION FROZEN
+DOWNSTREAM REPRESENTATION / ML ANALYSIS NOT YET STARTED
+================================================================================

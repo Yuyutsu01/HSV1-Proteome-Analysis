@@ -1,0 +1,56 @@
+================================================================================
+PHASE 2.5: SEQUENCE AUTHENTICITY, PROVENANCE, AND DATASET INTEGRITY REPORT
+================================================================================
+
+FOUR DISTINCT VALIDATION DIMENSIONS
+--------------------------------------------------------------------------------
+1. SEQUENCE_PROVENANCE:
+   - 100% (22689 / 22689) of canonical sequences possess traceable primary accessions
+     and original headers derived directly from source records.
+
+2. SEQUENCE_FIDELITY:
+   - 100% (22689 / 22689) exact SHA-256 match between local sequences and source records.
+   - Sequence mismatches: 0 (0.00%).
+   - No raw FASTA record was silently discarded. Every raw record was mapped to a canonical sequence
+     or assigned a documented exclusion status.
+
+3. BIOLOGICAL_IDENTITY:
+   - Species Confirmed (HSV-1 / HSV-2): 22065 (97.25%)
+   - Species Conflicts (Tier C Quarantined): 5 (0.02%)
+   - Gene / Protein Identity Confirmed: 10042 (44.26%)
+
+4. TEMPORAL_ANNOTATION:
+   - Supervised Temporal Sequences: 16657 (73.41%)
+   - Eligible Unknown Sequences (Curated Corpus): 5356 (23.61%)
+   - Quarantined Conflicts (Tier C): 5 (0.02%)
+   - Excluded Sequences (Tier D): 671 (2.96%)
+
+SEQUENCE COMPLETENESS BREAKDOWN (N=22,689)
+--------------------------------------------------------------------------------
+- FULL_LENGTH: 20462 (90.18%) (Tier A: 10,482; Tier B: 9,980)
+- PARTIAL_FRAGMENT: 1957 (8.63%) (Tier B: 1,551; Tier D: 406)
+- PDB_FRAGMENT: 148 (0.65%) (Tier D)
+- ENGINEERED_FRAGMENT: 55 (0.24%) (Tier D)
+- UNKNOWN: 67 (0.30%) (Tier C: 5; Tier D: 62)
+
+SOURCE DATABASE BREAKDOWN (N=22,689)
+--------------------------------------------------------------------------------
+- NCBI GenBank: 22,292 records (100% retrieved, 100% exact match, 0 mismatches)
+- PDB: 146 records (100% retrieved, 100% exact match, 0 mismatches)
+- NCBI RefSeq: 100 records (100% retrieved, 100% exact match, 0 mismatches)
+- UniProtKB: 98 records (100% retrieved, 100% exact match, 0 mismatches)
+- Patent: 49 records (100% retrieved, 100% exact match, 0 mismatches)
+- PRF: 4 records (100% retrieved, 100% exact match, 0 mismatches)
+
+FINAL DATASET ACCOUNTING (N=22,689)
+--------------------------------------------------------------------------------
+SUPERVISED (16657) + UNKNOWN_ELIGIBLE (5356) + CONFLICTING (5) + EXCLUDED (671) = 22689
+UNACCOUNTED = 0
+
+STATUS STATEMENT
+--------------------------------------------------------------------------------
+Sequence authenticity, provenance, completeness, and dataset integrity are validated.
+
+================================================================================
+FINAL STATUS: PHASE 2.5 VALIDATION: FINAL
+================================================================================

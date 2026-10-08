@@ -1,0 +1,672 @@
+sequence_id,original_record_ids,exclusion_category,exclusion_reason,evidence_source
+CANONICAL_0004d709ba6d,non_redundant.fasta#rec_011678,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_000f153c5d15,non_redundant.fasta#rec_011632,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_00cfd34e197e,non_redundant.fasta#rec_000663,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_01135cddafb7,HSV2_non_redundant (2).fasta#rec_010417,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_0113ca66bccf,non_redundant.fasta#rec_012078,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_01b6c32eee0d,non_redundant.fasta#rec_012011,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_01fbe8fadb89,non_redundant.fasta#rec_012048,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_023f9643bc1e,non_redundant.fasta#rec_003149,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_02dd0e331a26,non_redundant.fasta#rec_000002,EXCLUDE_UNRESOLVED_IDENTITY,Unresolved biological taxonomy and provenance,No explicit taxonomy in FASTA header
+CANONICAL_02e41dd1fc11,non_redundant.fasta#rec_012101,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_03991c5bb28a,HSV2_non_redundant (2).fasta#rec_010344,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_03ad0abb2bfa,non_redundant.fasta#rec_003155,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_03d4c932bfec,non_redundant.fasta#rec_002253,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_040c35e3fe81,non_redundant.fasta#rec_011960,EXCLUDE_NON_HSV,Non-target herpesvirus species (Retained in Group D),Standard natural isolate record from Human betaherpesvirus 5
+CANONICAL_04bd5f29f885,non_redundant.fasta#rec_011649,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_04c29a7fc2a7,non_redundant.fasta#rec_011997,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_05d25da29666,HSV2_non_redundant (2).fasta#rec_010450,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_06e0ee4441f6,HSV2_non_redundant (2).fasta#rec_010463,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_0721621302c1,non_redundant.fasta#rec_011915,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_07619b8d8548,HSV2_non_redundant (2).fasta#rec_010437,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_08811583c89f,HSV2_non_redundant (2).fasta#rec_010418,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_0885fadb7ca1,non_redundant.fasta#rec_012052,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Mus musculus
+CANONICAL_096a8fe5af05,non_redundant.fasta#rec_012154,EXCLUDE_NON_HSV,Non-target herpesvirus species (Retained in Group D),Standard natural isolate record from anatid alphaherpesvirus 1
+CANONICAL_099ecff168fb,HSV2_non_redundant (2).fasta#rec_010327,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_0a921a67269f,HSV2_non_redundant (2).fasta#rec_000909,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_0abfbd0d41ce,non_redundant.fasta#rec_011657,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_0bb8e35a52ca,non_redundant.fasta#rec_011937,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_0c0829c39e0a,non_redundant.fasta#rec_012055,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Mus musculus
+CANONICAL_0c33812e38d5,HSV2_non_redundant (2).fasta#rec_000655,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_0ca67737e0d3,non_redundant.fasta#rec_011651,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_0d0253813fa3,non_redundant.fasta#rec_003153,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_0da08d1bf35f,non_redundant.fasta#rec_011992,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Mus musculus
+CANONICAL_0e72af528176,HSV2_non_redundant (2).fasta#rec_010438,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_0ea7724be424,non_redundant.fasta#rec_012050,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_0ec4bce24a5b,non_redundant.fasta#rec_012061,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_0ee6952ffdb3,non_redundant.fasta#rec_012130,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_0efc8f9d9e5f,non_redundant.fasta#rec_005127,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_0f8083ab0675,HSV2_non_redundant (2).fasta#rec_010466,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_0f8100cae1fe,HSV2_non_redundant (2).fasta#rec_010473,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_0f9b9db09030,non_redundant.fasta#rec_012153,EXCLUDE_NON_HSV,Non-target herpesvirus species (Retained in Group D),Standard natural isolate record from anatid alphaherpesvirus 1
+CANONICAL_0faeaa917cea,HSV2_non_redundant (2).fasta#rec_010309,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_0fb8970a2849,non_redundant.fasta#rec_011925,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly indicates PDB coordinate chain
+CANONICAL_0fe3511aae47,non_redundant.fasta#rec_011666,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_0feb06cc4a7f,non_redundant.fasta#rec_012043,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_120d4005d081,HSV2_non_redundant (2).fasta#rec_010413,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_127e8862b631,non_redundant.fasta#rec_011956,EXCLUDE_NON_HSV,Non-target herpesvirus species (Retained in Group D),Standard natural isolate record from Human betaherpesvirus 5
+CANONICAL_129ff54649eb,non_redundant.fasta#rec_012139,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_12ee03228ffe,non_redundant.fasta#rec_012166,EXCLUDE_NON_HSV,Non-target herpesvirus species (Retained in Group D),Standard natural isolate record from Bovine alphaherpesvirus 2
+CANONICAL_138e427291fb,HSV2_non_redundant (2).fasta#rec_010496,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_13e2bc987aa3,HSV2_non_redundant (2).fasta#rec_010386,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_13e584d364c9,HSV2_non_redundant (2).fasta#rec_000902,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_13e6dce7d653,non_redundant.fasta#rec_012039,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_1403e240074e,HSV2_non_redundant (2).fasta#rec_010403,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_1451c7e908c1,non_redundant.fasta#rec_012147,EXCLUDE_NON_HSV,Non-target herpesvirus species (Retained in Group D),Standard natural isolate record from anatid alphaherpesvirus 1
+CANONICAL_14de4d45b488,HSV2_non_redundant (2).fasta#rec_010453,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_1507bce9d806,HSV2_non_redundant (2).fasta#rec_010393,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_1527ad9130d9,HSV2_non_redundant (2).fasta#rec_010428,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_153cea9b553f,non_redundant.fasta#rec_012160,EXCLUDE_NON_HSV,Non-target herpesvirus species (Retained in Group D),Standard natural isolate record from Bovine alphaherpesvirus 2
+CANONICAL_15eeabc25725,HSV2_non_redundant (2).fasta#rec_010361,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_162d7dd4deee,HSV2_non_redundant (2).fasta#rec_010375,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_16780e0e7283,non_redundant.fasta#rec_011948,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_1685ed72f179,non_redundant.fasta#rec_011891,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_169cdcb0faa6,non_redundant.fasta#rec_012045,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Danio rerio
+CANONICAL_16aabed45ff2,HSV2_non_redundant (2).fasta#rec_010389,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_17639bb9a788,non_redundant.fasta#rec_011979,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_17c1610df4e5,non_redundant.fasta#rec_012088,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Rattus norvegicus
+CANONICAL_180690a1dd6b,HSV2_non_redundant (2).fasta#rec_010341,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_1853d25a6d0e,HSV2_non_redundant (2).fasta#rec_010346,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_188bb59ae6f4,non_redundant.fasta#rec_011953,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Caudoviricetes sp.
+CANONICAL_18bdb2f7c54b,non_redundant.fasta#rec_000649,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_191f9fdfb748,non_redundant.fasta#rec_011932,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_1940ba52a559,HSV2_non_redundant (2).fasta#rec_010351,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_1a0e91ebb2fa,HSV2_non_redundant (2).fasta#rec_010443,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_1a10e699624b,non_redundant.fasta#rec_012067,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_1a6355bd020f,non_redundant.fasta#rec_012060,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_1bb5db252395,HSV2_non_redundant (2).fasta#rec_010384,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_1c7b9c16382b,non_redundant.fasta#rec_012035,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_1cbd07aec98b,non_redundant.fasta#rec_011679,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_1ce6bfec4757,non_redundant.fasta#rec_012111,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_1d0b7c398916,non_redundant.fasta#rec_011637,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_1d2ebe3492ad,non_redundant.fasta#rec_012122,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_1d5aba1bcebc,non_redundant.fasta#rec_011912,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_1d76aa326fa1,non_redundant.fasta#rec_011972,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Rattus norvegicus
+CANONICAL_1d88e16ec39c,non_redundant.fasta#rec_011889,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_1dcce6ef68c9,HSV2_non_redundant (2).fasta#rec_010287;non_redundant.fasta#rec_012027,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_1e228c7a1745,non_redundant.fasta#rec_003152,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_1e58a96e0da2,non_redundant.fasta#rec_000665,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_1e713d035af0,non_redundant.fasta#rec_012010,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_1f6a78b594d7,non_redundant.fasta#rec_011970,EXCLUDE_NON_HSV,Non-target herpesvirus species (Retained in Group D),Standard natural isolate record from Gallid alphaherpesvirus 2
+CANONICAL_1fa3e35825c9,non_redundant.fasta#rec_011689,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_1fe69f88a418,non_redundant.fasta#rec_004083,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_2007c99ff75e,non_redundant.fasta#rec_012073,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Danio rerio
+CANONICAL_20417f656aa1,HSV2_non_redundant (2).fasta#rec_010367,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_20e558a3fbb0,non_redundant.fasta#rec_012081,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_20e8ce64fbf5,non_redundant.fasta#rec_003156,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_2149956429ee,non_redundant.fasta#rec_011631,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_216a7fdc7b7c,non_redundant.fasta#rec_011884,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_22923312c3ee,HSV2_non_redundant (2).fasta#rec_010436,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_22a2206efeaa,HSV2_non_redundant (2).fasta#rec_010470,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_230aa58c42eb,HSV2_non_redundant (2).fasta#rec_010467,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_231a606f3d16,non_redundant.fasta#rec_012143,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Pongo abelii
+CANONICAL_233c5cf68d4d,non_redundant.fasta#rec_001282,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_238c0522afd6,non_redundant.fasta#rec_002254,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_247c0419c3e4,HSV2_non_redundant (2).fasta#rec_010381,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_24faecd65078,non_redundant.fasta#rec_011944,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Mus musculus
+CANONICAL_2522b8361b0c,HSV2_non_redundant (2).fasta#rec_010290,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_25f80115b38c,HSV2_non_redundant (2).fasta#rec_010398,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_2690ad412922,HSV2_non_redundant (2).fasta#rec_010329,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_26a00e5772b8,non_redundant.fasta#rec_008833,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_2709b1824385,non_redundant.fasta#rec_011903,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_27b59003676c,non_redundant.fasta#rec_011968,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_28344a456027,non_redundant.fasta#rec_011650,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_28a04ac0d384,non_redundant.fasta#rec_012168,EXCLUDE_NON_HSV,Non-target herpesvirus species (Retained in Group D),Standard natural isolate record from Equid alphaherpesvirus 4
+CANONICAL_28e20f7d1494,HSV2_non_redundant (2).fasta#rec_010456,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_2938aa10ab39,non_redundant.fasta#rec_011688,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_2a58eddf97e2,non_redundant.fasta#rec_000654,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_2ba907c7e733,non_redundant.fasta#rec_000003,EXCLUDE_UNRESOLVED_IDENTITY,Unresolved biological taxonomy and provenance,No explicit taxonomy in FASTA header
+CANONICAL_2c221cf1a5dd,HSV2_non_redundant (2).fasta#rec_010540,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_2cefe91041a3,non_redundant.fasta#rec_011959,EXCLUDE_NON_HSV,Non-target herpesvirus species (Retained in Group D),Standard natural isolate record from Human betaherpesvirus 5
+CANONICAL_2d546d739e48,non_redundant.fasta#rec_012134,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_2e17c65459c2,HSV2_non_redundant (2).fasta#rec_010434,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_2e2c488404f7,HSV2_non_redundant (2).fasta#rec_010322,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_2e92a2c515cc,non_redundant.fasta#rec_012106,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_2eae19684c87,HSV2_non_redundant (2).fasta#rec_010353,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_2eb5e4ad83ff,non_redundant.fasta#rec_002252,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_2eeff4d45d3a,HSV2_non_redundant (2).fasta#rec_010317,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_2f5cf6b845fd,non_redundant.fasta#rec_012146,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_2f7e809120bc,HSV2_non_redundant (2).fasta#rec_010307,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Mus musculus
+CANONICAL_2f89f31d7592,non_redundant.fasta#rec_012152,EXCLUDE_NON_HSV,Non-target herpesvirus species (Retained in Group D),Standard natural isolate record from anatid alphaherpesvirus 1
+CANONICAL_2fef878a8ad8,HSV2_non_redundant (2).fasta#rec_010534,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_30401bc69acd,HSV2_non_redundant (2).fasta#rec_010507,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_307620f22a6c,non_redundant.fasta#rec_011936,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_30960d076a21,non_redundant.fasta#rec_011893,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_313ee769893d,non_redundant.fasta#rec_011969,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_314be271367e,non_redundant.fasta#rec_011982,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_3168ad87ecb7,HSV2_non_redundant (2).fasta#rec_010415,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_31a4d3d0919c,non_redundant.fasta#rec_011981,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_32908d08fb99,HSV2_non_redundant (2).fasta#rec_010458,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_32aa7496e73d,HSV2_non_redundant (2).fasta#rec_010337,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_32f3b4f8c681,non_redundant.fasta#rec_009518,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_32f96ec88072,non_redundant.fasta#rec_012040,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_3382b182200f,HSV2_non_redundant (2).fasta#rec_010357,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_3388133c005f,non_redundant.fasta#rec_012118,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_339e09751b5c,HSV2_non_redundant (2).fasta#rec_010333,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_33d2b6454764,non_redundant.fasta#rec_011900,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_341fd2b9d9ad,non_redundant.fasta#rec_011542,EXCLUDE_UNRESOLVED_IDENTITY,Unresolved biological taxonomy and provenance,No explicit taxonomy in FASTA header
+CANONICAL_342d9af4214e,non_redundant.fasta#rec_011965,EXCLUDE_NON_HSV,Non-target herpesvirus species (Retained in Group D),Standard natural isolate record from bovine alphaherpesvirus 1
+CANONICAL_34528ec9a21a,non_redundant.fasta#rec_011990,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_356a06414b2a,non_redundant.fasta#rec_003192,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_36e5e7f11d10,HSV2_non_redundant (2).fasta#rec_010500,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_379498a00171,non_redundant.fasta#rec_012107,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_37b36b02e3b8,non_redundant.fasta#rec_011929,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Mus musculus
+CANONICAL_37c5a67c3513,HSV2_non_redundant (2).fasta#rec_010459,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_387fb8d6f447,HSV2_non_redundant (2).fasta#rec_000904,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_38a9345d0248,HSV2_non_redundant (2).fasta#rec_010331,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_399e0a99dbd0,non_redundant.fasta#rec_011914,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_3a46df5c4dfd,non_redundant.fasta#rec_000662,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_3a626f4ef109,HSV2_non_redundant (2).fasta#rec_010474,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_3ad054b49941,non_redundant.fasta#rec_012056,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Mus musculus
+CANONICAL_3b1acc46e74a,HSV2_non_redundant (2).fasta#rec_010356,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_3bc0f8265d44,non_redundant.fasta#rec_011680,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_3bc45fc99402,HSV2_non_redundant (2).fasta#rec_010476,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_3c83b29579b2,HSV2_non_redundant (2).fasta#rec_010529,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_3dc315bee942,HSV2_non_redundant (2).fasta#rec_010321,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_3deaec2617dc,non_redundant.fasta#rec_005128,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_3e220fb0f39e,HSV2_non_redundant (2).fasta#rec_000911,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_3e384bc29277,non_redundant.fasta#rec_003148,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_3e92037c0127,HSV2_non_redundant (2).fasta#rec_010424,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_3ef9e0cfe8df,non_redundant.fasta#rec_012037,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_3f02b5dd93ec,HSV2_non_redundant (2).fasta#rec_010378,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_3f799cefcfe0,non_redundant.fasta#rec_003190,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_3fa18eb54ec4,non_redundant.fasta#rec_011895,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_3fcf9cd2e3b7,HSV2_non_redundant (2).fasta#rec_010503,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_3ff5caf37db6,HSV2_non_redundant (2).fasta#rec_010426,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_3ffb3ebea27d,HSV2_non_redundant (2).fasta#rec_010342,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_41a38464cc14,HSV2_non_redundant (2).fasta#rec_010372,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_41ae0f25999a,non_redundant.fasta#rec_012138,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_41c0cb563541,non_redundant.fasta#rec_011888,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_41e9628bd5b8,HSV2_non_redundant (2).fasta#rec_000912,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_429a9fd10d9f,non_redundant.fasta#rec_011974,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_42f251c7b3c0,non_redundant.fasta#rec_012156,EXCLUDE_NON_HSV,Non-target herpesvirus species (Retained in Group D),Standard natural isolate record from bovine alphaherpesvirus 1
+CANONICAL_430df4ba023c,HSV2_non_redundant (2).fasta#rec_010350,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_44141a12c3ee,non_redundant.fasta#rec_003150,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_445770b37bba,HSV2_non_redundant (2).fasta#rec_010478,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_44ed7e79af5b,HSV2_non_redundant (2).fasta#rec_010366,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_450b70c4d17a,HSV2_non_redundant (2).fasta#rec_010499,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_45b9b48ddbda,non_redundant.fasta#rec_012103,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_45d1bf66b4d2,non_redundant.fasta#rec_012062,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_45d1eb424466,HSV2_non_redundant (2).fasta#rec_010471,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_45d52f207428,HSV2_non_redundant (2).fasta#rec_010324,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_4600b9f662f8,HSV2_non_redundant (2).fasta#rec_010430,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_46c46f1d868a,HSV2_non_redundant (2).fasta#rec_000900,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_46da51334144,HSV2_non_redundant (2).fasta#rec_010281,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_46e8ae285210,non_redundant.fasta#rec_012047,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_4874b235c97f,HSV2_non_redundant (2).fasta#rec_010304,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Mus musculus
+CANONICAL_48f8e921f41f,HSV2_non_redundant (2).fasta#rec_010343,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_4b1d9af02d90,non_redundant.fasta#rec_011687,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_4b646dcfbd2f,non_redundant.fasta#rec_012148,EXCLUDE_NON_HSV,Non-target herpesvirus species (Retained in Group D),Standard natural isolate record from anatid alphaherpesvirus 1
+CANONICAL_4b8bf0d5886a,non_redundant.fasta#rec_011999,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Mus musculus
+CANONICAL_4cfc1b8c4fbb,non_redundant.fasta#rec_011625,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_4d23ed3edcc8,HSV2_non_redundant (2).fasta#rec_010360,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_4d650aff55d1,non_redundant.fasta#rec_011539,EXCLUDE_UNRESOLVED_IDENTITY,Unresolved biological taxonomy and provenance,No explicit taxonomy in FASTA header
+CANONICAL_4da1b8548f21,non_redundant.fasta#rec_011955,EXCLUDE_NON_HSV,Non-target herpesvirus species (Retained in Group D),Standard natural isolate record from Human betaherpesvirus 5
+CANONICAL_4deca546ec3b,HSV2_non_redundant (2).fasta#rec_010325,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_4dee9f79b0f4,HSV2_non_redundant (2).fasta#rec_010313,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_4e1f9ffb46fc,non_redundant.fasta#rec_012079,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_4eb79eb26650,non_redundant.fasta#rec_011913,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_4ecb3aa5ca2e,HSV2_non_redundant (2).fasta#rec_010452,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_4f6973275cc8,non_redundant.fasta#rec_012170,EXCLUDE_NON_HSV,Non-target herpesvirus species (Retained in Group D),Standard natural isolate record from bovine alphaherpesvirus 1
+CANONICAL_4fede4a7a59e,HSV2_non_redundant (2).fasta#rec_010338,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_504bea9f3fd8,non_redundant.fasta#rec_012137,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_508ac1139150,HSV2_non_redundant (2).fasta#rec_010486,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_5107ff25c016,non_redundant.fasta#rec_000664,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_51761f7521e4,HSV2_non_redundant (2).fasta#rec_010422,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_51e98c14f1e6,HSV2_non_redundant (2).fasta#rec_010429,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_526f092d5ccb,HSV2_non_redundant (2).fasta#rec_010509,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_52d59f70d0ab,non_redundant.fasta#rec_003189,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_535234bf4825,HSV2_non_redundant (2).fasta#rec_010490,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_5397f57b0fed,HSV2_non_redundant (2).fasta#rec_010345,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_539acc084547,HSV2_non_redundant (2).fasta#rec_010352,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_53ee7415bd0c,non_redundant.fasta#rec_011693,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_544eba5ee6a5,non_redundant.fasta#rec_012098,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_546a4455d8d3,HSV2_non_redundant (2).fasta#rec_010539,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_5559c1f8bd9f,non_redundant.fasta#rec_012141,EXCLUDE_NON_HSV,Non-target herpesvirus species (Retained in Group D),Header explicitly declares partial/fragment status
+CANONICAL_558a54f2ed31,HSV2_non_redundant (2).fasta#rec_010383,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_562c8e26d77c,HSV2_non_redundant (2).fasta#rec_010462,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_5640777b023c,non_redundant.fasta#rec_011879,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_5719d32405c3,non_redundant.fasta#rec_012164,EXCLUDE_NON_HSV,Non-target herpesvirus species (Retained in Group D),Standard natural isolate record from Bovine alphaherpesvirus 2
+CANONICAL_57705251357c,HSV2_non_redundant (2).fasta#rec_010488,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_57fe83b9d518,HSV2_non_redundant (2).fasta#rec_010306;non_redundant.fasta#rec_012015,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_580497893ceb,non_redundant.fasta#rec_012033,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly indicates PDB coordinate chain
+CANONICAL_583576c195dd,non_redundant.fasta#rec_012019,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_58524affa0b9,non_redundant.fasta#rec_012165,EXCLUDE_NON_HSV,Non-target herpesvirus species (Retained in Group D),Standard natural isolate record from Bovine alphaherpesvirus 2
+CANONICAL_58aa925d4a42,non_redundant.fasta#rec_012066,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_58b270eaf405,HSV2_non_redundant (2).fasta#rec_010312,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_58b771dbee4e,non_redundant.fasta#rec_011892,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_58beafc157b7,HSV2_non_redundant (2).fasta#rec_010284,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_58f17bc994e0,non_redundant.fasta#rec_012150,EXCLUDE_NON_HSV,Non-target herpesvirus species (Retained in Group D),Standard natural isolate record from anatid alphaherpesvirus 1
+CANONICAL_59190b6af9bf,non_redundant.fasta#rec_012058,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Mus musculus
+CANONICAL_59d0d605f4c3,HSV2_non_redundant (2).fasta#rec_010533,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_5a80bc5dcf2b,non_redundant.fasta#rec_011933,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_5ac0184e0287,HSV2_non_redundant (2).fasta#rec_000903,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_5ad4c4b88687,non_redundant.fasta#rec_001285,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_5afe5ddb8259,HSV2_non_redundant (2).fasta#rec_000908,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_5b12865bc54a,non_redundant.fasta#rec_003151,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_5b19ee42b2c3,non_redundant.fasta#rec_011677,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_5b55dbe69ed1,non_redundant.fasta#rec_000647,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_5b9d18aa94b8,non_redundant.fasta#rec_012123,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_5bd670a42328,non_redundant.fasta#rec_010160,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_5c15408de216,non_redundant.fasta#rec_003159,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_5c194bb9a46c,HSV2_non_redundant (2).fasta#rec_010449,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_5d1431369885,non_redundant.fasta#rec_012140,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_5d36c31594ab,HSV2_non_redundant (2).fasta#rec_010479,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_5d4ebd619709,non_redundant.fasta#rec_011946,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_5da08fe08726,non_redundant.fasta#rec_011192,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_5da513bb06e1,non_redundant.fasta#rec_011961,EXCLUDE_NON_HSV,Non-target herpesvirus species (Retained in Group D),Standard natural isolate record from Human betaherpesvirus 5
+CANONICAL_5de96591678a,non_redundant.fasta#rec_011923,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_5ea88be70fb6,HSV2_non_redundant (2).fasta#rec_010530,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_5fb5d7494360,non_redundant.fasta#rec_012131,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_60013e84e494,non_redundant.fasta#rec_011951,EXCLUDE_NON_HSV,Non-target herpesvirus species (Retained in Group D),Standard natural isolate record from Macacine alphaherpesvirus 1
+CANONICAL_61f8953c2969,HSV2_non_redundant (2).fasta#rec_010411,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_627036540fbf,non_redundant.fasta#rec_011906,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Mus musculus
+CANONICAL_62b79e7bf43f,non_redundant.fasta#rec_012157,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Mus musculus
+CANONICAL_63d8d5e53d85,HSV2_non_redundant (2).fasta#rec_010457,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_64371ce6598c,non_redundant.fasta#rec_011661,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_6485bc80f87c,non_redundant.fasta#rec_011648,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_64d02ad37be0,HSV2_non_redundant (2).fasta#rec_010328,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_64efbda68760,HSV2_non_redundant (2).fasta#rec_010405,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_66325e850fa2,non_redundant.fasta#rec_012036,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_66d78c759f2d,non_redundant.fasta#rec_003191,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_675b5be2209d,non_redundant.fasta#rec_011919,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Mus musculus
+CANONICAL_67770ec10363,HSV2_non_redundant (2).fasta#rec_010497,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_677c1461cf01,non_redundant.fasta#rec_012142,EXCLUDE_NON_HSV,Non-target herpesvirus species (Retained in Group D),Header explicitly declares partial/fragment status
+CANONICAL_689fbbd03384,non_redundant.fasta#rec_002251,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_68a6f59357ae,non_redundant.fasta#rec_011668,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_6923361aea01,HSV2_non_redundant (2).fasta#rec_010445,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_692cd118ae2d,non_redundant.fasta#rec_012075,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_6978da4b46fe,HSV2_non_redundant (2).fasta#rec_010495,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_698e8574993f,non_redundant.fasta#rec_011645,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_69a5227b0b2d,HSV2_non_redundant (2).fasta#rec_010288,EXCLUDE_UNRESOLVED_IDENTITY,Unresolved biological taxonomy and provenance,No explicit taxonomy in FASTA header
+CANONICAL_6a81258a4e92,HSV2_non_redundant (2).fasta#rec_010340,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_6ade11513fa7,non_redundant.fasta#rec_011652,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_6b0f5d193573,HSV2_non_redundant (2).fasta#rec_010512,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_6b62b901e65c,HSV2_non_redundant (2).fasta#rec_010316,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_6b97b585624f,HSV2_non_redundant (2).fasta#rec_010420,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_6ba1b2059ce2,non_redundant.fasta#rec_012102,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_6d28c29d7bbe,non_redundant.fasta#rec_012155,EXCLUDE_NON_HSV,Non-target herpesvirus species (Retained in Group D),Standard natural isolate record from bovine alphaherpesvirus 1
+CANONICAL_6dce065e6922,HSV2_non_redundant (2).fasta#rec_010525;non_redundant.fasta#rec_000269,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_6e15a378572b,HSV2_non_redundant (2).fasta#rec_010447,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_6e93037da873,HSV2_non_redundant (2).fasta#rec_010421,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_6eedf646255e,non_redundant.fasta#rec_000652,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_7016a4a15141,HSV2_non_redundant (2).fasta#rec_010395,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_70829a1cab05,non_redundant.fasta#rec_003515,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_709daa37396d,HSV2_non_redundant (2).fasta#rec_010364,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_70a11465c7c6,HSV2_non_redundant (2).fasta#rec_010468,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_70afd8174a7a,non_redundant.fasta#rec_012059,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Mus musculus
+CANONICAL_70b37a9b73f1,non_redundant.fasta#rec_011671,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_7126f2db87e7,HSV2_non_redundant (2).fasta#rec_010465,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_7157b5a3b1c6,HSV2_non_redundant (2).fasta#rec_010477,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_71681462e837,HSV2_non_redundant (2).fasta#rec_010355,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_717bce1c8b6a,non_redundant.fasta#rec_011962,EXCLUDE_NON_HSV,Non-target herpesvirus species (Retained in Group D),Standard natural isolate record from Human betaherpesvirus 5
+CANONICAL_7228b07b7750,non_redundant.fasta#rec_012046,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_7234824029cb,non_redundant.fasta#rec_012114,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_7275608fae2f,non_redundant.fasta#rec_012013,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Danio rerio
+CANONICAL_72c1bedcdc58,HSV2_non_redundant (2).fasta#rec_010374,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_72e23408d4be,non_redundant.fasta#rec_012022,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_7340ecbcbc1a,non_redundant.fasta#rec_012091,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_743e53555761,non_redundant.fasta#rec_012030,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Mus musculus
+CANONICAL_74ea060c8744,non_redundant.fasta#rec_011667,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_76430ff0ae3c,HSV2_non_redundant (2).fasta#rec_010513;non_redundant.fasta#rec_012021,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_76799a0ee170,non_redundant.fasta#rec_011934,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_76a1b3b4f9a2,non_redundant.fasta#rec_011986,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_76a8c62c0530,HSV2_non_redundant (2).fasta#rec_010336,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_76ae1a18d70c,non_redundant.fasta#rec_012034,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_76ec9fd69f3f,HSV2_non_redundant (2).fasta#rec_010305;non_redundant.fasta#rec_012014,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_76facd3dcd4c,non_redundant.fasta#rec_012110,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_7743260b7200,HSV2_non_redundant (2).fasta#rec_010491,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_77514137f0b6,non_redundant.fasta#rec_011672,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_789410eb04a6,non_redundant.fasta#rec_012077,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_79b72dbf3ded,non_redundant.fasta#rec_012124,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_7a251074cde3,HSV2_non_redundant (2).fasta#rec_010432,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_7a58bf9b5606,non_redundant.fasta#rec_001281,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_7a67bd645166,HSV2_non_redundant (2).fasta#rec_000894,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_7a7861a2f4b7,non_redundant.fasta#rec_011978,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_7ab661d2bbb1,HSV2_non_redundant (2).fasta#rec_010289,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_7c0a839ef5c7,non_redundant.fasta#rec_011931,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_7c760ad31358,non_redundant.fasta#rec_011670,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_7ca2b8a1f40b,non_redundant.fasta#rec_012028,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Mus musculus
+CANONICAL_7d0f450ffa63,HSV2_non_redundant (2).fasta#rec_000905,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_7d689f1ba9f9,HSV2_non_redundant (2).fasta#rec_010485,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_7d81b20386cf,non_redundant.fasta#rec_011885,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_7d8c252729cb,HSV2_non_redundant (2).fasta#rec_010319,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_7dad264643a9,HSV2_non_redundant (2).fasta#rec_010358,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_7ef4c15b2db2,non_redundant.fasta#rec_012116,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_7ef8d297157a,non_redundant.fasta#rec_011654,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_7f25dc36f3eb,HSV2_non_redundant (2).fasta#rec_010538,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_7fd161964f6f,non_redundant.fasta#rec_012159,EXCLUDE_NON_HSV,Non-target herpesvirus species (Retained in Group D),Standard natural isolate record from Bovine alphaherpesvirus 2
+CANONICAL_7ffc4ece876d,non_redundant.fasta#rec_012044,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Danio rerio
+CANONICAL_80066eefb93a,non_redundant.fasta#rec_011954,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_803a3cba47d3,non_redundant.fasta#rec_000650,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_809308f357c7,HSV2_non_redundant (2).fasta#rec_010347,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_80b4c085d082,non_redundant.fasta#rec_012120,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_81035bd9da8e,HSV2_non_redundant (2).fasta#rec_010506,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_8126d7683eec,HSV2_non_redundant (2).fasta#rec_000907,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_81284cf0be81,HSV2_non_redundant (2).fasta#rec_010390,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_813e68508706,HSV2_non_redundant (2).fasta#rec_010523,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_8208379653a6,HSV2_non_redundant (2).fasta#rec_010537,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_8220d756d6a7,HSV2_non_redundant (2).fasta#rec_010482,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_826c3d63c051,non_redundant.fasta#rec_012093,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Rattus norvegicus
+CANONICAL_82a301097524,non_redundant.fasta#rec_011973,EXCLUDE_UNRESOLVED_IDENTITY,Unresolved biological taxonomy and provenance,No explicit taxonomy in FASTA header
+CANONICAL_82e57aad6fe0,non_redundant.fasta#rec_011692,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_82ec56a3b1a8,HSV2_non_redundant (2).fasta#rec_010373,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_83a51a89a137,HSV2_non_redundant (2).fasta#rec_000906,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_83ba168322fb,non_redundant.fasta#rec_012125,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_83d8b478f40e,non_redundant.fasta#rec_011636,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_83f4ca45d722,HSV2_non_redundant (2).fasta#rec_010407,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_84fbbbc525ba,HSV2_non_redundant (2).fasta#rec_010371,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_856f5b64b170,non_redundant.fasta#rec_011904,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_85a9560e2be6,HSV2_non_redundant (2).fasta#rec_010508,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_861833853a32,HSV2_non_redundant (2).fasta#rec_010354,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_8631b56b685e,non_redundant.fasta#rec_011674,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_863641cad6c7,HSV2_non_redundant (2).fasta#rec_010517,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_86452075df4e,HSV2_non_redundant (2).fasta#rec_010334,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_86c5ee22af5a,HSV2_non_redundant (2).fasta#rec_010404,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_874d591b7fe7,HSV2_non_redundant (2).fasta#rec_010484,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_876db882f24f,non_redundant.fasta#rec_011984,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_87dec0e9de7d,non_redundant.fasta#rec_011947,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_88013b7c7e55,HSV2_non_redundant (2).fasta#rec_010528,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_888305ab7b1d,HSV2_non_redundant (2).fasta#rec_010412,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_89352d588b13,HSV2_non_redundant (2).fasta#rec_000899,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_8a789f2a4db6,non_redundant.fasta#rec_012006,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_8a8cebecc57f,non_redundant.fasta#rec_011928,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_8ab0849a1471,non_redundant.fasta#rec_005145,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_8ba0f28dc6ba,HSV2_non_redundant (2).fasta#rec_010527,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_8bf2ea0a5bf1,non_redundant.fasta#rec_011646,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_8cadccfbd991,HSV2_non_redundant (2).fasta#rec_010359,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_8cdcceeb028d,non_redundant.fasta#rec_011634,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_8d136428d789,non_redundant.fasta#rec_011911,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_8d1fc91f9005,non_redundant.fasta#rec_011924,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_8d53ca6e52bb,HSV2_non_redundant (2).fasta#rec_010511,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_8ddac7d11624,HSV2_non_redundant (2).fasta#rec_010454,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_8df45bb46ff7,HSV2_non_redundant (2).fasta#rec_010323,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_8e6340867621,HSV2_non_redundant (2).fasta#rec_010314,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_8ee564507bce,HSV2_non_redundant (2).fasta#rec_010409,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_8f00b8a00ee8,non_redundant.fasta#rec_012051,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_8f2d4c860335,HSV2_non_redundant (2).fasta#rec_010492,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_8f7c41874046,non_redundant.fasta#rec_011909,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Mus musculus
+CANONICAL_8fc5d9dae3db,non_redundant.fasta#rec_012020,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_8fe84b123a8b,non_redundant.fasta#rec_012026,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_907eba37a034,HSV2_non_redundant (2).fasta#rec_010365,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_90b70e66ec3c,HSV2_non_redundant (2).fasta#rec_010531,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_90bedea8f8b5,non_redundant.fasta#rec_011899,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_90fba215d01f,non_redundant.fasta#rec_011985,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_91111d1b44ee,HSV2_non_redundant (2).fasta#rec_010318,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_916b0dbea7be,non_redundant.fasta#rec_011653,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_9191514b8275,HSV2_non_redundant (2).fasta#rec_010448,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_923a4dd6e178,non_redundant.fasta#rec_012090,EXCLUDE_UNRESOLVED_IDENTITY,Unresolved biological taxonomy and provenance,No explicit taxonomy in FASTA header
+CANONICAL_923b609c746b,non_redundant.fasta#rec_000653,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_926bdcdafd41,non_redundant.fasta#rec_000648,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_938d64561d3b,HSV2_non_redundant (2).fasta#rec_010382,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_93ca30604c60,non_redundant.fasta#rec_012065,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_95c50425dff9,HSV2_non_redundant (2).fasta#rec_010440,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_9611dbe6b19f,non_redundant.fasta#rec_011998,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_96498720163f,non_redundant.fasta#rec_011883,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_96fc2a3988e5,non_redundant.fasta#rec_012099,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_97774b6bd58c,HSV2_non_redundant (2).fasta#rec_010419,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_9802e03f850f,non_redundant.fasta#rec_011880,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_989803de80b1,HSV2_non_redundant (2).fasta#rec_010427,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_98a2c8025354,HSV2_non_redundant (2).fasta#rec_010368,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_98c01e2e7be4,HSV2_non_redundant (2).fasta#rec_010439,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_98cf0c5a333d,HSV2_non_redundant (2).fasta#rec_010433,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_99116faac3fc,HSV2_non_redundant (2).fasta#rec_010515,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_9914543c31b5,HSV2_non_redundant (2).fasta#rec_000901,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_9932a6934b50,non_redundant.fasta#rec_011628,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_998805f75b80,HSV2_non_redundant (2).fasta#rec_010402,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_99eec174fcfd,HSV2_non_redundant (2).fasta#rec_010282;non_redundant.fasta#rec_012082,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_9a80d9991ec2,HSV2_non_redundant (2).fasta#rec_010391,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_9aa7fd9f5e28,non_redundant.fasta#rec_011683,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_9b015e076fff,non_redundant.fasta#rec_012001,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Mus musculus
+CANONICAL_9bba210aad4d,non_redundant.fasta#rec_012144,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Nomascus leucogenys
+CANONICAL_9bfb9ab198db,non_redundant.fasta#rec_012119,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_9c903b88009e,HSV2_non_redundant (2).fasta#rec_010408,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_9cafa4716b0b,non_redundant.fasta#rec_011887,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_9ccbd45913a4,HSV2_non_redundant (2).fasta#rec_010532,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_9cd37df3969a,non_redundant.fasta#rec_011971,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Rattus norvegicus
+CANONICAL_9ce784077d6e,non_redundant.fasta#rec_012089,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Rattus norvegicus
+CANONICAL_9d06cb813a43,HSV2_non_redundant (2).fasta#rec_010442,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_9d20a04f5d31,HSV2_non_redundant (2).fasta#rec_010320,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_9d5b504d269c,HSV2_non_redundant (2).fasta#rec_010396,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_9db6150135ed,non_redundant.fasta#rec_011629,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_9de3ca38d9ec,HSV2_non_redundant (2).fasta#rec_010472,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_9df1aae0f61f,non_redundant.fasta#rec_011927,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_9e04c7f14fac,non_redundant.fasta#rec_008836,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_9e3dad36d357,HSV2_non_redundant (2).fasta#rec_010348,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_9f1bc1667766,HSV2_non_redundant (2).fasta#rec_010335,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_9f3aad0f356a,non_redundant.fasta#rec_011989,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_9f3dce381dce,HSV2_non_redundant (2).fasta#rec_000910,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_9f6e0e554630,HSV2_non_redundant (2).fasta#rec_010397,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_9fce642eae44,non_redundant.fasta#rec_012149,EXCLUDE_NON_HSV,Non-target herpesvirus species (Retained in Group D),Standard natural isolate record from anatid alphaherpesvirus 1
+CANONICAL_a051a32ed82d,non_redundant.fasta#rec_011991,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_a08b891cdf61,HSV2_non_redundant (2).fasta#rec_010308,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_a099627c0b10,HSV2_non_redundant (2).fasta#rec_000004,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_a0ea877a649b,non_redundant.fasta#rec_012041,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_a1511ff32591,non_redundant.fasta#rec_011966,EXCLUDE_NON_HSV,Non-target herpesvirus species (Retained in Group D),Standard natural isolate record from Gallid alphaherpesvirus 1
+CANONICAL_a17ee51e9ce2,non_redundant.fasta#rec_012024,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_a1c62f1a72a8,HSV2_non_redundant (2).fasta#rec_010460,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_a23099a3856f,non_redundant.fasta#rec_011994,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_a2a5994cf5d5,non_redundant.fasta#rec_012095,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_a2e8be7db321,non_redundant.fasta#rec_011655,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_a3c223f45eb3,non_redundant.fasta#rec_012017,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_a3d826c64d52,non_redundant.fasta#rec_011627,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_a4f918973638,HSV2_non_redundant (2).fasta#rec_000658,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_a5738db82a0d,non_redundant.fasta#rec_011983,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_a593a4c53562,non_redundant.fasta#rec_012031,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Mus musculus
+CANONICAL_a60b2da012f8,non_redundant.fasta#rec_012053,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Mus musculus
+CANONICAL_a65ae2923d14,HSV2_non_redundant (2).fasta#rec_010536,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_a65fae112c5b,non_redundant.fasta#rec_012115,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_a6913fd88d8c,non_redundant.fasta#rec_011669,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_a6f8a8e3f846,non_redundant.fasta#rec_000651,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_a830f4f7e63b,non_redundant.fasta#rec_011921,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_a890a16373dc,HSV2_non_redundant (2).fasta#rec_010514,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_a8cb6301b0ad,HSV2_non_redundant (2).fasta#rec_010414,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_a935d04ef2dc,non_redundant.fasta#rec_012126,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_a9c2aac8eba1,HSV2_non_redundant (2).fasta#rec_010392,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_aa0c535c826a,HSV2_non_redundant (2).fasta#rec_010387,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_aa2c4c6da916,HSV2_non_redundant (2).fasta#rec_010394,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_ab5b409a8609,non_redundant.fasta#rec_011890,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_abd681e8fb60,non_redundant.fasta#rec_012133,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_ac25476ecfdf,HSV2_non_redundant (2).fasta#rec_010369,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_ac443eb317d5,non_redundant.fasta#rec_011949,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_acb8d1565912,non_redundant.fasta#rec_011935,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Mus musculus
+CANONICAL_aceeb3998853,non_redundant.fasta#rec_012105,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_ad00648eb2be,HSV2_non_redundant (2).fasta#rec_010380,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_ad578f8b3979,HSV2_non_redundant (2).fasta#rec_010303;non_redundant.fasta#rec_011877,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_ad6b86e42068,non_redundant.fasta#rec_011930,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Mus musculus
+CANONICAL_ad9e595c9edb,non_redundant.fasta#rec_012128,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_ade3299fd99c,HSV2_non_redundant (2).fasta#rec_010399,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_ae497869a59f,non_redundant.fasta#rec_012084,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_aee1a1e3ea33,non_redundant.fasta#rec_003157,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_af2db78c0868,non_redundant.fasta#rec_011910,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Mus musculus
+CANONICAL_b02a1b635407,non_redundant.fasta#rec_012151,EXCLUDE_NON_HSV,Non-target herpesvirus species (Retained in Group D),Standard natural isolate record from anatid alphaherpesvirus 1
+CANONICAL_b04020d6a298,non_redundant.fasta#rec_011898,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_b086cd69dc22,HSV2_non_redundant (2).fasta#rec_010483,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_b14aec188b9b,HSV2_non_redundant (2).fasta#rec_000654,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_b17218300960,non_redundant.fasta#rec_011950,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_b2c6380e13ad,non_redundant.fasta#rec_011882,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_b3ad9a8dec98,non_redundant.fasta#rec_011918,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Mus musculus
+CANONICAL_b3ef4a794ed8,HSV2_non_redundant (2).fasta#rec_010349,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_b408b1cf7751,non_redundant.fasta#rec_012158,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_b48736561046,non_redundant.fasta#rec_012008,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_b4b51c75cf36,HSV2_non_redundant (2).fasta#rec_010487,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_b4c4a4d633af,HSV2_non_redundant (2).fasta#rec_010362,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_b5cbe5246f47,non_redundant.fasta#rec_012049,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_b63057452f1d,non_redundant.fasta#rec_011995,EXCLUDE_UNRESOLVED_IDENTITY,Unresolved biological taxonomy and provenance,No explicit taxonomy in FASTA header
+CANONICAL_b6382cd9f067,non_redundant.fasta#rec_001286,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_b63d335f0311,non_redundant.fasta#rec_012135,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_b6bee20e9b43,non_redundant.fasta#rec_003160,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_b747712e195f,non_redundant.fasta#rec_011676,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_b8da76ba4ea7,HSV2_non_redundant (2).fasta#rec_010469,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_b9177458d504,HSV2_non_redundant (2).fasta#rec_010475,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_ba09fe7d47c1,non_redundant.fasta#rec_011920,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Mus musculus
+CANONICAL_ba16bd92ed9e,HSV2_non_redundant (2).fasta#rec_010494,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_bac46ca0c5e8,HSV2_non_redundant (2).fasta#rec_010410,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_bad965828506,HSV2_non_redundant (2).fasta#rec_010401,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_bb884926a9f8,HSV2_non_redundant (2).fasta#rec_010451,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_bba6e0dafdf3,non_redundant.fasta#rec_011975,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_bbaebe4ebddf,non_redundant.fasta#rec_001284,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_bc09f474c8d3,non_redundant.fasta#rec_012167,EXCLUDE_NON_HSV,Non-target herpesvirus species (Retained in Group D),Standard natural isolate record from Equid alphaherpesvirus 4
+CANONICAL_bc203bd1b8ff,non_redundant.fasta#rec_011897,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_bc3f86a7aa96,HSV2_non_redundant (2).fasta#rec_010400,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_bc761b9decfc,non_redundant.fasta#rec_012003,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_bc8a0f48c85c,non_redundant.fasta#rec_012087,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Rattus norvegicus
+CANONICAL_bdc0f455fba6,HSV2_non_redundant (2).fasta#rec_010339,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_bddf4e377722,non_redundant.fasta#rec_012032,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Danio rerio
+CANONICAL_bedc37dd22e5,non_redundant.fasta#rec_012117,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_bee2e9a6cdc4,non_redundant.fasta#rec_011942,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Mus musculus
+CANONICAL_bf2fa30f05e0,non_redundant.fasta#rec_011675,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_bf6af37bc797,non_redundant.fasta#rec_001280,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_c1422774c02b,non_redundant.fasta#rec_011980,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_c158272202a8,non_redundant.fasta#rec_011656,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_c275041d14b2,HSV2_non_redundant (2).fasta#rec_010435,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_c27f5ebcec17,HSV2_non_redundant (2).fasta#rec_010326,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_c29ee81a8207,HSV2_non_redundant (2).fasta#rec_010377,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_c3b6c4f04c10,non_redundant.fasta#rec_011896,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_c494307d37da,non_redundant.fasta#rec_012063,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_c4eea754ab82,non_redundant.fasta#rec_012074,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_c5b250c3bf4e,HSV2_non_redundant (2).fasta#rec_010330,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_c5c8efbb3206,non_redundant.fasta#rec_012076,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_c5e96385ed4b,HSV2_non_redundant (2).fasta#rec_010310,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_c6b7767acacf,non_redundant.fasta#rec_012025,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_c70be9ddcdb3,non_redundant.fasta#rec_012145,EXCLUDE_NON_HSV,Non-target herpesvirus species (Retained in Group D),Header explicitly declares partial/fragment status
+CANONICAL_c7494b29b0a9,non_redundant.fasta#rec_001283,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_c77baa94ca51,non_redundant.fasta#rec_012004,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_c7a50536e039,HSV2_non_redundant (2).fasta#rec_010332,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_c7bf8cfecedf,non_redundant.fasta#rec_011963,EXCLUDE_NON_HSV,Non-target herpesvirus species (Retained in Group D),Standard natural isolate record from Human betaherpesvirus 5
+CANONICAL_c816612d0599,non_redundant.fasta#rec_012072,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Danio rerio
+CANONICAL_c833d29e2f2f,non_redundant.fasta#rec_005144,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_c8616480f2cb,non_redundant.fasta#rec_012136,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_c8684c93dccd,non_redundant.fasta#rec_012012,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Mus musculus
+CANONICAL_c8e9eda88b79,HSV2_non_redundant (2).fasta#rec_010520;non_redundant.fasta#rec_011996,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_c9245f27edde,non_redundant.fasta#rec_012169,EXCLUDE_NON_HSV,Non-target herpesvirus species (Retained in Group D),Standard natural isolate record from bovine alphaherpesvirus 1
+CANONICAL_c98bc6b1ebb3,non_redundant.fasta#rec_011988,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_c9f6200b25ba,HSV2_non_redundant (2).fasta#rec_010505,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_ca10338e0290,HSV2_non_redundant (2).fasta#rec_010519;non_redundant.fasta#rec_011993,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_ca709fddfc81,HSV2_non_redundant (2).fasta#rec_010441,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_caf6ba07909a,HSV2_non_redundant (2).fasta#rec_010423,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_cb58339164ea,HSV2_non_redundant (2).fasta#rec_010464,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_cd23d1c5c180,non_redundant.fasta#rec_008831,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_cd702150f493,non_redundant.fasta#rec_012002,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_ce135b90f79b,non_redundant.fasta#rec_011538,EXCLUDE_UNRESOLVED_IDENTITY,Unresolved biological taxonomy and provenance,No explicit taxonomy in FASTA header
+CANONICAL_cf19e501bc11,HSV2_non_redundant (2).fasta#rec_010446,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_cf5686fae92f,non_redundant.fasta#rec_011907,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Mus musculus
+CANONICAL_cf5d380a87f8,non_redundant.fasta#rec_011940,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Mus musculus
+CANONICAL_cfd1158ba0ab,HSV2_non_redundant (2).fasta#rec_010311;non_redundant.fasta#rec_000071,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_d03bd8f83e73,non_redundant.fasta#rec_011908,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Mus musculus
+CANONICAL_d074a13bab00,non_redundant.fasta#rec_000005,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_d099afb42379,HSV2_non_redundant (2).fasta#rec_010461,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_d0e26d222df2,HSV2_non_redundant (2).fasta#rec_010524;non_redundant.fasta#rec_012083,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_d0f5d676f9b2,HSV2_non_redundant (2).fasta#rec_010498,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_d117c103d186,HSV2_non_redundant (2).fasta#rec_010501,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_d125583164ac,non_redundant.fasta#rec_012113,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_d1d49b59c140,HSV2_non_redundant (2).fasta#rec_000657,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_d25c46f76ff8,HSV2_non_redundant (2).fasta#rec_010385,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_d26b0365d277,HSV2_non_redundant (2).fasta#rec_010363,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_d2c30a4642f1,HSV2_non_redundant (2).fasta#rec_000656,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_d3719ed5a779,non_redundant.fasta#rec_012094,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_d3bc6de9935d,non_redundant.fasta#rec_012104,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_d3ef3b390fc9,non_redundant.fasta#rec_011941,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Mus musculus
+CANONICAL_d413cddd1a34,non_redundant.fasta#rec_012161,EXCLUDE_NON_HSV,Non-target herpesvirus species (Retained in Group D),Standard natural isolate record from Bovine alphaherpesvirus 2
+CANONICAL_d4a3b9466650,HSV2_non_redundant (2).fasta#rec_010522,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_d4e3afe4f4e1,non_redundant.fasta#rec_011957,EXCLUDE_NON_HSV,Non-target herpesvirus species (Retained in Group D),Standard natural isolate record from Human betaherpesvirus 5
+CANONICAL_d5c55cb7f03d,non_redundant.fasta#rec_011690,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_d5e1e101edb8,HSV2_non_redundant (2).fasta#rec_010516;non_redundant.fasta#rec_011977,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_d64805a2db5d,non_redundant.fasta#rec_012132,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_d669f21fd6ff,HSV2_non_redundant (2).fasta#rec_010370,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_d74e1ccbb327,non_redundant.fasta#rec_012068,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_d77cf10e2b46,non_redundant.fasta#rec_012163,EXCLUDE_NON_HSV,Non-target herpesvirus species (Retained in Group D),Standard natural isolate record from Bovine alphaherpesvirus 2
+CANONICAL_d8335f12f70a,HSV2_non_redundant (2).fasta#rec_010283,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_d84c9c846b9f,HSV2_non_redundant (2).fasta#rec_010379,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_d89b22ee1fc7,non_redundant.fasta#rec_011922,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_d8f10a9d8b87,non_redundant.fasta#rec_011663,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_d95830bc9d03,HSV2_non_redundant (2).fasta#rec_010315,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_da28392941f9,non_redundant.fasta#rec_012064,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_da732b5e8d2d,non_redundant.fasta#rec_012005,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_dab024e8f9d4,non_redundant.fasta#rec_012086,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Rattus norvegicus
+CANONICAL_dac37464055c,non_redundant.fasta#rec_011878,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_daeeee74ef57,HSV2_non_redundant (2).fasta#rec_010285,EXCLUDE_UNRESOLVED_IDENTITY,Unresolved biological taxonomy and provenance,No explicit taxonomy in FASTA header
+CANONICAL_db6c0daee2d0,non_redundant.fasta#rec_012054,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Mus musculus
+CANONICAL_dbadc0855436,non_redundant.fasta#rec_012009,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_dbd82d02d791,non_redundant.fasta#rec_011894,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_dbe5bf7b43d5,HSV2_non_redundant (2).fasta#rec_010444,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_dc110c2ec93d,HSV2_non_redundant (2).fasta#rec_000354;non_redundant.fasta#rec_012016,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_dc71d83627b0,non_redundant.fasta#rec_012029,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Mus musculus
+CANONICAL_dd7fbc7c3f66,non_redundant.fasta#rec_012018,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_dde90736151c,non_redundant.fasta#rec_011905,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_ded5acb9fc12,HSV2_non_redundant (2).fasta#rec_010425,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_dedf889d41c7,HSV2_non_redundant (2).fasta#rec_000880,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_df4a4599e324,non_redundant.fasta#rec_012127,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_e01fa3c19562,non_redundant.fasta#rec_009517,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_e068f91368b2,non_redundant.fasta#rec_012038,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_e07a2ffc3497,non_redundant.fasta#rec_011665,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_e0f2ebaa8477,non_redundant.fasta#rec_011967,EXCLUDE_NON_HSV,Non-target herpesvirus species (Retained in Group D),Standard natural isolate record from Gallid alphaherpesvirus 1
+CANONICAL_e0f931aedc6e,HSV2_non_redundant (2).fasta#rec_010431,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_e1d2fa4030dd,HSV2_non_redundant (2).fasta#rec_010388,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_e29aea4c7142,non_redundant.fasta#rec_011541,EXCLUDE_UNRESOLVED_IDENTITY,Unresolved biological taxonomy and provenance,No explicit taxonomy in FASTA header
+CANONICAL_e346321cd807,non_redundant.fasta#rec_011976,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_e3483e0a0bc9,non_redundant.fasta#rec_012071,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Danio rerio
+CANONICAL_e393f90bb2b2,HSV2_non_redundant (2).fasta#rec_010502,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_e3bc51ce5cc8,non_redundant.fasta#rec_011881,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_e3ee67464236,non_redundant.fasta#rec_011902,EXCLUDE_UNRESOLVED_IDENTITY,Unresolved biological taxonomy and provenance,No explicit taxonomy in FASTA header
+CANONICAL_e44bd3da84a4,non_redundant.fasta#rec_012097,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_e54eda017a85,non_redundant.fasta#rec_012057,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Mus musculus
+CANONICAL_e6b456187756,HSV2_non_redundant (2).fasta#rec_010455,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_e6f6992f79e7,non_redundant.fasta#rec_011938,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_e7151755483d,non_redundant.fasta#rec_011964,EXCLUDE_NON_HSV,Non-target herpesvirus species (Retained in Group D),Header explicitly declares partial/fragment status
+CANONICAL_e79f0397122b,non_redundant.fasta#rec_011664,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_e7b3b3a83aa9,HSV2_non_redundant (2).fasta#rec_010406,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_e7b5be93cb3d,non_redundant.fasta#rec_012092,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_e7d0a726f932,non_redundant.fasta#rec_011916,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_e89fa7cab6b3,non_redundant.fasta#rec_012162,EXCLUDE_NON_HSV,Non-target herpesvirus species (Retained in Group D),Standard natural isolate record from Bovine alphaherpesvirus 2
+CANONICAL_e9b5f5fc9215,non_redundant.fasta#rec_011939,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_e9bf56d63f9a,non_redundant.fasta#rec_012121,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_ea31496ee903,HSV2_non_redundant (2).fasta#rec_000847,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_ea5ce7f69379,non_redundant.fasta#rec_003158,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_eaaf48573593,non_redundant.fasta#rec_003154,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_eb434d71e396,non_redundant.fasta#rec_011901,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_eb72d47588d2,non_redundant.fasta#rec_012085,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_ecdcd0c03f5e,non_redundant.fasta#rec_011681,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_ee33131a8289,non_redundant.fasta#rec_011626,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_ee8f636b23fc,HSV2_non_redundant (2).fasta#rec_010518,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_eebfe0c276dd,non_redundant.fasta#rec_011673,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_efcb20402d46,HSV2_non_redundant (2).fasta#rec_010504,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_efd51e307bc4,HSV2_non_redundant (2).fasta#rec_000001,EXCLUDE_UNRESOLVED_IDENTITY,Unresolved biological taxonomy and provenance,No explicit taxonomy in FASTA header
+CANONICAL_f0a9c875a41e,non_redundant.fasta#rec_011686,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_f159485e9a00,HSV2_non_redundant (2).fasta#rec_010481,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_f1b7ceb5fa5d,non_redundant.fasta#rec_011926,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_f1cff54d8d60,HSV2_non_redundant (2).fasta#rec_010480,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_f2a8d2c6aaa6,HSV2_non_redundant (2).fasta#rec_010376,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_f2c1ad178f27,non_redundant.fasta#rec_003193,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_f37dbe6a030c,non_redundant.fasta#rec_012007,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_f38d39fa97e7,non_redundant.fasta#rec_011635,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_f3b9166b5e66,non_redundant.fasta#rec_012112,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_f3c52a19b1f5,HSV2_non_redundant (2).fasta#rec_010526,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_f3c707d3ad75,non_redundant.fasta#rec_011647,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_f5a01e983725,non_redundant.fasta#rec_011958,EXCLUDE_NON_HSV,Non-target herpesvirus species (Retained in Group D),Standard natural isolate record from Human betaherpesvirus 5
+CANONICAL_f678cccb30b7,non_redundant.fasta#rec_011943,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Mus musculus
+CANONICAL_f7a7024b3277,non_redundant.fasta#rec_011691,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_f7afc7d744d2,HSV2_non_redundant (2).fasta#rec_010416,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_f7bf4800c483,non_redundant.fasta#rec_012080,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_f80d5f5450df,non_redundant.fasta#rec_012100,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_f823e07be584,HSV2_non_redundant (2).fasta#rec_000002,EXCLUDE_UNRESOLVED_IDENTITY,Unresolved biological taxonomy and provenance,No explicit taxonomy in FASTA header
+CANONICAL_f8d5a1ec9c07,non_redundant.fasta#rec_011917,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_f8d79e84e3b7,non_redundant.fasta#rec_012069,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_f95c4045c670,non_redundant.fasta#rec_000007,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_f95f4c7171b2,non_redundant.fasta#rec_012096,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_faf52ac88285,non_redundant.fasta#rec_011945,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_fb4183dec3de,non_redundant.fasta#rec_012109,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_fb6f59a81565,non_redundant.fasta#rec_012023,EXCLUDE_TECHNICAL,PDB coordinate structure chain / crystallization construct,Header explicitly indicates PDB coordinate chain
+CANONICAL_fb7792982e99,non_redundant.fasta#rec_012000,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_fbb088631466,HSV2_non_redundant (2).fasta#rec_010493,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_fc3486c35151,non_redundant.fasta#rec_012108,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_fcd5f57d8f16,non_redundant.fasta#rec_011952,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Heparan sulfate
+CANONICAL_fd30484a3651,non_redundant.fasta#rec_012042,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_fe68467d8f6e,HSV2_non_redundant (2).fasta#rec_010521,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_fe70345f1b81,non_redundant.fasta#rec_011987,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Mus musculus
+CANONICAL_fe758ba3728f,non_redundant.fasta#rec_011886,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Standard natural isolate record from Homo sapiens
+CANONICAL_ff2e21b0be54,HSV2_non_redundant (2).fasta#rec_010489,EXCLUDE_NON_HSV,Non-HSV biological organism (Host/other virus/vector),Header explicitly declares partial/fragment status
+CANONICAL_ff3b2ac07195,non_redundant.fasta#rec_008835,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_ff95788c0884,HSV2_non_redundant (2).fasta#rec_010535,EXCLUDE_SYNTHETIC,Synthetic or patent sequence,Header explicitly declares patent sequence
+CANONICAL_fffac4aeba57,non_redundant.fasta#rec_012129,EXCLUDE_ENGINEERED,Engineered recombinant construct or cloning vector,Header explicitly declares recombinant/mutant/vector construct
+CANONICAL_08f271887ce9,HSV2_non_redundant (2).fasta#rec_009804;non_redundant.fasta#rec_009807,EXCLUDE_TECHNICAL,Degenerate 1-residue fragment with contradictory annotations,Sequence property analysis (Length=1 residue)

@@ -1,0 +1,134 @@
+================================================================================
+PHASE 1 DEEP AUDIT & DATASET INTEGRITY REPORT
+================================================================================
+
+1. AMBIGUOUS & EXTENDED RESIDUE AUDIT
+----------------------------------------
+Total Ingested Residues: 13,470,259
+Sequences with Multiple Non-Canonical Residues: 6,685
+Sequences with Multiple Distinct Non-Canonical Types: 49
+
+Residue Character Breakdown Table:
+character          category  total_residue_occurrences  raw_record_count  raw_record_percentage  unique_sequence_count  unique_sequence_percentage  residue_percentage_of_total
+        A    CANONICAL_20AA                    1791377             22637                99.6786                  22617                     99.6827                      13.2988
+        B AMBIGUOUS_RESIDUE                         18                18                 0.0793                     18                      0.0793                       0.0001
+        C    CANONICAL_20AA                     215486             21861                96.2616                  21842                     96.2669                       1.5997
+        D    CANONICAL_20AA                     697103             22184                97.6838                  22164                     97.6861                       5.1751
+        E    CANONICAL_20AA                     660810             22258                98.0097                  22239                     98.0167                       4.9057
+        F    CANONICAL_20AA                     420077             21803                96.0062                  21783                     96.0069                       3.1186
+        G    CANONICAL_20AA                    1084576             22603                99.5288                  22583                     99.5328                       8.0516
+        H    CANONICAL_20AA                     322594             21912                96.4861                  21892                     96.4873                       2.3949
+        I    CANONICAL_20AA                     346245             22017                96.9485                  21997                     96.9501                       2.5704
+        J AMBIGUOUS_RESIDUE                         34                34                 0.1497                     34                      0.1499                       0.0003
+        K    CANONICAL_20AA                     240861             21006                92.4967                  20987                     92.4986                       1.7881
+        L    CANONICAL_20AA                    1246781             22561                99.3439                  22541                     99.3477                       9.2558
+        M    CANONICAL_20AA                     215457             22438                98.8023                  22417                     98.8012                       1.5995
+        N    CANONICAL_20AA                     274560             22014                96.9353                  21994                     96.9368                       2.0383
+        P    CANONICAL_20AA                    1231285             22608                99.5509                  22588                     99.5549                       9.1408
+        Q    CANONICAL_20AA                     399002             21968                96.7327                  21948                     96.7341                       2.9621
+        R    CANONICAL_20AA                    1159307             22630                99.6477                  22610                     99.6518                       8.6064
+        S    CANONICAL_20AA                     809502             22606                99.5421                  22586                     99.5460                       6.0096
+        T    CANONICAL_20AA                     756060             22587                99.4584                  22567                     99.4623                       5.6128
+        V    CANONICAL_20AA                     888291             22587                99.4584                  22567                     99.4623                       6.5945
+        W    CANONICAL_20AA                     153245             21218                93.4302                  21200                     93.4373                       1.1377
+        X AMBIGUOUS_RESIDUE                     245380              7475                32.9150                   7475                     32.9455                       1.8216
+        Y    CANONICAL_20AA                     312203             21328                93.9146                  21309                     93.9178                       2.3177
+        Z AMBIGUOUS_RESIDUE                          5                 5                 0.0220                      5                      0.0220                       0.0000
+
+2. SEQUENCE LENGTH AUDIT
+----------------------------------------
+                   metric    value
+          Total Sequences 22689.00
+           Minimum Length     1.00
+           Maximum Length  6165.00
+              Mean Length   593.28
+       Median Length (Q2)   420.00
+       Standard Deviation   558.48
+     25th Percentile (Q1)   258.00
+     75th Percentile (Q3)   752.00
+Interquartile Range (IQR)   494.00
+      1st Percentile (P1)    33.00
+    99th Percentile (P99)  3122.00
+
+3. DUPLICATION AUDIT (21 Duplicate Instances)
+----------------------------------------
+Total Duplicate Clusters: 21
+Within-Source-File Duplicates: 0
+Cross-Source-File Duplicates: 21
+Same Accession + Identical Sequence: 10
+Different Accession + Identical Sequence: 11
+Accessions with Multiple Divergent Sequences: 27
+
+Duplicate Cluster Details:
+                                                 sequence_sha256  cluster_size  is_cross_file                                      source_files             accessions
+01eb55d7fe805493345ff4a4dfed3492203005bf68d0bb0e2019b6c5e5fdfce9             2           True HSV2_non_redundant (2).fasta; non_redundant.fasta QBH81678.1; QAU09530.1
+08f271887ce94707da822d5263bae19d5519cb3614e0daedc4c7ce5dab7473f1             2           True HSV2_non_redundant (2).fasta; non_redundant.fasta AAO26210.1; ADR57699.1
+1dcce6ef68c9e14a07ab513fe67d4f673d8d7ed05b96d77f6d1f8faa2431a504             2           True HSV2_non_redundant (2).fasta; non_redundant.fasta                   9IH8
+40dd30c0e1cc300f57fb1407747dc70a0669bede448806250de7e97549c37550             2           True HSV2_non_redundant (2).fasta; non_redundant.fasta   CAB06702.1; P28276.1
+5082249f592d10de069a2c48a2f28ae15a1e1b1066caa29d9b7fe79374143cb7             2           True HSV2_non_redundant (2).fasta; non_redundant.fasta WZW62192.1; QAU09528.1
+57fe83b9d518f4b550295a922c88882087ece9ddaf53f1bb060a0c6ac635853f             2           True HSV2_non_redundant (2).fasta; non_redundant.fasta                   9SV8
+6dce065e692221c14e552eb319b1e105d55f168cfab15819fb33e4c8763568c1             2           True HSV2_non_redundant (2).fasta; non_redundant.fasta QTW22595.1; QAU10248.1
+76430ff0ae3cfa414946df30937fe54d18242324c3852e2302ce89dad52f96b0             2           True HSV2_non_redundant (2).fasta; non_redundant.fasta             9ZWE; 9DD8
+76ec9fd69f3f1ee16b4166da03c855e1a13c1a7fbc703518aa066051ca99fcd0             2           True HSV2_non_redundant (2).fasta; non_redundant.fasta                   9SV8
+99eec174fcfd93d13d7338d83ca21bb5d3a1f5bc73120ac831956df0150bae5f             2           True HSV2_non_redundant (2).fasta; non_redundant.fasta                   4MYV
+a9996922e85cf8086f77c6c09be5d5ebb65335b8e03c711052d8e080f4f37d1b             2           True HSV2_non_redundant (2).fasta; non_redundant.fasta QBH83246.1; QAU09546.1
+ad578f8b3979914d861a21b1a58bba15d4ad8dbad5320bc39e120cf2fef1e81a             2           True HSV2_non_redundant (2).fasta; non_redundant.fasta               Q15223.3
+c8e9eda88b795f6a6e24ed62a85b5352d91e466715ae0c4f319bc190669137e0             2           True HSV2_non_redundant (2).fasta; non_redundant.fasta               P20226.2
+ca10338e0290a270cfda1c955630495c37d34a05ca9230f05cfa7d9ce1f68fe6             2           True HSV2_non_redundant (2).fasta; non_redundant.fasta               Q14653.1
+cfd1158ba0ab5b3f6fad3a12d22bd6cb075888b21abc5f80e773eb6e1fb544bd             2           True HSV2_non_redundant (2).fasta; non_redundant.fasta WIU21824.1; QAU09505.1
+d0e26d222df2d222c375f3c4e983cc9b6f2b02331a656855d36d0f9164bad9f5             2           True HSV2_non_redundant (2).fasta; non_redundant.fasta                   4MYW
+d5e1e101edb8e81ca39900444877a2dcc9e6080adffde94a47d58b0ee6f6c811             2           True HSV2_non_redundant (2).fasta; non_redundant.fasta               P06756.2
+dc110c2ec93d7c81a0ba1cc22addd2488c7d688e95f6fbad527c8145d0631e8e             2           True HSV2_non_redundant (2).fasta; non_redundant.fasta                   9SV8
+e9476297d514edb751541fd073571491c15a31c537095aa51560003d9a32d7ab             2           True HSV2_non_redundant (2).fasta; non_redundant.fasta QBH84529.1; AWW09948.1
+ec8d790b87fddfdc56ae2bc652dec644b7229c089fa26944799c1bbefbbfdaba             2           True HSV2_non_redundant (2).fasta; non_redundant.fasta QBH83245.1; QAU09470.1
+fb3835139bc7e4703e7c3c9be3ff8e6ce3113657cd7984e10a08c3a4dd8edf33             2           True HSV2_non_redundant (2).fasta; non_redundant.fasta AEW27163.1; WHR54491.1
+
+4. PROVENANCE MAPPING AUDIT
+----------------------------------------
+Total Raw Records: 22,710
+Total Mapped to Canonical ID: 22,710
+Total Excluded/Unmapped: 0
+All Canonical Sequences have >= 1 Raw Sources: True
+Mapping Topology: Many-to-One (Surjective Provenance Mapping)
+
+5. HASH & DETERMINISM AUDIT
+----------------------------------------
+Hashing Algorithm: SHA-256 over uppercase trimmed ASCII sequence string.
+Canonical Identifier Pattern: CANONICAL_<sequence_sha256[:12]>
+Invariance: Verified deterministic across independent re-runs.
+
+6. TAXONOMY AUDIT (HEADER-EXPLICIT)
+----------------------------------------
+Explicitly Present in Header: 22,397
+Unresolved / Not Present: 313
+Unknown: 0
+
+Top Explicit Header Organisms:
+                  organism_in_header  record_count
+            Human alphaherpesvirus 1         11558
+            Human alphaherpesvirus 2         10252
+                        Homo sapiens           190
+  Human alphaherpesvirus 1 strain 17           144
+      Human immunodeficiency virus 1            59
+  synthetic human alphaherpesvirus 1            42
+                        Mus musculus            31
+ Human alphaherpesvirus 1 strain RH2            20
+Human alphaherpesvirus 1 strain R-15            19
+             Human betaherpesvirus 5             9
+
+7. SOURCE-TYPE AUDIT (HEADER-EXPLICIT)
+----------------------------------------
+  source_type_category  record_count  percentage
+ natural_viral_protein         20390       89.78
+              fragment          1961        8.63
+           pdb_derived           153        0.67
+  unclassified_unknown           110        0.48
+      patent_synthetic            91        0.40
+engineered_recombinant             5        0.02
+
+================================================================================
+PHASE 1 STATUS SUMMARY
+================================================================================
+PHASE 1 RAW INGESTION: PASS
+PHASE 1 BIOLOGICAL CURATION: NOT YET PERFORMED
+================================================================================

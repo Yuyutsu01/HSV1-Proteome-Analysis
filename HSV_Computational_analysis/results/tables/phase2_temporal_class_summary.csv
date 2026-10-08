@@ -1,0 +1,6 @@
+temporal_class,total_count,hsv1_count,hsv2_count,tier_a_count,tier_b_count,tier_c_count,tier_d_count
+IMMEDIATE_EARLY,1552,986,566,815,737,0,0
+EARLY,4140,2344,1796,2909,1231,0,0
+LATE,10965,5670,5295,6758,4207,0,0
+UNKNOWN,6027,2802,2606,0,5356,0,671
+CONFLICTING,5,0,0,0,0,5,0

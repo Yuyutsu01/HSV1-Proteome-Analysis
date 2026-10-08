@@ -1,0 +1,12 @@
+metric,value
+Total Sequences,22689.0
+Minimum Length,1.0
+Maximum Length,6165.0
+Mean Length,593.28
+Median Length (Q2),420.0
+Standard Deviation,558.48
+25th Percentile (Q1),258.0
+75th Percentile (Q3),752.0
+Interquartile Range (IQR),494.0
+1st Percentile (P1),33.0
+99th Percentile (P99),3122.0

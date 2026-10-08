@@ -1,0 +1,78 @@
+================================================================================
+PHASE 1B: FINAL RECONCILIATION AUDIT REPORT
+================================================================================
+
+TOTAL UNIQUE SEQUENCES RECONCILED: 22,689
+
+1. CROSS-TABULATION: DATASET GROUP x BIOLOGICAL ELIGIBILITY
+--------------------------------------------------------------------------------
+biological_eligibility                                   ELIGIBLE_PRIMARY  ELIGIBLE_SEQUENCE_ANALYSIS_ONLY  EXCLUDE_ENGINEERED  EXCLUDE_NON_HSV  EXCLUDE_SYNTHETIC  EXCLUDE_TECHNICAL  EXCLUDE_UNRESOLVED_IDENTITY  REVIEW_REQUIRED  Total
+dataset_group                                                                                                                                                                                                                             
+GROUP A — VERIFIED HSV NATURAL PROTEINS                              7902                                0                   0                0                  0                  0                            0                0   7902
+GROUP B — HSV NATURAL PROTEINS WITH INCOMPLETE METADATA              5418                             6941                   0                0                  0                  0                            0                0  12359
+GROUP C — HSV FRAGMENTS                                                 0                             1751                   0                0                  0                  0                            0                0   1751
+GROUP D — OTHER HERPESVIRUSES                                           0                                0                   0               40                  0                  0                            0                0     40
+GROUP E — NON-HERPESVIRUS                                               0                                0                   0              371                  0                  0                            0                0    371
+GROUP F — ENGINEERED / SYNTHETIC / TECHNICAL                            0                                0                  50                0                 49                146                            0                0    245
+GROUP G — UNRESOLVED / CONFLICTING                                      0                                0                   0                0                  0                  0                           14                7     21
+Total                                                               13320                             8692                  50              411                 49                146                           14                7  22689
+
+2. CROSS-TABULATION: SOURCE TYPE x BIOLOGICAL ELIGIBILITY
+--------------------------------------------------------------------------------
+biological_eligibility  ELIGIBLE_PRIMARY  ELIGIBLE_SEQUENCE_ANALYSIS_ONLY  EXCLUDE_ENGINEERED  EXCLUDE_NON_HSV  EXCLUDE_SYNTHETIC  EXCLUDE_TECHNICAL  EXCLUDE_UNRESOLVED_IDENTITY  REVIEW_REQUIRED  Total
+source_type                                                                                                                                                                                              
+ENGINEERED_RECOMBINANT                 0                                0                  50                5                  0                  0                            0                0     55
+NATURAL_VIRAL_FRAGMENT                 0                             1751                   0              204                  0                  0                            1                1   1957
+NATURAL_VIRAL_PROTEIN              13320                             6941                   0               36                  0                  0                            0                1  20298
+OTHER_TECHNICAL                        0                                0                   0              164                  0                  0                            0                0    164
+PDB_DERIVED                            0                                0                   0                2                  0                146                            0                0    148
+SYNTHETIC                              0                                0                   0                0                 49                  0                            0                0     49
+UNKNOWN                                0                                0                   0                0                  0                  0                           13                5     18
+Total                              13320                             8692                  50              411                 49                146                           14                7  22689
+
+3. CROSS-TABULATION: VIRUS SPECIES x BIOLOGICAL ELIGIBILITY
+--------------------------------------------------------------------------------
+biological_eligibility  ELIGIBLE_PRIMARY  ELIGIBLE_SEQUENCE_ANALYSIS_ONLY  EXCLUDE_ENGINEERED  EXCLUDE_NON_HSV  EXCLUDE_SYNTHETIC  EXCLUDE_TECHNICAL  EXCLUDE_UNRESOLVED_IDENTITY  REVIEW_REQUIRED  Total
+virus_species                                                                                                                                                                                            
+HSV-1                               8945                             2807                  48                0                  2                  0                            0                0  11802
+HSV-2                               4375                             5885                   2                0                  0                  0                            0                1  10263
+NON_HERPESVIRUS                        0                                0                   0              371                  0                  0                            0                0    371
+OTHER_HERPESVIRUS                      0                                0                   0               40                  0                  0                            0                0     40
+UNKNOWN                                0                                0                   0                0                 47                146                           14                6    213
+Total                              13320                             8692                  50              411                 49                146                           14                7  22689
+
+4. CROSS-TABULATION: PROTEIN IDENTITY STATUS x BIOLOGICAL ELIGIBILITY
+--------------------------------------------------------------------------------
+biological_eligibility     ELIGIBLE_PRIMARY  ELIGIBLE_SEQUENCE_ANALYSIS_ONLY  EXCLUDE_ENGINEERED  EXCLUDE_NON_HSV  EXCLUDE_SYNTHETIC  EXCLUDE_TECHNICAL  EXCLUDE_UNRESOLVED_IDENTITY  REVIEW_REQUIRED  Total
+protein_identity_status                                                                                                                                                                                     
+CONFLICTING                               0                                0                   0                0                  0                  0                            0                1      1
+CURATED_SUPPORTED                      4184                             4451                  28              171                  0                 68                            9                1   8912
+PREDICTED_OR_HYPOTHETICAL              1231                              699                   7                3                  0                  0                            0                1   1941
+UNRESOLVED                                0                                0                   0                0                 47                  0                            0                0     47
+VERIFIED                               7905                             3542                  15              237                  2                 78                            5                4  11788
+Total                                 13320                             8692                  50              411                 49                146                           14                7  22689
+
+5. CROSS-TABULATION: COMPLETENESS STATUS x BIOLOGICAL ELIGIBILITY
+--------------------------------------------------------------------------------
+biological_eligibility  ELIGIBLE_PRIMARY  ELIGIBLE_SEQUENCE_ANALYSIS_ONLY  EXCLUDE_ENGINEERED  EXCLUDE_NON_HSV  EXCLUDE_SYNTHETIC  EXCLUDE_TECHNICAL  EXCLUDE_UNRESOLVED_IDENTITY  REVIEW_REQUIRED  Total
+completeness_status                                                                                                                                                                                      
+ENGINEERED_FRAGMENT                    0                                0                  50                5                  0                  0                            0                0     55
+FULL_LENGTH                        13320                             6941                   0              200                  0                  0                            0                1  20462
+PARTIAL_FRAGMENT                       0                             1751                   0              204                  0                  0                            1                1   1957
+PDB_FRAGMENT                           0                                0                   0                2                  0                146                            0                0    148
+UNKNOWN                                0                                0                   0                0                 49                  0                           13                5     67
+Total                              13320                             8692                  50              411                 49                146                           14                7  22689
+
+6. DEDICATED CROSS-FILE TAXONOMY CONFLICTS (6 RECORDS)
+--------------------------------------------------------------------------------
+           sequence_id          sequence_hash                source_file_1                                                         raw_header_1 accession_1 species_1       source_file_2                                                raw_header_2 accession_2 species_2  sequence_length      resolution_status
+CANONICAL_01eb55d7fe80 CANONICAL_01eb55d7fe80 HSV2_non_redundant (2).fasta                          >QBH81678.1 UL33 [Human alphaherpesvirus 2]  QBH81678.1     HSV-2 non_redundant.fasta                 >QAU09530.1 UL33 [Human alphaherpesvirus 1]  QAU09530.1     HSV-1              130 MANUAL_REVIEW_REQUIRED
+CANONICAL_08f271887ce9 CANONICAL_08f271887ce9 HSV2_non_redundant (2).fasta       >AAO26210.1 glycoprotein E, partial [Human alphaherpesvirus 2]  AAO26210.1     HSV-2 non_redundant.fasta         >ADR57699.1 US6, partial [Human alphaherpesvirus 1]  ADR57699.1     HSV-1                1 MANUAL_REVIEW_REQUIRED
+CANONICAL_5082249f592d CANONICAL_5082249f592d HSV2_non_redundant (2).fasta >WZW62192.1 nuclear egress lamina protein [Human alphaherpesvirus 2]  WZW62192.1     HSV-2 non_redundant.fasta                 >QAU09528.1 UL31 [Human alphaherpesvirus 1]  QAU09528.1     HSV-1              306 MANUAL_REVIEW_REQUIRED
+CANONICAL_a9996922e85c CANONICAL_a9996922e85c HSV2_non_redundant (2).fasta                         >QBH83246.1 UL49A [Human alphaherpesvirus 2]  QBH83246.1     HSV-2 non_redundant.fasta                >QAU09546.1 UL49A [Human alphaherpesvirus 1]  QAU09546.1     HSV-1               91 MANUAL_REVIEW_REQUIRED
+CANONICAL_e9476297d514 CANONICAL_e9476297d514 HSV2_non_redundant (2).fasta          >QBH84529.1 hypothetical protein [Human alphaherpesvirus 2]  QBH84529.1     HSV-2 non_redundant.fasta >AWW09948.1 hypothetical protein [Human alphaherpesvirus 1]  AWW09948.1     HSV-1               67 MANUAL_REVIEW_REQUIRED
+CANONICAL_ec8d790b87fd CANONICAL_ec8d790b87fd HSV2_non_redundant (2).fasta                          >QBH83245.1 UL48 [Human alphaherpesvirus 2]  QBH83245.1     HSV-2 non_redundant.fasta                 >QAU09470.1 UL48 [Human alphaherpesvirus 1]  QAU09470.1     HSV-1              490 MANUAL_REVIEW_REQUIRED
+
+================================================================================
+FINAL STATUS: PHASE 1B — READY FOR FREEZE
+================================================================================

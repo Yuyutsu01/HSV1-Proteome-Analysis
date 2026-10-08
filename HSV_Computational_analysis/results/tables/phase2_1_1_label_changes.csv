@@ -1,0 +1,2 @@
+sequence_id,old_temporal_class,new_temporal_class,old_evidence_relationship,new_evidence_relationship,reason,evidence_source,audit_status
+NONE,NONE,NONE,NONE,NONE,NO_TEMPORAL_LABEL_CHANGES_REQUIRED,NONE,AUDIT_VERIFIED

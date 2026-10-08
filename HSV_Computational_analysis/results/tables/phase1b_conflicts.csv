@@ -1,0 +1,7 @@
+sequence_id,field,value_1,value_2,source_1,source_2,resolution_status
+CANONICAL_01eb55d7fe80,virus_species / organism,Human alphaherpesvirus 2,Human alphaherpesvirus 1,HSV2_non_redundant (2).fasta#rec_007519,non_redundant.fasta#rec_000046,REQUIRES_MANUAL_REVIEW
+CANONICAL_08f271887ce9,virus_species / organism,Human alphaherpesvirus 2,Human alphaherpesvirus 1,HSV2_non_redundant (2).fasta#rec_009804,non_redundant.fasta#rec_009807,REQUIRES_MANUAL_REVIEW
+CANONICAL_5082249f592d,virus_species / organism,Human alphaherpesvirus 2,Human alphaherpesvirus 1,HSV2_non_redundant (2).fasta#rec_005735,non_redundant.fasta#rec_000048,REQUIRES_MANUAL_REVIEW
+CANONICAL_a9996922e85c,virus_species / organism,Human alphaherpesvirus 2,Human alphaherpesvirus 1,HSV2_non_redundant (2).fasta#rec_007105,non_redundant.fasta#rec_000030,REQUIRES_MANUAL_REVIEW
+CANONICAL_e9476297d514,virus_species / organism,Human alphaherpesvirus 2,Human alphaherpesvirus 1,HSV2_non_redundant (2).fasta#rec_006772,non_redundant.fasta#rec_004338,REQUIRES_MANUAL_REVIEW
+CANONICAL_ec8d790b87fd,virus_species / organism,Human alphaherpesvirus 2,Human alphaherpesvirus 1,HSV2_non_redundant (2).fasta#rec_007106,non_redundant.fasta#rec_000096,REQUIRES_MANUAL_REVIEW

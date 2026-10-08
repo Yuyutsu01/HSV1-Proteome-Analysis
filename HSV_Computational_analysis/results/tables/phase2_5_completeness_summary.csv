@@ -1,0 +1,6 @@
+completeness_status,total_count,percentage,Tier_A_count,Tier_B_count,Tier_C_count,Tier_D_count,description
+FULL_LENGTH,20462,90.18%,10482,9780,0,200,Complete full-length coding sequence (CDS) protein
+PARTIAL_FRAGMENT,1957,8.63%,0,1751,0,206,Validated biological partial protein or terminal sequence fragment
+PDB_FRAGMENT,148,0.65%,0,0,0,148,Technical X-ray/Cryo-EM crystallization chain or peptide fragment
+ENGINEERED_FRAGMENT,55,0.24%,0,0,0,55,"Recombinant, mutated, or chimeric sequence construct"
+UNKNOWN,67,0.30%,0,0,5,62,Unresolved length status (e.g. cross-file taxonomic conflicts)

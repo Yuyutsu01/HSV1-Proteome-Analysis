@@ -1,0 +1,52 @@
+================================================================================
+PHASE 2.1.2: CROSS-SPECIES TEMPORAL LABEL VALIDITY AUDIT REPORT
+================================================================================
+
+DATASET POPULATION
+----------------------------------------
+Total Canonical Sequences: 22689
+Total Temporally Labeled Sequences: 16657
+Tier-A Sequences: 10482
+Tier-B Sequences: 11531
+Tier-C Sequences (Quarantined): 5
+Tier-D Sequences (Excluded): 671
+
+CROSS-SPECIES TRANSFERS
+----------------------------------------
+Total Cross-Species Transfers: 7656
+HSV-1 -> HSV-2 Transfers: 7656
+HSV-2 -> HSV-1 Transfers: 0
+Validated by Independent Target-Species Evidence: 3814
+Supported Orthology-Based Inferences: 3842
+Insufficient Transfers: 0
+Conflicting Transfers: 0
+Manual Review Transfers: 0
+
+GROUND-TRUTH & SUPERVISED MODELING PARTITIONING
+----------------------------------------
+Primary Ground Truth (Direct & Target-Validated Full-Length): 9105
+Secondary Sensitivity Analysis (Supported Orthology Inference Full-Length): 1377
+Extended Corpus Only (Tier-B Retained Fragments / Partials): 6175
+Quarantined (Tier-C Cross-File Conflicts): 5
+Excluded from Temporal Modeling (Tier-D & Uncharacterized Unknowns): 6027
+
+CROSS-STRAIN TRANSFERS
+----------------------------------------
+Cross-Strain Transfers: 16656
+Direct Same-Strain Records: 1
+
+BIOLOGICAL FINDINGS & CONCLUSIONS
+----------------------------------------
+1. All 7,656 cross-species transferred annotations originate from HSV-1 reference literature
+   mapped to HSV-2 clinical and laboratory accessions.
+2. 3,814 cross-species records have independent HSV-2 experimental time-course literature corroborating
+   their temporal kinetic class (VALIDATED_TARGET_SPECIES).
+3. 3,842 cross-species records represent conserved 1-to-1 colinear homologous proteins whose kinetic
+   expression class is inferred from established alphaherpesvirus gene organization (SUPPORTED_ORTHOLOGY_INFERENCE).
+4. No biological kinetic conflicts (0 conflicting transfers) exist between HSV-1 and HSV-2 orthologous genes.
+5. Primary Ground-Truth cohort is rigorously defined as 9105 records (7,346 HSV-1 + 1,759 target-validated HSV-2).
+6. Secondary Sensitivity cohort is defined as 1377 records (1,377 orthology-inferred HSV-2 full-length proteins).
+
+================================================================================
+FINAL STATUS: PHASE 2.1.2 COMPLETE — CROSS-SPECIES VALIDITY VERIFIED
+================================================================================

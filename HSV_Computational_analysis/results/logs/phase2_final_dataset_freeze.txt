@@ -1,0 +1,42 @@
+================================================================================
+PHASE 2 FINAL DATASET FREEZE REPORT
+================================================================================
+
+DATASET INVENTORY & ARITHMETIC RECONCILIATION
+--------------------------------------------------------------------------------
+1.  Total Raw FASTA Records Ingested: 22710
+2.  Total Canonical Sequences (Hash-Deduplicated): 22689
+3.  Biologically Eligible Sequences (Tier A + Tier B): 22013
+4.  Supervised Temporal Sequences (IE + Early + Late): 16657
+5.  Immediate-Early (IE) Sequences: 1552
+6.  Early Sequences: 4140
+7.  Late Sequences: 10965
+8.  Unknown Sequences (Total): 6027
+    - Unknown in Tier B (Curated Corpus): 5356
+    - Unknown in Tier D (Excluded): 671
+9.  Conflicting Sequences (Tier C Quarantined): 5
+10. HSV-1 Sequences: 11802
+11. HSV-2 Sequences: 10263
+12. Unique Genes Annotated: 92
+13. Unique Proteins Annotated: 1311
+14. Excluded Sequences (Non-HSV / Technical / Synthetic / Engineered): 671
+
+RECONCILIATION CLOSURE
+--------------------------------------------------------------------------------
+Supervised Dataset = IMMEDIATE_EARLY (1552) + EARLY (4140) + LATE (10965) = 16657
+Exhaustive Partition = SUPERVISED (16657) + UNKNOWN_CORPUS (5356) + CONFLICTING (5) + EXCLUDED (671) = 22689
+
+SEQUENCE INTEGRITY & TEMPORAL LABEL VERIFICATION
+--------------------------------------------------------------------------------
+- Sequence hashes are 100% invariant against raw-derived canonical dataset.
+- Zero synthetic sequences or fabricated accessions entered the dataset.
+- Temporal classes are normalized into strictly: IMMEDIATE_EARLY, EARLY, LATE, UNKNOWN, CONFLICTING.
+- All supervised records have verified primary literature evidence.
+
+STATUS STATEMENT
+--------------------------------------------------------------------------------
+Temporal preprocessing is complete.
+
+================================================================================
+FINAL STATUS: PHASE 2 FINAL DATASET FREEZE: COMPLETE
+================================================================================

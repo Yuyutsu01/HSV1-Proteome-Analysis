@@ -1,0 +1,16 @@
+metric,count,percentage,description
+total canonical sequences,22689,100.00%,Total unique hash-deduplicated sequences
+traceable sequences,22689,100.00%,Records with verifiable primary accession and version
+untraceable sequences,0,0.00%,Records without verifiable primary accession
+exact sequence matches,22689,100.00%,100% exact SHA-256 match against source records
+full length sequences,20462,90.18%,Complete full-length protein coding sequences
+partial/fragment matches,1957,8.63%,Legitimate biological partial sequence fragments
+sequence mismatches,0,0.00%,Discrepancies between parsed sequence and source
+species confirmed,22065,97.25%,HSV-1 or HSV-2 confirmed against source organism
+species conflicts,5,0.02%,Cross-file taxonomic conflicts quarantined in Tier C
+gene confirmed,10042,44.26%,Confirmed gene symbol or authoritative synonym
+gene conflicts,0,0.00%,Conflicting gene annotations
+protein confirmed,20701,91.24%,Confirmed protein name or curated synonym
+protein conflicts,0,0.00%,Conflicting protein annotations
+manual review,5,0.02%,Records in manual review queue (Tier C)
+source unavailable,0,0.00%,Records whose source cannot be retrieved
