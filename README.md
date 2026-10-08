@@ -12,7 +12,7 @@ This repository contains the complete, reproducible computational biology and ma
 
 ---
 
-## 🔬 Scientific Objectives & Research Questions
+## Scientific Objectives & Research Questions
 
 The central scientific question investigated in this project is:
 
@@ -44,7 +44,7 @@ The central scientific question investigated in this project is:
 
 ---
 
-## 📂 Repository Architecture
+## Repository Architecture
 
 ```text
 HSV1-Proteome-Analysis/
@@ -91,7 +91,7 @@ HSV1-Proteome-Analysis/
 
 ---
 
-## 📊 Summary of Benchmark Results
+## Summary of Benchmark Results
 
 | Representation | Classifier | Regime | Accuracy | Bal. Acc | Macro-F1 | MCC | IE F1 | Early F1 | Late F1 |
 | :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -108,7 +108,7 @@ HSV1-Proteome-Analysis/
 
 ---
 
-## ⚙️ Environment Setup & Installation
+## Environment Setup & Installation
 
 ### Requirements
 - **OS**: Linux / Windows / macOS
@@ -126,7 +126,7 @@ pip install torch transformers scikit-learn scipy biopython pandas numpy matplot
 
 ---
 
-## 🚀 Reproduction & Verification
+## Reproduction & Verification
 
 To execute the verification suite and confirm all 128 mathematical and software invariants:
 
@@ -160,7 +160,7 @@ python scripts/phase4_1/reconcile_all.py
 
 ---
 
-## 🛡️ Scientific Claim Restrictions
+##  Scientific Claim Restrictions
 
 In accordance with strict computational biology standards:
 - **What the Results Establish**: Sequence-derived representations (k-mers, AAC, and ESM-2) contain reproducible predictive information associated with HSV Immediate-Early, Early, and Late temporal classes that persists when controlling for sequence length and homology clusters, and generalizes across species boundaries.
@@ -168,5 +168,5 @@ In accordance with strict computational biology standards:
 
 ---
 
-## 📄 License
+##  License
 This research codebase and all generated datasets are open source under the [MIT License](LICENSE).
