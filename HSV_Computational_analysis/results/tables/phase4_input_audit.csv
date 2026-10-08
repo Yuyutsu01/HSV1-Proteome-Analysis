@@ -1,0 +1,33 @@
+check_name,expected_value,actual_value,status,details
+Supervised Dataset Exists,True,True,PASS,data/processed/final_temporal_supervised_dataset.csv
+Supervised Total Sequences,16657,16657,PASS,Exact N=16657
+Unique Canonical IDs,16657,16657,PASS,
+Class Count: IMMEDIATE_EARLY,1552,1552,PASS,
+Class Count: EARLY,4140,4140,PASS,
+Class Count: LATE,10965,10965,PASS,
+Missing Temporal Labels,0,0,PASS,
+Sequence Manifest Exists,True,True,PASS,data/processed/phase3_sequence_manifest.csv
+Manifest Record Count,16657,16657,PASS,
+Manifest ID Alignment,True,True,PASS,
+Split Manifest Exists,True,True,PASS,data/processed/phase3_split_manifest.csv
+Split Manifest Record Count,16657,16657,PASS,
+Homology Train-Val Leakage,0,0,PASS,
+Homology Train-Test Leakage,0,0,PASS,
+Homology Val-Test Leakage,0,0,PASS,
+AAC Features Exist,True,True,PASS,data/processed/phase3_aac_features.csv
+AAC Feature Shape,"(16657, 22)","(16657, 22)",PASS,
+AAC NaN Count,0,0,PASS,
+Classical Features Exist,True,True,PASS,data/processed/phase3_classical_sequence_features.csv
+Classical Feature Shape,"(16657, 15)","(16657, 15)",PASS,
+Classical NaN Count,0,0,PASS,
+K-mer k=2 Exists,True,True,PASS,data/processed/phase3_kmer_features/kmer_k2_features.npz
+K-mer k=3 Exists,True,True,PASS,data/processed/phase3_kmer_features/kmer_k3_features.npz
+K-mer k=2 Shape,"(16657, 400)","(16657, 400)",PASS,
+K-mer k=3 Shape,"(16657, 8000)","(16657, 8000)",PASS,
+K-mer k=2 NaN Count,0,0,PASS,
+K-mer k=3 NaN Count,0,0,PASS,
+ESM-2 Embeddings Exist,True,True,PASS,data/processed/embeddings/esm2/esm2_embeddings.npz
+ESM-2 Embedding Shape,"(16657, 320)","(16657, 320)",PASS,
+ESM-2 NaN Count,0,0,PASS,
+ESM-2 Inf Count,0,0,PASS,
+ESM-2 ID Alignment,True,True,PASS,

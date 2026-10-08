@@ -1,0 +1,11 @@
+check_id,leakage_category,description,observed_value,status
+1,Exact Duplicate Leakage,Zero identical sequences present across different records,0 duplicates,PASS
+2,Sequence-ID Leakage,Zero canonical ID overlap between training and test sets,0 overlapping IDs,PASS
+3,Homology-Cluster Leakage,Zero homology cluster overlap in Homology-Aware split,0 overlapping clusters,PASS
+4,Gene-Family Leakage,Zero gene-family overlap in Gene-Family-Disjoint split,0 overlapping families,PASS
+5,Target Leakage into Features,Target labels excluded from input feature arrays,0 target columns in input features,PASS
+6,Temporal Evidence Leakage,Experimental evidence metadata excluded from features,0 evidence columns in feature arrays,PASS
+7,Preprocessing & Scaler Leakage,StandardScaler fitted strictly on training partition only,Strict train-only fit_transform implemented,PASS
+8,PCA / Unsupervised Leakage,Dimensionality reduction not used for test-label inference,PCA restricted to descriptive visualization,PASS
+9,Feature Selection Leakage,No test-informed feature selection performed,Fixed deterministic feature vocabularies used,PASS
+10,Hyperparameter / Test Isolation,Test partition remained completely isolated during model setup,Zero test-tuning iterations executed,PASS

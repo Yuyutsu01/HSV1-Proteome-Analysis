@@ -1,0 +1,7 @@
+model,temporal_class,overall_brier_score,expected_calibration_error_ece
+Logistic Regression (ESM-2),IMMEDIATE_EARLY,0.789,0.4005
+Logistic Regression (ESM-2),EARLY,0.789,0.3679
+Logistic Regression (ESM-2),LATE,0.789,0.0448
+Random Forest (ESM-2),IMMEDIATE_EARLY,0.6223,0.2216
+Random Forest (ESM-2),EARLY,0.6223,0.3449
+Random Forest (ESM-2),LATE,0.6223,0.1493
